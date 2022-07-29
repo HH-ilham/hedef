@@ -5,8 +5,8 @@ function Baner() {
   return (
     <Carousel>
       <Carousel.Item interval={5000}>
-        <img
-          className=" banner d-block w-100"
+        <img 
+          className="banner d-block w-100"
           
           src="/images/demo-banner-image.jpg"
           alt="First slide"
@@ -14,18 +14,18 @@ function Baner() {
        
       </Carousel.Item>
       <Carousel.Item interval={5000}>
-        <img
-          className=" banner d-block w-100 "
-          src="/images/demo-banner-image.jpg"
+        <img 
+          className="banner d-block w-100"
+          src="/images/baner3.jpg"
          
           alt="Second slide"
         />
         
       </Carousel.Item>
       <Carousel.Item interval={5000}>
-        <img
-         className=" banner d-block w-100 "
-          src="/images/demo-banner-image.jpg"    
+        <img 
+         className="banner d-block w-100 "
+          src="/images/baner2.jpg"    
           alt="Third slide"
         />
        

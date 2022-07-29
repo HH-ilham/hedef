@@ -158,6 +158,19 @@ a {
 }
 
 
+/* Banner */
+
+.banner {
+    height: 450px;
+}
+
+@media screen and (max-width:500px) {
+    .banner {
+        height: 250px;
+    }
+}
+
+
 /* Navtabs */
 
 .Navtabs {

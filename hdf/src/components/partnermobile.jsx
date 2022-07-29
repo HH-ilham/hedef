@@ -6,6 +6,7 @@ import "../CSS/index.css";
 function Partnermobile() {
   return (
     <div className="CommonPartnermobile">
+      <p className="hdfcompain">Hədəf Şirkətlər Qrupu</p>
       <div
         id="carouselExampleControlspartnermobile"
         class="carousel slide"
@@ -13,7 +14,7 @@ function Partnermobile() {
       >
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <p className="hdfcompain">Hədəf Şirkətlər Qrupu</p>
+            
             <div className="PartnerCardmobile">
               <div className="PartnerCardImagemobile">
                 <a href="#">
@@ -30,7 +31,7 @@ function Partnermobile() {
             </div>
           </div>
           <div class="carousel-item">
-            <p className="hdfcompain">Hədəf Şirkətlər Qrupu</p>
+            
             <div className="PartnerCardmobile">
               <div className="PartnerCardImagemobile">
                 <a href="#">
@@ -46,7 +47,7 @@ function Partnermobile() {
             </div>
           </div>
           <div class="carousel-item">
-            <p className="hdfcompain">Hədəf Şirkətlər Qrupu</p>
+            
             <div className="PartnerCardmobile">
               <div className="PartnerCardImagemobile">
                 <a href="http://hedefnesrleri.az/" target={"_blank"}>
@@ -62,7 +63,7 @@ function Partnermobile() {
             </div>
           </div>
           <div class="carousel-item">
-            <p className="hdfcompain">Hədəf Şirkətlər Qrupu</p>
+        
             <div className="PartnerCardmobile">
               <div className="PartnerCardImagemobile">
                 <a href="#">
@@ -78,7 +79,7 @@ function Partnermobile() {
             </div>
           </div>
           <div class="carousel-item">
-            <p className="hdfcompain">Hədəf Şirkətlər Qrupu</p>
+       
             <div className="PartnerCardmobile">
               <div className="PartnerCardImagemobile">
                 <a href="https://kitabevim.az/" target={"_blank"}>
@@ -94,7 +95,7 @@ function Partnermobile() {
             </div>
           </div>
           <div class="carousel-item">
-            <p className="hdfcompain">Hədəf Şirkətlər Qrupu</p>
+           
             <div className="PartnerCardmobile">
               <div className="PartnerCardImagemobile">
                 <a href="https://hedefnesrleri.az/" target={"_blank"}>
