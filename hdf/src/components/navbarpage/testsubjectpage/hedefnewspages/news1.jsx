@@ -163,24 +163,7 @@ function News1() {
             </div>
           </div>
 
-          <div className="col newscard">
-            <div className="card">
-              <Link to="/news4">
-                <img
-                  src="./images/6-7-8.jpg"
-                  className="newsimage card-img-top"
-                  alt="vetenmuharibesi"
-                />
-              </Link>
-              <div className="card-body">
-                <h5 className="card-title">Hədəf xəbər</h5>
-                <p className="card-text">
-                  Buraxılış fənləri üzrə MQT 4 mövzuları – 2021/2022 –
-                  Azərbaycan bölməsi.
-                </p>
-              </div>
-            </div>
-          </div>
+         
         </div>
       </div>
       <CFooter />

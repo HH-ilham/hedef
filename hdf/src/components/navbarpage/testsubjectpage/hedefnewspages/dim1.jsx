@@ -19,8 +19,8 @@ function Dim1() {
         Dövlət qulluğuna qəbul olmaq istəyən şəxslər üçün növbəti sınaq imtahanı
         keçiriləcək
       </p>
-      <div className="d-flex container">
-        <div className="col-md-9">
+      <div className="d-flex container  ">
+        <div className="col-md-9 ">
           <img
             className="mt-2"
             src="../../../images/dim.png"
@@ -58,7 +58,7 @@ function Dim1() {
         </div>
 
         <div className="col-md-3 othernews">
-          <p className="fw-bold fs-4">Digər xəbərlər</p>
+          <p className="fw-bold fs-4 othernewstext">Digər xəbərlər</p>
           <div className="col newscard">
             <div className="card">
               <Link to="/dim2">
@@ -97,22 +97,7 @@ function Dim1() {
               </div>
             </div>
           </div>
-          <div className="col newscard">
-            <div className="card">
-              <Link to="/dim4">
-                <img
-                  src="./images/dim.png"
-                  className="card-img-top newsimage"
-                  alt="..."
-                />
-              </Link>
-
-              <div className="card-body">
-                <h5 className="card-title">DİM</h5>
-                <p className="card-text"> assa.</p>
-              </div>
-            </div>
-          </div>
+         
         </div>
       </div>
 

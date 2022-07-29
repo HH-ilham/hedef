@@ -3,3 +3,8 @@
         display: none;
     }
 }
+
+.othernewstext {
+    border-bottom: 1px outset black;
+    text-shadow: 1px;
+}

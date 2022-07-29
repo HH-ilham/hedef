@@ -8,7 +8,7 @@ function News() {
   return (
     <div>
       <p className="NewsHeader">Yeni Xəbərlər</p>
-      <div className="CommonNews">
+      <div className="CommonNews container">
         <Tabs
           id="controlled-tab-example"
           activeKey={key}
@@ -77,24 +77,7 @@ function News() {
                         </div>
                       </div>
                     </div>
-                    <div className="col newscard">
-                      <div className="card">
-                      <Link to="/news4">
-                          <img
-                            src="./images/6-7-8.jpg"
-                            className="newsimage card-img-top"
-                            alt="vetenmuharibesi"
-                          />
-                        </Link>
-                        <div className="card-body">
-                          <h5 className="card-title">Hədəf xəbər</h5>
-                          <p className="card-text">
-                            Buraxılış fənləri üzrə MQT 4 mövzuları – 2021/2022 –
-                            Azərbaycan bölməsi.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
+                   
                   </div>
                 </div>
 
@@ -212,21 +195,7 @@ function News() {
                         </div>
                       </div>
                     </div>
-                    <div className="col newscard">
-                      <div className="card">
-                        <Link to="/dim4">
-                          <img
-                            src="./images/dim.png"
-                            className="card-img-top newsimage"
-                            alt="..."
-                          /></Link>
-                      
-                        <div className="card-body">
-                          <h5 className="card-title">DİM</h5>
-                          <p className="card-text"> assa.</p>
-                        </div>
-                      </div>
-                    </div>
+                   
                   </div>
                 </div>
 
@@ -347,25 +316,7 @@ function News() {
                         </div>
                       </div>
                     </div>
-                    <div className="col newscard">
-                      <div className="card">
-                        <a href="#">
-                          <img
-                            src="./images/6-7-8.jpg"
-                            className="card-img-top newsimage"
-                            alt="..."
-                          />
-                        </a>
-                        <div className="card-body">
-                          <h5 className="card-title">Card title</h5>
-                          <p className="card-text">
-                            This is a longer card with supporting text below as
-                            a natural lead-in to additional content. This
-                            content is a little bit longer.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
+                    
                   </div>
                 </div>
 
@@ -482,25 +433,7 @@ function News() {
                         </div>
                       </div>
                     </div>
-                    <div className="col newscard">
-                      <div className="card">
-                        <a href="#">
-                          <img
-                            src="./images/6-7-8.jpg"
-                            className="card-img-top newsimage"
-                            alt="..."
-                          />
-                        </a>
-                        <div className="card-body">
-                          <h5 className="card-title">Card title</h5>
-                          <p className="card-text">
-                            This is a longer card with supporting text below as
-                            a natural lead-in to additional content. This
-                            content is a little bit longer.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
+                    
                   </div>
                 </div>
 

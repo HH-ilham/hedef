@@ -111,22 +111,7 @@ function Dim2() {
               </div>
             </div>
           </div>
-          <div className="col newscard">
-            <div className="card">
-              <Link to="/dim4">
-                <img
-                  src="./images/dim.png"
-                  className="card-img-top newsimage"
-                  alt="..."
-                />
-              </Link>
-
-              <div className="card-body">
-                <h5 className="card-title">DİM</h5>
-                <p className="card-text"> assa.</p>
-              </div>
-            </div>
-          </div>
+        
         </div>
       </div>
 
