@@ -1,0 +1,102 @@
+.branchheader {
+    font-size: 23px;
+    background-color: rgb(255, 171, 3);
+    border-radius: 50%;
+    padding: 2px;
+    margin: 0px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.branchcontact {
+    background-image: url(https://www.idfreshfood.com/wp-content/uploads/2017/09/contact_us_2.jpg);
+    border-radius: 15px;
+    padding: 5px;
+    background-size: cover;
+    height: 300px;
+    width: 420px
+}
+
+.branchimage {
+    border-radius: 15px;
+}
+
+.combranch {
+    display: flex;
+    justify-content: space-around
+}
+
+@media screen and (max-width: 1100px) {
+    .branchcontact {
+        width: 300px;
+    }
+    .branchimage {
+        width: 300px;
+    }
+    .branchmap {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .branchcontact {
+        width: 300px;
+    }
+    .branchimage {
+        width: 300px;
+    }
+    .branchmap {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .combranch {
+        display: block;
+    }
+    .branchcontact {
+        width: 100%;
+    }
+    .branchimage {
+        width: 100%;
+    }
+    .branchmap {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .combranch {
+        display: block;
+    }
+    .branchcontact {
+        width: 100%;
+    }
+    .branchimage {
+        width: 100%;
+    }
+    .branchmap {
+        width: 100%;
+    }
+}
+
+.branchbtn {
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+}
+
+.branchbutton {
+    padding: 0px !important;
+    margin-right: 5px;
+    width: 50px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+.spinners {
+    /* margin-top: 120px; */
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex
+}

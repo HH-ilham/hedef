@@ -1,0 +1,9 @@
+.personinformation {
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .personinformation {
+        display: inline-block !important;
+    }
+}

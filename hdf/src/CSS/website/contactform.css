@@ -1,0 +1,27 @@
+.contactform {
+    display: flex;
+}
+
+@media screen and (max-width:991px) {
+    .contactform {
+        display: block;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .contact {
+        width: 100% !important;
+    }
+}
+
+.contact1 {
+    border: 1px inherit rgb(201, 200, 200);
+    display: flex;
+    padding: 20px;
+    margin: 3px;
+    background-color: rgb(232, 228, 228)
+}
+
+.contacttext {
+    display: flex;
+}

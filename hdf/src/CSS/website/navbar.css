@@ -1,0 +1,202 @@
+.comhdfgroup {
+    background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000");
+}
+
+.comhdfgroup h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.hdfgroup {
+    display: flex;
+}
+
+.activityimage {
+    height: 260px;
+}
+
+.hdfcarouselText {
+    background-color: rgb(231, 247, 126, 0.9);
+    /* width: 650px; */
+    height: 350px;
+    font-size: 20px;
+    border: 10px solid transparent;
+    padding: 55px;
+    border: 20px solid;
+    border-image: url(https://w7.pngwing.com/pngs/915/345/png-transparent-multicolored-balloons-illustration-balloon-balloon-free-balloons-easter-egg-desktop-wallpaper-party-thumbnail.png) 120 stretch !important;
+    text-align: justify;
+}
+
+.headerhdfcompain {
+    background-color: rgba(231, 247, 126, 0.9);
+    border-image: url(https://w7.pngwing.com/pngs/915/345/png-transparent-multicolored-balloons-illustration-balloon-balloon-free-balloons-easter-egg-desktop-wallpaper-party-thumbnail.png) 120 stretch !important;
+    padding: 10px;
+    border-top: 5px solid;
+    padding-bottom: 5px;
+    margin-bottom: 0PX;
+}
+
+
+/* Services */
+
+.services ul {
+    justify-content: space-between !important;
+    margin-top: 15px;
+}
+
+.services ul li {
+    margin-bottom: 2px;
+    margin-top: 1px;
+}
+
+.serviceul {
+    background-color: rgb(255, 171, 3);
+    border-radius: 10px;
+}
+
+.allshowpage {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.serviceslink {
+    font-size: 1.1rem;
+    font-weight: 640 !important;
+    color: black !important;
+    width: 100%;
+}
+
+.servicescalm {
+    width: 300px;
+}
+
+.teacherimage {
+    width: 150%;
+}
+
+.teacher-text {
+    font-size: 1.2rem;
+    display: flex;
+    width: 90%;
+}
+
+.teacher-text-li {
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .teacher-text {
+        display: block;
+        width: 100%;
+        font-size: 1rem;
+    }
+    .teacherimage {
+        width: 100%;
+    }
+    .teacher-text-li {
+        font-size: 1rem;
+    }
+}
+
+.abituriyent {
+    font-size: 1.2rem;
+}
+
+.master {
+    font-size: 1.2rem;
+}
+
+.masterimage {
+    width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+    .masterimage {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .hadafimages {
+        display: none;
+    }
+    .grouptext {
+        width: 100% !important;
+    }
+    .headerhdfcompain {
+        display: none;
+    }
+    .hdfcarouselText {
+        display: none;
+    }
+}
+
+.masterimage1 {
+    width: 30%;
+    height: 200px;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+.masteryear {
+    display: flex;
+}
+
+@media screen and (max-width: 968px) {
+    .masterimage1 {
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .masteryear {
+        display: block;
+    }
+}
+
+.imagestructure {
+    width: 20% !important;
+    height: auto;
+}
+
+.imagestructures {
+    width: 150px;
+    height: 150px
+}
+
+
+/* FAQ */
+
+.comfaq {
+    display: flex;
+}
+
+.faq1 {
+    width: 50%;
+}
+
+.faq2 {
+    width: 50%;
+}
+
+@media screen and (max-width: 968px) {
+    .comfaq {
+        display: block;
+    }
+    .faq2 {
+        width: 100%;
+    }
+    .faq1 {
+        width: 100%;
+    }
+}
+
+.structuresize {
+    width: 30% !important;
+    margin-left: 5px;
+}
+
+.comstructuresize {
+    justify-content: center !important;
+}

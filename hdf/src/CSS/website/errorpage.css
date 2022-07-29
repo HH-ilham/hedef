@@ -1,0 +1,19 @@
+.Errorpage {
+    margin-top: 250px;
+}
+
+.errorpage404 {
+    border-right: 1px solid rgba(0, 0, 0, .3);
+    display: inline-flex;
+    margin-left: 35%;
+}
+
+@media screen and (max-width: 768px) {
+    .Errorpage {
+        display: inline-block;
+    }
+}
+
+.ErrorPageNot {
+    display: inline-flex;
+}
