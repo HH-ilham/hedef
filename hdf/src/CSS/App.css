@@ -319,7 +319,130 @@ a {
     margin-top: 0px !important;
     margin-bottom: 2px;
     display: block !important;
+    width: 145px;
+}
+
+.btncolor_mobile {
+    color: #ffffff !important;
+    font-size: 1.1rem !important;
+    margin-top: 0px !important;
+    margin-bottom: 2px;
+    width: 130px;
+}
+
+@media screen and (max-width: 989px) {
+    .btncolor_mobile {
+        color: #ffffff !important;
+        font-size: 1.1rem !important;
+        margin-top: 0px !important;
+        margin-bottom: 2px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 548px) {
+    .btncolor_mobile {
+        color: #ffffff !important;
+        font-size: 1.1rem !important;
+        margin-top: 0px !important;
+        margin-bottom: 2px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .btncolor_mobile {
+        color: #ffffff !important;
+        font-size: 1.1rem !important;
+        margin-top: 0px !important;
+        margin-bottom: 2px;
+        width: 130px;
+    }
+}
+
+.btncolor_rus_mobile {
+    color: #ffffff !important;
+    font-size: 1.1rem !important;
+    margin-top: 0px !important;
+    margin-bottom: 2px;
+    width: 130px;
+}
+
+@media screen and (max-width: 989px) {
+    .btncolor_rus_mobile {
+        color: #ffffff !important;
+        font-size: 1.1rem !important;
+        margin-top: 0px !important;
+        margin-bottom: 2px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 548px) {
+    .btncolor_rus_mobile {
+        color: #ffffff !important;
+        font-size: 1.1rem !important;
+        margin-top: 0px !important;
+        margin-bottom: 2px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .btncolor_rus_mobile {
+        color: #ffffff !important;
+        font-size: 1.1rem !important;
+        margin-top: 0px !important;
+        margin-bottom: 2px;
+        width: 130px;
+    }
+}
+
+.btncolor_teacher_mobile {
+    color: #ffffff !important;
+    font-size: 1.1rem !important;
+    margin-top: 0px !important;
+    margin-bottom: 2px;
+    display: inline !important;
     width: 165px;
+}
+
+.btncolor_teacher_mobile {
+    color: #ffffff !important;
+    font-size: 1.1rem !important;
+    margin-top: 0px !important;
+    margin-bottom: 2px;
+    width: 130px;
+}
+
+@media screen and (max-width: 989px) {
+    .btncolor_teacher_mobile {
+        color: #ffffff !important;
+        font-size: 1.1rem !important;
+        margin-top: 0px !important;
+        margin-bottom: 2px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 548px) {
+    .btncolor_teacher_mobile {
+        color: #ffffff !important;
+        font-size: 1.1rem !important;
+        margin-top: 0px !important;
+        margin-bottom: 2px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .btncolor_teacher_mobile {
+        color: #ffffff !important;
+        font-size: 1.1rem !important;
+        margin-top: 0px !important;
+        margin-bottom: 2px;
+        width: 130px;
+    }
 }
 
 .btncolor_teacher {
@@ -328,7 +451,7 @@ a {
     margin-top: 0px !important;
     margin-bottom: 2px;
     display: block !important;
-    width: 300px;
+    width: 250px;
 }
 
 .CommonSection {
@@ -344,6 +467,7 @@ a {
 
 .CommonRusSection {
     display: inline;
+    margin-left: 35px;
 }
 
 

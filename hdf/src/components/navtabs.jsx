@@ -670,7 +670,7 @@ function Navtab() {
                     <Card.Img
                       className="depimages"
                       variant="top"
-                      src="./images/bg2.jpg"
+                      src="./images/6-7-8.jpg"
                     />
                     <Card.Body>
                       <Card.Title>Rus bölməsi</Card.Title>
@@ -696,7 +696,7 @@ function Navtab() {
                     <Card.Img
                       className="depimages"
                       variant="top"
-                      src="./images/bg2.jpg"
+                      src="./images/6-7-8.jpg"
                     />
                     <Card.Body>
                       <Card.Title>Azərbaycan bölməsi</Card.Title>
@@ -721,7 +721,7 @@ function Navtab() {
                     <Card.Img
                       className="depimages"
                       variant="top"
-                      src="./images/bg2.jpg"
+                      src="./images/6-7-8.jpg"
                     />
                     <Card.Body>
                       <Card.Title>Azərbaycan bölməsi</Card.Title>
@@ -751,7 +751,7 @@ function Navtab() {
                     <Card.Img
                       className="depimages"
                       variant="top"
-                      src="./images/bg2.jpg"
+                      src="./images/6-7-8.jpg"
                     />
                     <Card.Body>
                       <Card.Title>Rus bölməsi</Card.Title>
@@ -777,7 +777,7 @@ function Navtab() {
                     <Card.Img
                       className="depimages"
                       variant="top"
-                      src="./images/bg2.jpg"
+                      src="./images/6-7-8.jpg"
                     />
                     <Card.Body>
                       <Card.Title>Azərbaycan bölməsi</Card.Title>
@@ -802,7 +802,7 @@ function Navtab() {
                     <Card.Img
                       className="depimages"
                       variant="top"
-                      src="./images/bg2.jpg"
+                      src="./images/6-7-8.jpg"
                     />
                     <Card.Body>
                       <Card.Title>Azərbaycan bölməsi</Card.Title>
@@ -832,7 +832,7 @@ function Navtab() {
                     <Card.Img
                       className="depimages"
                       variant="top"
-                      src="./images/bg2.jpg"
+                      src="./images/6-7-8.jpg"
                     />
                     <Card.Body>
                       <Card.Title>Rus bölməsi</Card.Title>
@@ -858,7 +858,7 @@ function Navtab() {
                     <Card.Img
                       className="depimages"
                       variant="top"
-                      src="./images/bg2.jpg"
+                      src="./images/6-7-8.jpg"
                     />
                     <Card.Body>
                       <Card.Title>Azərbaycan bölməsi</Card.Title>
@@ -883,7 +883,7 @@ function Navtab() {
                     <Card.Img
                       className="depimages"
                       variant="top"
-                      src="./images/bg2.jpg"
+                      src="./images/6-7-8.jpg"
                     />
                     <Card.Body>
                       <Card.Title>Azərbaycan bölməsi</Card.Title>
@@ -912,7 +912,7 @@ function Navtab() {
                     <Card.Img
                       className="depimages"
                       variant="top"
-                      src="./images/bg2.jpg"
+                      src="./images/6-7-8.jpg"
                     />
                     <Card.Body>
                       <Card.Title>Rus bölməsi</Card.Title>
@@ -938,7 +938,7 @@ function Navtab() {
                     <Card.Img
                       className="depimages"
                       variant="top"
-                      src="./images/bg2.jpg"
+                      src="./images/6-7-8.jpg"
                     />
                     <Card.Body>
                       <Card.Title>Azərbaycan bölməsi</Card.Title>
@@ -963,7 +963,7 @@ function Navtab() {
                     <Card.Img
                       className="depimages"
                       variant="top"
-                      src="./images/bg2.jpg"
+                      src="./images/6-7-8.jpg"
                     />
                     <Card.Body>
                       <Card.Title>Azərbaycan bölməsi</Card.Title>
@@ -993,7 +993,7 @@ function Navtab() {
                     <Card.Img
                       className="depimages"
                       variant="top"
-                      src="./images/bg2.jpg"
+                      src="./images/6-7-8.jpg"
                     />
                     <Card.Body>
                       <Card.Title>Rus bölməsi</Card.Title>
@@ -1019,7 +1019,7 @@ function Navtab() {
                     <Card.Img
                       className="depimages"
                       variant="top"
-                      src="./images/bg2.jpg"
+                      src="./images/6-7-8.jpg"
                     />
                     <Card.Body>
                       <Card.Title>Azərbaycan bölməsi</Card.Title>
@@ -1044,7 +1044,7 @@ function Navtab() {
                     <Card.Img
                       className="depimages"
                       variant="top"
-                      src="./images/bg2.jpg"
+                      src="./images/6-7-8.jpg"
                     />
                     <Card.Body>
                       <Card.Title>Azərbaycan bölməsi</Card.Title>

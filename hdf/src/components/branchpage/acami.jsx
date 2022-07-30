@@ -27,7 +27,7 @@ function Acami() {
            Çıx
           </button>
         </Link>
-        <Link to="/">
+        <Link to="/azadliq">
           <button type="button" className="branchbutton btn btn-danger w-20 ">
            Geri
           </button>

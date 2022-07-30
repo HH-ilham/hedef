@@ -705,7 +705,7 @@ function Navtabsmobile() {
                   <Card.Img
                     className="depimages"
                     variant="top"
-                    src="./images/bg2.jpg"
+                    src="./images/6-7-8.jpg"
                   />
                   <Card.Body>
                     <Card.Title>Rus bölməsi</Card.Title>
@@ -731,7 +731,7 @@ function Navtabsmobile() {
                   <Card.Img
                     className="depimages"
                     variant="top"
-                    src="./images/bg2.jpg"
+                    src="./images/6-7-8.jpg"
                   />
                   <Card.Body>
                     <Card.Title>Azərbaycan bölməsi</Card.Title>
@@ -757,7 +757,7 @@ function Navtabsmobile() {
                   <Card.Img
                     className="depimages"
                     variant="top"
-                    src="./images/bg2.jpg"
+                    src="./images/6-7-8.jpg"
                   />
                   <Card.Body>
                     <Card.Title>Azərbaycan bölməsi</Card.Title>
@@ -821,39 +821,39 @@ function Navtabsmobile() {
               <div className="Buttongr">
               <ButtonGroup vertical>
                   <a href="http://hedef.edu.az/hedefupdv/2021/09/Azerbaycan-dili-9-cu-sinif.pdf" target='_blank'>
-                    <Button className="btncolor" variant="info">
+                    <Button className="btncolor_mobile" variant="info">
                       Azərbaycan dili
                     </Button>
                   </a>
-                  <a href="https://hedef.edu.az/hedefupdv/2019/09/%C6%8Fd%C9%99biyyat-9-cu-sinif.pdf" target='_blank'><Button className="btncolor" variant="info">
+                  <a href="https://hedef.edu.az/hedefupdv/2019/09/%C6%8Fd%C9%99biyyat-9-cu-sinif.pdf"  target='_blank'><Button className="btncolor_mobile" variant="info">
                     Ədəbiyyat
                   </Button></a>
-                 <a href="https://hedef.edu.az/hedefupdv/2019/09/Riyaziyyat-9-cu-sinif-I-II-III-qrup.pdf" target='_blank'> <Button className="btncolor" variant="info">
+                 <a href="https://hedef.edu.az/hedefupdv/2019/09/Riyaziyyat-9-cu-sinif-I-II-III-qrup.pdf" target='_blank'> <Button className="btncolor_mobile" variant="info">
                     Riyaziyyat
                   </Button></a>
-                  <Button className="btncolor" variant="info">
+                  <Button className="btncolor_mobile" variant="info">
                     <a href="http://hedef.edu.az/hedefupdv/2021/09/Fizika-9-cu-sinif-I-qrup.pdf" target='_blank'> Fizika</a>
                   </Button>
-                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Biologiya-9-cu-sinif.pdf" target="_blank"> <Button className="btncolor" variant="info">
+                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Biologiya-9-cu-sinif.pdf" target="_blank" > <Button className="btncolor_mobile" variant="info">
                     Biologiya
                   </Button></a>
                 </ButtonGroup>
               </div>
               <div className="Buttongr">
                 <ButtonGroup vertical>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Cografiya-9-cu-sinif.pdf" target="_blank"><Button className="btncolor" variant="info">
+                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Cografiya-9-cu-sinif.pdf" target="_blank" ><Button className="btncolor_mobile" variant="info">
                     Coğrafiyya
                   </Button></a>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Tarix-9-cu-sinif-II-qrup.pdf" target="_blank"><Button className="btncolor" variant="info">
+                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Tarix-9-cu-sinif-II-qrup.pdf" target="_blank" ><Button className="btncolor_mobile" variant="info">
                     Tarix
                   </Button></a>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/%C4%B0ngilis-dili-9-cu-sinif.pdf" target="_blank"><Button className="btncolor" variant="info">
+                  <a href="https://hedef.edu.az/hedefupdv/2021/09/%C4%B0ngilis-dili-9-cu-sinif.pdf" target="_blank" ><Button className="btncolor_mobile" variant="info">
                     İngilis dili
                   </Button></a>
-                 <a href="http://hedef.edu.az/hedefupdv/2021/09/Rus-dili-9-cu-sinif-az-bolmesi.pdf" target="_blank"> <Button className="btncolor" variant="info">
+                 <a href="http://hedef.edu.az/hedefupdv/2021/09/Rus-dili-9-cu-sinif-az-bolmesi.pdf" target="_blank" > <Button className="btncolor_mobile" variant="info">
                     Rus dili
                   </Button></a>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Kimya-9-cu-sinif.pdf" target="_blank"><Button className="btncolor" variant="info">
+                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Kimya-9-cu-sinif.pdf" target="_blank" ><Button className="btncolor_mobile" variant="info">
                     Kimya
                   </Button></a>
                 </ButtonGroup>
@@ -867,38 +867,38 @@ function Navtabsmobile() {
             <div className="CommonSection">
               <div className="Buttongr">
                 <ButtonGroup vertical>
-                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Azerbaycan-dili-11-ci-sinif.pdf"  target="_blank"> <Button className="btncolor" variant="danger">
+                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Azerbaycan-dili-11-ci-sinif.pdf" target="_blank"  > <Button className="btncolor_mobile" variant="danger">
                     Azərbaycan dili
                   </Button></a>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/%C6%8Fd%C9%99biyyat-11-ci-sinif.pdf" target="_blank"><Button className="btncolor" variant="danger">
+                  <a href="https://hedef.edu.az/hedefupdv/2021/09/%C6%8Fd%C9%99biyyat-11-ci-sinif.pdf" target="_blank" ><Button className="btncolor_mobile" variant="danger">
                     Ədəbiyyat
                   </Button></a>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Riyaziyyat-11-cu-sinif-I-II-qrup.pdf" target="_blank"><Button className="btncolor" variant="danger">
+                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Riyaziyyat-11-cu-sinif-I-II-qrup.pdf" target="_blank" ><Button className="btncolor_mobile" variant="danger">
                     Riyaziyyat
                   </Button></a>
-                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Fizika-11-ci-sinif-I-IV-qrup.pdf" target="_blank"> <Button className="btncolor" variant="danger">
+                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Fizika-11-ci-sinif-I-IV-qrup.pdf" target="_blank" > <Button className="btncolor_mobile" variant="danger">
                     Fizika
                   </Button></a>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Biologiya-11-ci-sinif.pdf" target="_blank"> <Button className="btncolor" variant="danger">
+                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Biologiya-11-ci-sinif.pdf" target="_blank" > <Button className="btncolor_mobile" variant="danger">
                     Biologiya
                   </Button></a>
                 </ButtonGroup>
               </div>
               <div className="Buttongr">
                 <ButtonGroup vertical>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Cografiya-11-ci-sinif.pdf" target="_blank"><Button className="btncolor" variant="danger">
+                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Cografiya-11-ci-sinif.pdf" target="_blank" ><Button className="btncolor_mobile" variant="danger">
                     Coğrafiyya
                   </Button></a>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Tarix-11-ci-sinif-II-qrup.pdf" target="_blank"><Button className="btncolor" variant="danger">
+                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Tarix-11-ci-sinif-II-qrup.pdf" target="_blank" ><Button className="btncolor_mobile" variant="danger">
                     Tarix
                   </Button></a>
-                 <a href="https://hedef.edu.az/hedefupdv/2021/09/%C4%B0ngilis-dili-11-ci-sinif-.pdf" target="_blank"> <Button className="btncolor" variant="danger">
+                 <a href="https://hedef.edu.az/hedefupdv/2021/09/%C4%B0ngilis-dili-11-ci-sinif-.pdf" target="_blank" > <Button className="btncolor_mobile" variant="danger">
                     İngilis dili
                   </Button></a>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Tarix-11-ci-sinif-II-qrup.pdf" target="_blank"><Button className="btncolor" variant="danger">
+                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Tarix-11-ci-sinif-II-qrup.pdf" target="_blank" ><Button className="btncolor_mobile" variant="danger">
                     Rus dili
                   </Button></a>
-                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Kimya-11-ci-sinif-.pdf" target="_blank"> <Button className="btncolor" variant="danger">
+                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Kimya-11-ci-sinif-.pdf" target="_blank" > <Button className="btncolor_mobile" variant="danger">
                     Kimya
                   </Button></a>
                 </ButtonGroup>
@@ -910,41 +910,41 @@ function Navtabsmobile() {
             {/* 11 sinif Azərbaycan bölməsi */}
             <div className="CommonSection">
               <div className="Buttongr">
-                <ButtonGroup vertical>
-                  <Button className="btncolor" variant="success">
+              <ButtonGroup vertical>
+                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Azerbaycan-dili-11-ci-sinif.pdf" target="_blank"  > <Button className="btncolor_mobile" variant="success">
                     Azərbaycan dili
-                  </Button>
-                  <Button className="btncolor" variant="success">
+                  </Button></a>
+                  <a href="https://hedef.edu.az/hedefupdv/2021/09/%C6%8Fd%C9%99biyyat-11-ci-sinif.pdf" target="_blank" ><Button className="btncolor_mobile" variant="success">
                     Ədəbiyyat
-                  </Button>
-                  <Button className="btncolor" variant="success">
+                  </Button></a>
+                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Riyaziyyat-11-cu-sinif-I-II-qrup.pdf" target="_blank" ><Button className="btncolor_mobile" variant="success">
                     Riyaziyyat
-                  </Button>
-                  <Button className="btncolor" variant="success">
+                  </Button></a>
+                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Fizika-11-ci-sinif-I-IV-qrup.pdf" target="_blank" > <Button className="btncolor_mobile" variant="success">
                     Fizika
-                  </Button>
-                  <Button className="btncolor" variant="success">
+                  </Button></a>
+                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Biologiya-11-ci-sinif.pdf" target="_blank" > <Button className="btncolor_mobile" variant="success">
                     Biologiya
-                  </Button>
+                  </Button></a>
                 </ButtonGroup>
               </div>
               <div className="Buttongr">
-                <ButtonGroup vertical>
-                  <Button className="btncolor" variant="success">
+              <ButtonGroup vertical>
+                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Cografiya-11-ci-sinif.pdf" target="_blank" ><Button className="btncolor_mobile" variant="success">
                     Coğrafiyya
-                  </Button>
-                  <Button className="btncolor" variant="success">
+                  </Button></a>
+                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Tarix-11-ci-sinif-II-qrup.pdf" target="_blank" ><Button className="btncolor_mobile" variant="success">
                     Tarix
-                  </Button>
-                  <Button className="btncolor" variant="success">
+                  </Button></a>
+                 <a href="https://hedef.edu.az/hedefupdv/2021/09/%C4%B0ngilis-dili-11-ci-sinif-.pdf" target="_blank" > <Button className="btncolor_mobile" variant="success">
                     İngilis dili
-                  </Button>
-                  <Button className="btncolor" variant="success">
+                  </Button></a>
+                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Rus-dili-11-ci-sinif-az-bolmesi.pdf" target="_blank" ><Button className="btncolor_mobile" variant="success">
                     Rus dili
-                  </Button>
-                  <Button className="btncolor" variant="success">
+                  </Button></a>
+                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Kimya-11-ci-sinif-.pdf" target="_blank" > <Button className="btncolor_mobile" variant="success">
                     Kimya
-                  </Button>
+                  </Button></a>
                 </ButtonGroup>
               </div>
             </div>
@@ -958,41 +958,39 @@ function Navtabsmobile() {
           <div className="comButtongr">
             <div className="CommonRusSection">
               <div className="Buttongr">
-                <ButtonGroup vertical>
-                  <Button className="btncolor" variant="info">
+              <ButtonGroup vertical>
+                 <a href="https://hedef.edu.az/hedefupdv/2021/09/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%D1%8F%D0%B7%D1%8B%D0%BA-9-cu-sinif.pdf" target="_blank" > <Button className="btncolor_rus_mobile" variant="info">
                     Русский-язык
-                  </Button>
-                  <Button className="btncolor" variant="info">
+                  </Button></a>
+                 <a href="https://hedef.edu.az/hedefupdv/2021/09/%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0-9-cu-sinif.pdf" target="_blank" > <Button className="btncolor_rus_mobile" variant="info">
                     Литература
-                  </Button>
-                  <Button className="btncolor" variant="info">
+                  </Button></a>
+              <a href="https://hedef.edu.az/hedefupdv/2021/09/Riyaziyyat-9-cu-sinif-I-II-III-qrup-1.pdf" target="_blank" >   <Button className="btncolor_rus_mobile" variant="info">
                     Математика
-                  </Button>
-                  <Button className="btncolor" variant="info">
+                  </Button></a> 
+                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Fizika-9-cu-sinif-I-qrup-1.pdf" target="_blank" ><Button className="btncolor_rus_mobile" variant="info">
                     Физика
-                  </Button>
-                  <Button className="btncolor" variant="info">
+                  </Button></a>
+                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Biologiya-9-cu-sinif-1.pdf" target="_blank" > <Button className="btncolor_rus_mobile" variant="info">
                     Биология
-                  </Button>
+                  </Button></a>
                 </ButtonGroup>
               </div>
               <div className="Buttongr">
-                <ButtonGroup vertical>
-                  <Button className="btncolor" variant="info">
+              <ButtonGroup vertical>
+                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Cografiya-9-cu-sinif-1.pdf" target="_blank" ><Button className="btncolor_rus_mobile" variant="info">
                     География
-                  </Button>
-                  <Button className="btncolor" variant="info">
+                  </Button></a>
+                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Tarix-9-cu-sinif-II-qrup-1.pdf" target="_blank" > <Button className="btncolor_rus_mobile" variant="info">
                     История
-                  </Button>
-                  <Button className="btncolor" variant="info">
+                  </Button></a>
+                 <a href="https://hedef.edu.az/hedefupdv/2021/09/%C4%B0ngilis-dili-9-cu-sinif-1.pdf" target="_blank" > <Button className="btncolor_rus_mobile" variant="info">
                     Aнглийский-язык
-                  </Button>
-                  <Button className="btncolor" variant="info">
-                    Русский-язык
-                  </Button>
-                  <Button className="btncolor" variant="info">
+                  </Button></a>
+                 
+                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Kimya-9-cu-sinif-1.pdf" target="_blank" > <Button className="btncolor_rus_mobile" variant="info">
                     Химия
-                  </Button>
+                  </Button></a>
                 </ButtonGroup>
               </div>
             </div>
@@ -1004,42 +1002,40 @@ function Navtabsmobile() {
             {/* 10 sinif Rus bölməsi */}
             <div className="CommonRusSection">
               <div className="Buttongr">
-                <ButtonGroup vertical>
-                  <Button className="btncolor" variant="danger">
+              <ButtonGroup vertical>
+                 <a href="https://hedef.edu.az/hedefupdv/2021/09/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%D1%8F%D0%B7%D1%8B%D0%BA-10-cu-sinif.pdf" target="_blank" > <Button className="btncolor_rus_mobile" variant="danger">
                     Русский-язык
-                  </Button>
-                  <Button className="btncolor" variant="danger">
+                  </Button></a>
+                  <a href="https://hedef.edu.az/hedefupdv/2021/09/%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0-10-cu-sinif.pdf" target="_blank" ><Button className="btncolor_rus_mobile" variant="danger">
                     Литература
-                  </Button>
-                  <Button className="btncolor" variant="danger">
+                  </Button></a>
+                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Riyaziyyat-10-cu-sinif-IV-qrup-1.pdf" target="_blank" ><Button className="btncolor_rus_mobile" variant="danger">
                     Математика
-                  </Button>
-                  <Button className="btncolor" variant="danger">
+                  </Button></a>
+                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Fizika-10-cu-sinif-I-qrup-1.pdf" target="_blank" ><Button className="btncolor_rus_mobile" variant="danger">
                     Физика
-                  </Button>
-                  <Button className="btncolor" variant="danger">
+                  </Button></a>
+                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Biologiya-10-cu-sinif-1.pdf" target="_blank" > <Button className="btncolor_rus_mobile" variant="danger">
                     Биология
-                  </Button>
+                  </Button></a>  
                 </ButtonGroup>
               </div>
               <div className="Buttongr">
-                <ButtonGroup vertical>
-                  <Button className="btncolor" variant="danger">
+              <ButtonGroup vertical>
+                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Cografiya-10-cu-sinif-1.pdf" target="_blank" ><Button className="btncolor_rus_mobile" variant="danger">
                     География
-                  </Button>
-                  <Button className="btncolor" variant="danger">
+                  </Button></a>
+                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Tarix-10-cu-sinif-II-qrup-1.pdf" target="_blank" ><Button className="btncolor_rus_mobile" variant="danger">
                     История
-                  </Button>
+                  </Button></a>
 
-                  <Button className="btncolor" variant="danger">
+                  <a href="https://hedef.edu.az/hedefupdv/2021/09/%C4%B0ngilis-dili-10-cu-sinif-1.pdf" target="_blank" ><Button className="btncolor_rus_mobile" variant="danger">
                     Aнглийский-язык
-                  </Button>
-                  <Button className="btncolor" variant="danger">
-                    Русский-язык
-                  </Button>
-                  <Button className="btncolor" variant="danger">
+                  </Button></a>
+                  
+                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Kimya-10-cu-sinif-1.pdf" target="_blank" > <Button className="btncolor_rus_mobile" variant="danger">
                     Химия
-                  </Button>
+                  </Button></a>
                 </ButtonGroup>
               </div>
             </div>
@@ -1050,41 +1046,39 @@ function Navtabsmobile() {
             {/* 11 sinif rus bölməsi */}
             <div className="CommonRusSection">
               <div className="Buttongr">
-                <ButtonGroup vertical>
-                  <Button className="btncolor" variant="success">
+              <ButtonGroup vertical>
+                <a href="https://hedef.edu.az/hedefupdv/2021/09/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%D1%8F%D0%B7%D1%8B%D0%BA-11-ci-sinif.pdf" target="_blank"  > <Button className="btncolor_rus_mobile" variant="success">
                     Русский-язык
-                  </Button>
-                  <Button className="btncolor" variant="success">
+                  </Button></a>
+                 <a href="https://hedef.edu.az/hedefupdv/2021/09/%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0-11-ci-sinif.pdf" target="_blank" > <Button className="btncolor_rus_mobile" variant="success">
                     Литература
-                  </Button>
-                  <Button className="btncolor" variant="success">
+                  </Button></a>
+                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Riyaziyyat-11-cu-sinif-III-IV-qrup-1.pdf" target="_blank" > <Button className="btncolor_rus_mobile" variant="success">
                     Математика
-                  </Button>
-                  <Button className="btncolor" variant="success">
+                  </Button></a>
+                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Fizika-11-ci-sinif-I-IV-qrup-1.pdf" target="_blank" ><Button className="btncolor_rus_mobile" variant="success">
                     Физика
-                  </Button>
-                  <Button className="btncolor" variant="success">
+                  </Button></a>
+                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Biologiya-11-ci-sinif-1.pdf" target="_blank" > <Button className="btncolor_rus_mobile" variant="success">
                     Биология
-                  </Button>
+                  </Button></a>
                 </ButtonGroup>
               </div>
               <div className="Buttongr">
-                <ButtonGroup vertical>
-                  <Button className="btncolor" variant="success">
+              <ButtonGroup vertical>
+                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Cografiya-11-ci-sinif-1.pdf" target="_blank"><Button className="btncolor_rus_mobile" variant="success">
                     География
-                  </Button>
-                  <Button className="btncolor" variant="success">
+                  </Button></a>
+                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Tarix-11-ci-sinif-III-qrup.pdf" target="_blank" > <Button className="btncolor_rus_mobile" variant="success">
                     История
-                  </Button>
-                  <Button className="btncolor" variant="success">
+                  </Button></a>
+                 <a href="https://hedef.edu.az/hedefupdv/2021/09/%C4%B0ngilis-dili-11-ci-sinif-1-1.pdf" target="_blank" > <Button className="btncolor_rus_mobile" variant="success">
                     Aнглийский-язык
-                  </Button>
-                  <Button className="btncolor" variant="success">
-                    Русский-язык
-                  </Button>
-                  <Button className="btncolor" variant="success">
+                  </Button></a>
+                 
+                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Kimya-11-ci-sinif-1-1.pdf"  target='_blank'><Button className="btncolor_rus_mobile" variant="success">
                     Химия
-                  </Button>
+                  </Button></a>
                 </ButtonGroup>
               </div>
             </div>
@@ -1097,66 +1091,67 @@ function Navtabsmobile() {
           </div>
           <div className="MIQsection">
             <div className="Buttongr">
-              <ButtonGroup vertical>
-                <Button className="btncolor" variant="secondary">
+            <ButtonGroup vertical>
+               <a href="https://hedef.edu.az/hedefupdv/2019/05/az-dili.pdf" target="_blank" > <Button className="btncolor_teacher_mobile" variant="secondary">
                   Azərbaycan dili
-                </Button>
-                <Button className="btncolor" variant="secondary">
-                  Biologiyya
-                </Button>
-                <Button className="btncolor" variant="secondary">
+                </Button></a>
+                
+               <a href="https://hedef.edu.az/hedefupdv/2019/05/co%C4%9Frafiya.pdf" target="_blank" > <Button className="btncolor_teacher_mobile" variant="secondary">
                   Coğrafiyya
-                </Button>
-                <Button className="btncolor" variant="secondary">
+                </Button></a>
+                <a href="https://hedef.edu.az/hedefupdv/2019/05/biologiya.pdf" target="_blank" > <Button className="btncolor_teacher_mobile" variant="secondary">
+                  Biologiya
+                </Button></a>
+                <a href="https://hedef.edu.az/hedefupdv/2019/05/%C9%99d%C9%99biyyat.pdf" target="_blank" ><Button className="btncolor_teacher_mobile" variant="secondary">
                   Ədəbiyyat (Azərbaycan bölməsi)
-                </Button>
-                <Button className="btncolor" variant="secondary">
+                </Button></a>
+              <a href="https://hedef.edu.az/hedefupdv/2019/05/%C9%99d%C9%99biyyat-rus-b%C3%B6lm%C9%99si.pdf" target="_blank" >  <Button className="btncolor_teacher_mobile" variant="secondary">
                   Ədəbiyyat (Rus bölməsi)
-                </Button>
-                <Button className="btncolor" variant="secondary">
+                </Button></a>
+               <a href="https://hedef.edu.az/hedefupdv/2019/05/fizika.pdf" target="_blank" > <Button className="btncolor_teacher_mobile" variant="secondary">
                   Fizika
-                </Button>
+                </Button></a>
               </ButtonGroup>
             </div>
             <div className="Buttongr">
-              <ButtonGroup vertical>
-                <Button className="btncolor" variant="secondary">
+            <ButtonGroup vertical>
+                <a href="https://hedef.edu.az/hedefupdv/2019/05/ibtidai-sinif-az-dili.pdf" target="_blank" ><Button className="btncolor_teacher_mobile" variant="secondary">
                   İbtidai Qrup Azərbaycan dili
-                </Button>
-                <Button className="btncolor" variant="secondary">
+                </Button></a>
+                <a href="#" ><Button className="btncolor_teacher_mobile" variant="secondary">
                   Tarix
-                </Button>
-                <Button className="btncolor" variant="secondary">
+                </Button></a>
+               <a href="https://hedef.edu.az/hedefupdv/2019/05/ibtidai-sinif-az-dili.pdf" target="_blank" > <Button className="btncolor_teacher_mobile" variant="secondary">
                   İbtidai Qrup Riyaziyyat
-                </Button>
-                <Button className="btncolor" variant="secondary">
+                </Button></a>
+               <a href="https://hedef.edu.az/hedefupdv/2019/05/informatika.pdf" target="_blank" > <Button className="btncolor_teacher_mobile" variant="secondary">
                   İnformatika
-                </Button>
-                <Button className="btncolor" variant="secondary">
+                </Button></a>  
+                <a href="https://hedef.edu.az/hedefupdv/2019/05/kimya-1.pdf" target="_blank" ><Button className="btncolor_teacher_mobile" variant="secondary">
                   Kimya
-                </Button>
-                <Button className="btncolor" variant="secondary">
+                </Button></a>
+                <a href="https://hedef.edu.az/hedefupdv/2020/02/ingilis-dili-miq.pdf" target="_blank" ><Button className="btncolor_teacher_mobile" variant="secondary">
                   İngilis dili
-                </Button>
+                </Button></a>
               </ButtonGroup>
             </div>
             <div className="Buttongr">
-              <ButtonGroup vertical>
-                <Button className="btncolor" variant="secondary">
+            <ButtonGroup vertical>
+                <a href="https://hedef.edu.az/hedefupdv/2020/02/kurikulum-proqram.pdf" target="_blank" ><Button className="btncolor_teacher_mobile" variant="secondary">
                   Kurikulum
-                </Button>
-                <Button className="btncolor" variant="secondary">
+                </Button></a>
+               <a href="https://hedef.edu.az/hedefupdv/2019/05/riyaziyyat.pdf" target="_blank" > <Button className="btncolor_teacher_mobile" variant="secondary">
                   Riyaziyyat
-                </Button>
-                <Button className="btncolor" variant="secondary">
+                </Button></a>
+                <a href="https://hedef.edu.az/hedefupdv/2019/05/m%C9%99ntiq.pdf" target="_blank" ><Button className="btncolor_teacher_mobile" variant="secondary">
                   Məntiq
-                </Button>
-                <Button className="btncolor" variant="secondary">
+                </Button></a>
+               <a href="https://hedef.edu.az/hedefupdv/2019/05/rus-dili-rus-b%C3%B6lm%C9%99si-1.pdf" target="_blank" > <Button className="btncolor_teacher_mobile" variant="secondary">
                   Rus dili(Rus bölməsi)
-                </Button>
-                <Button className="btncolor" variant="secondary">
+                </Button></a>
+                <a href="https://hedef.edu.az/hedefupdv/2019/05/rus-dili-az-b%C3%B6lm%C9%99si-%C3%BC%C3%A7%C3%BCn.pdf" target="_blank" ><Button className="btncolor_teacher_mobile" variant="secondary">
                   Rus dili (Azərbaycan bölməsi)
-                </Button>
+                </Button></a>
               </ButtonGroup>
             </div>
           </div>

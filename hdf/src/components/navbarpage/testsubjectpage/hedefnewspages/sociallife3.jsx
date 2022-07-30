@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Img1 from "./images1/neft1.jpg";
-import Img2 from "./images1/neft2.jpg";
-import Img3 from "./images1/neft3.jpg";
-import Img4 from "./images1/neft4.jpg";
+import Img1 from "./images1/tecrube1.jpg";
+import Img2 from "./images1/tecrube2.jpg";
+import Img3 from "./images1/tecrube3.jpg";
+import Img4 from "./images1/tecrube4.jpg";
 import "../../../../CSS/website/socialgallery.css";
 import CloseButton from "react-bootstrap/CloseButton";
 import Navbar from "../../../Navbar";
@@ -52,13 +52,7 @@ const Sociallife3 = () => {
       <p className="text-center fw-bold fs-3">Təcrübəçilər mükafatlandırıldı</p>
       <div className="d-flex container">
         <div className="col-md-9">
-          <img
-            className="mt-2"
-            src="../../../images/sociallife1.jpg"
-            width={350}
-            height={250}
-            alt="sss"
-          />
+          
           <p className="container fw-bold">
             Pedaqoji təlimlərimizə qatılaraq uğurla başa vuran təcrübəçi
             müdavimlər 30 may, 2018-ci il tarixində təlimçi – filologiya üzrə

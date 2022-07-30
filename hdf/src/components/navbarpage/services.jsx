@@ -8,6 +8,10 @@ import Button from "react-bootstrap/Button";
 import Collapse from "react-bootstrap/Collapse";
 
 function Activity() {
+  // const [state,setState]=useState(false);
+  // const toggle =()=>{
+  //   setState(!state);
+  // }
   const [open, setOpen] = useState(false);
   const [open1, setOpen1] = useState(false);
   const [open2, setOpen2] = useState(false);
@@ -214,12 +218,18 @@ function Activity() {
               </Collapse>
               <div className="allshowpage">
                 <Button
-                  onClick={() => setOpen(!open)}
+                  onClick={() => 
+                    
+                    setOpen(!open)
+
+                  }
                   aria-controls="example-collapse-text"
                   aria-expanded={open}
                   className="text-center "
+                  
                 >
-                  Daha çox
+                 {/* {state ? 'Daha az':'Daha çox'} */}
+                 Daha çox
                 </Button>
               </div>
             </div>

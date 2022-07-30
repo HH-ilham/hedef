@@ -21,7 +21,7 @@ function Azadliq() {
            Geri
           </button>
         </Link>
-        <Link to="/">
+        <Link to="/acami">
           <button type="button" className="branchbutton btn btn-success w-20 ">
             İrəli
           </button>
