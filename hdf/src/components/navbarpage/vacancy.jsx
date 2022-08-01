@@ -1,4 +1,5 @@
-import React from "react";
+import React,{ useState } from "react";
+import InputMask from 'react-input-mask';
 import Navbar from "../Navbar";
 import TopBar from "../TopBar";
 import CFooter from "../cFooter";
@@ -6,7 +7,7 @@ import emailjs from '@emailjs/browser';
 import "../../CSS/website/vacancy.css";
 import swal from "sweetalert";
 import { TabTitle } from "../TitleFunction";
-function Vacancy() {
+function Vacancy(props) {
   TabTitle('Vakansiya');
   function sendEmail(e) {
     e.preventDefault();
@@ -112,17 +113,20 @@ function Vacancy() {
             <div className="col-sm-6">
               <div className="form-group">
                 <label>Telefon nömrəniz</label>
-                <input
+                <InputMask 
                   type="text"
                   name="phone"
-                  maxlength="15"
-                  placeholder="(012)-123-45-67"
-                  pattern="{4}[0-9]{9}"
+
+                  mask='(999) 999-99-99' 
+                  value={props.value} 
+                  onChange={props.onChange}
+                 placeholder="(012) 123 45 67"
                   className="form-control"
                   id="validationDefault03"
                   autocomplete="off"
                 />
               </div>
+              
             </div>
           </div>
 
@@ -149,16 +153,18 @@ function Vacancy() {
                   Mobil
                   <small>*</small>
                 </label>
-                <input
+                <InputMask 
                   type="text"
-                  name="mobile"
-                  maxlength="10"
-                  placeholder="0501234567"
-                  pattern="{4}[0-9]{9}"
+                  name="phone"
+
+                  mask='(999)999-99-99' 
+                  value={props.value} 
+                  onChange={props.onChange}
+                 placeholder="050-123-45-67"
                   className="form-control"
                   id="validationDefault03"
-                  required
                   autocomplete="off"
+                
                 />
               </div>
             </div>
