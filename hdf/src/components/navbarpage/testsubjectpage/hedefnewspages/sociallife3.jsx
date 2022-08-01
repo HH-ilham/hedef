@@ -9,8 +9,9 @@ import Navbar from "../../../Navbar";
 import TopBar from "../../../TopBar";
 import CFooter from "../../../cFooter";
 import { Link } from "react-router-dom";
-
+import { TabTitle } from "../../../TitleFunction";
 const Sociallife3 = () => {
+      TabTitle('Təcrübəçilər mükafatlandırıldı');
   let data = [
     {
       id: 1,
@@ -69,6 +70,7 @@ const Sociallife3 = () => {
             dövlətçiliyi hər şeydən üstün tuta bilən şəxsiyyət yetişdirək! Çünki
             biz bir müəllimik!”
           </p>
+          <div className="text-center text-muted">May 31, 2018</div>
           <br />
           <div className={model ? "model open" : "model"}>
             <img src={tempimgSrc} />
@@ -100,7 +102,7 @@ const Sociallife3 = () => {
         </div>
 
         <div className="col-md-3 othernews">
-          <p className="fw-bold fs-4">Digər xəbərlər</p>
+          <p className="fw-bold fs-4 othernewstext">Digər xəbərlər</p>
           <div className="col newscard">
             <div className="card">
               <Link to="/sociallife1">
@@ -116,6 +118,7 @@ const Sociallife3 = () => {
                 <p className="card-text">
                   Hədəf Kurslarında Magistratura üzrə Açıq Qapı günü keçirildi.
                 </p>
+                <div className="text-center text-muted">May 14, 2019</div>
               </div>
             </div>
           </div>
@@ -134,6 +137,7 @@ const Sociallife3 = () => {
                 <p className="card-text">
                   Neftçilər filialının yeni binasının açılış mərasimi keçirildi
                 </p>
+                <div className="text-center text-muted">Noyabr 3, 2018</div>
               </div>
             </div>
           </div>

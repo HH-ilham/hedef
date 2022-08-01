@@ -28,8 +28,11 @@ import Navbar from "../../../Navbar";
 import TopBar from "../../../TopBar";
 import CFooter from "../../../cFooter";
 import {Link} from 'react-router-dom';
+import { TabTitle } from "../../../TitleFunction";
+
 
 const Sociallife2 = () => {
+  TabTitle('Neftçilər filialının yeni binasının açılış mərasimi keçirildi');
   let data1 = [
     {
       id: 1,
@@ -177,6 +180,7 @@ const Sociallife2 = () => {
           Tədbirin rəsmi hissəsi başa çatdıqdan sonra, iştirakçılar şagirdlərin ifasında musiqili səhnəciklərlə tanış olublar.<br/>
           Qeyd edək ki, Neftçilər filialının yeni binası Nizami rayonu Tofiq Abbasov 38 (Qara Qarayev metrosunun yaxınlığı) yerləşir. Ətraflı məlumat üçün(012)571-71-00/(055)465- 95- 41
           </p>
+          <div className="text-center text-muted">Noyabr 3, 2018</div>
           <div className="gallery2 container">
         {data1.map((item, index) => {
           return (
@@ -196,7 +200,7 @@ const Sociallife2 = () => {
         </div>
 
         <div className="col-md-3 othernews">
-          <p className="fw-bold fs-4">Digər xəbərlər</p>
+          <p className="fw-bold fs-4 othernewstext">Digər xəbərlər</p>
           <div className="col newscard">
                       <div className="card">
                      <Link to="/sociallife1">
@@ -213,6 +217,7 @@ const Sociallife2 = () => {
                           <p className="card-text">
                           Hədəf Kurslarında Magistratura üzrə Açıq Qapı günü keçirildi.
                           </p>
+                          <div className="text-center text-muted">May 14, 2019</div>
                         </div>
                       </div>
                     </div>
@@ -233,6 +238,7 @@ const Sociallife2 = () => {
                           <p className="card-text">
                           Təcrübəçilər mükafatlandırıldı.
                           </p>
+                          <div className="text-center text-muted">May 31, 2018</div>
                         </div>
                       </div>
                     </div>

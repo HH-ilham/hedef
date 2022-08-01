@@ -4,7 +4,10 @@ import TopBar from "../TopBar";
 import CFooter from "../cFooter";
 import "../../CSS/website/navbar.css";
 import Accordion from "react-bootstrap/Accordion";
+import { TabTitle } from "../TitleFunction";
+
 function FAQ() {
+  TabTitle('FAQ');
   return (
     <div>
       <TopBar/>

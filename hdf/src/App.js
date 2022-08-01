@@ -1,7 +1,7 @@
 import React from "react";
 import Navbarpages from "./components/navbarpage/navbarpages";
 import Branchpages from "./components/branchpage/branchpages";
-import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Aplicantpages from "./components/navbarpage/Aplicantuseful/aplicantpages";
 import Activitypages from "./components/navbarpage/activity/activitypages";
 import Testsubjectpages from "./components/navbarpage/testsubjectpage/testsubjectpages";

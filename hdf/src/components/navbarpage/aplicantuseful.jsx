@@ -4,7 +4,10 @@ import TopBar from "../TopBar";
 import CFooter from "../cFooter";
 import ClipLoader from "react-spinners/ClipLoader";
 import { Link } from "react-router-dom";  
+import { TabTitle } from "../TitleFunction";
 const Aplicantuseful = () => {
+  
+  TabTitle('Abituriyentə faydalı');
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);

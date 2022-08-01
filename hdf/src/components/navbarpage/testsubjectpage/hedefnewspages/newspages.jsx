@@ -9,7 +9,9 @@ import Dim3 from "./dim3";
 import Sociallife1 from "./sociallife1";
 import Sociallife2 from "./sociallife2";
 import Sociallife3 from "./sociallife3";
-
+import Projects1 from "./projects1";
+import Projects2 from "./projects2";
+import Projects3 from "./projects3";
 function Newspages() {
   return (
     <Routes>
@@ -24,6 +26,10 @@ function Newspages() {
       <Route path="/sociallife1" element={<Sociallife1 />} />
       <Route path="/sociallife2" element={<Sociallife2 />} />
       <Route path="/sociallife3" element={<Sociallife3 />} />
+
+      <Route path="/projects1" element={<Projects1/>} />
+      <Route path="/projects2" element={<Projects2/>} />
+      <Route path="/projects3" element={<Projects3/>} />
     </Routes>
   );
 }

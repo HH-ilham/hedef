@@ -4,7 +4,6 @@ import Img2 from "./images1/veten2.jpg";
 import Img3 from "./images1/veten3.jpg";
 import Img4 from "./images1/veten4.jpg";
 import Img5 from "./images1/veten5.jpg";
-
 import "../../../../CSS/website/newspage.css";
 import Navbar from "../../../Navbar";
 import TopBar from "../../../TopBar";
@@ -12,7 +11,11 @@ import CFooter from "../../../cFooter";
 import { Link } from "react-router-dom";
 import "../../../../CSS/website/socialgallery.css";
 import CloseButton from "react-bootstrap/CloseButton";
+import { TabTitle } from "../../../TitleFunction";
+
 function News1() {
+  TabTitle(' Vətən müharibəsinin müəllim şəhidi Ömərov Qoşqarın xatirəsi əbədiləşdirildi');
+
   let data = [
     {
       id: 1,
@@ -95,6 +98,7 @@ function News1() {
             otağına baxış keçirildi. Qonaqlar şəhidimiz adına ayrılmış
             “Xatirələr” dəftərinə öz ürək sözlərini yazdılar.
           </p>
+          <div className="text-center text-muted">Fevral 19, 2018</div>
           <div className={model ? "model open" : "model"}>
             <img src={tempimgSrc} />
             <div className="closebtn">
@@ -124,7 +128,7 @@ function News1() {
           </div>
         </div>
         <div className="col-md-3 othernews">
-          <p className="fw-bold fs-4 border-bottom">Digər xəbərlər</p>
+          <p className="fw-bold fs-4 othernewstext">Digər xəbərlər</p>
           <div className="col newscard">
             <div className="card ">
               <Link to="/news2">
@@ -140,6 +144,7 @@ function News1() {
                   Buraxılış fənləri üzrə MQT 4 mövzuları – 2021/2022 – Rus
                   bölməsi
                 </p>
+                <div className="text-center text-muted">Fevral 19, 2018</div>
               </div>
             </div>
           </div>
@@ -159,6 +164,7 @@ function News1() {
                   Buraxılış fənləri üzrə MQT 4 mövzuları – 2021/2022 –
                   Azərbaycan bölməsi
                 </p>
+                <div className="text-center text-muted">Fevral 19, 2018</div> 
               </div>
             </div>
           </div>

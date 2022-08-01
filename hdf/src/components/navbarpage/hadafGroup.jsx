@@ -4,8 +4,9 @@ import Navbar from "../Navbar";
 import CFooter from "../cFooter";
 import "../../CSS/website/navbar.css";
 import Carousel from "react-bootstrap/Carousel";
-
+import { TabTitle } from "../TitleFunction";
 const HadafGroup = () => {
+  TabTitle('Hədəf Qrup');
   return (
     <>
       <TopBar />

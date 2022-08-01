@@ -9,7 +9,6 @@ import Img7 from "./images1/qapi7.jpg";
 import Img8 from "./images1/qapi8.jpg";
 import Img9 from "./images1/qapi9.jpg";
 import Img10 from "./images1/qapi10.jpg";
-
 import "../../../../CSS/website/newspage.css";
 import Navbar from "../../../Navbar";
 import TopBar from "../../../TopBar";
@@ -17,7 +16,11 @@ import CFooter from "../../../cFooter";
 import { Link } from "react-router-dom";
 import "../../../../CSS/website/socialgallery.css";
 import CloseButton from "react-bootstrap/CloseButton";
+import { TabTitle } from "../../../TitleFunction";
+
+
 function Sociallife1() {
+  TabTitle('Hədəf Kurslarında Magistratura üzrə Açıq Qapı günü keçirildi');
     let data = [
         {
           id: 1,
@@ -125,6 +128,7 @@ function Sociallife1() {
             vauçeri veriləcək. Bununla yanaşı universitetə qəbul balınıza uyğun
             olaraq endirimlər də əldə edə biləcəksiniz”.
           </p>
+          <div className="text-center text-muted">May 14, 2019</div>
           <div className={model ? "model open" : "model"}>
         <img src={tempimgSrc} />
         <div className="closebtn">
@@ -155,7 +159,7 @@ function Sociallife1() {
         </div>
 
         <div className="col-md-3 othernews">
-          <p className="fw-bold fs-4">Digər xəbərlər</p>
+          <p className="fw-bold fs-4 othernewstext">Digər xəbərlər</p>
           
                     <div className="col newscard">
                       <div className="card">
@@ -172,6 +176,7 @@ function Sociallife1() {
                           <p className="card-text">
                           Neftçilər filialının yeni binasının açılış mərasimi keçirildi
                           </p>
+                          <div className="text-center text-muted">Noyabr 3, 2018</div>
                         </div>
                       </div>
                     </div>
@@ -191,6 +196,7 @@ function Sociallife1() {
                           <p className="card-text">
                           Təcrübəçilər mükafatlandırıldı.
                           </p>
+                          <div className="text-center text-muted">May 31, 2018</div>
                         </div>
                       </div>
                     </div>

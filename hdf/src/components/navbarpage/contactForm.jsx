@@ -1,12 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import Navbar from "../Navbar";
 import TopBar from "../TopBar";
 import CFooter from "../cFooter";
-import emailjs from "emailjs-com";
+import emailjs from '@emailjs/browser';
 import "../../CSS/website/contactform.css";
 import swal from "sweetalert";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { TabTitle } from "../TitleFunction";
 function ContactForm() {
+  
+  TabTitle('Əlaqə');
   function sendEmail(e) {
     e.preventDefault();
     emailjs
@@ -87,7 +89,8 @@ function ContactForm() {
         </div>
         <div className="col-md-9">
           <div className="container  mb-3">
-            <form className="row g-3" onSubmit={sendEmail}>
+           
+            <form className="row g-3"  onSubmit={sendEmail} >
               <div className="col-md-4">
                 <label for="validationDefault01" className="form-label">
                   Adınız

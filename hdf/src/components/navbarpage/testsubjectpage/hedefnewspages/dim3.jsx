@@ -4,7 +4,9 @@ import Navbar from "../../../Navbar";
 import TopBar from "../../../TopBar";
 import CFooter from "../../../cFooter";
 import { Link } from "react-router-dom";
+import { TabTitle } from "../../../TitleFunction";
 function Dim3() {
+  TabTitle('Abituriyentlərin ixtisas qruplarını seçim imkanları genişləndirildi');
   return (
     <>
       <TopBar />
@@ -61,10 +63,11 @@ function Dim3() {
             bir ixtisas qrupu üzrə müsabiqə şərtini ödəyən abituriyentlər isə
             yalnız həmin ixtisas qrupuna daxil olan ixtisasları seçə bilərlər.
           </p>
+          <div className="text-center text-muted">Fevral 19, 2018</div>
         </div>
 
         <div className="col-md-3 othernews">
-          <p className="fw-bold fs-4">Digər xəbərlər</p>
+          <p className="fw-bold fs-4  othernewstext">Digər xəbərlər</p>
           <div className="col newscard">
             <div className="col newscard">
               <div className="card">
@@ -82,6 +85,7 @@ function Dim3() {
                     Dövlət qulluğuna qəbul olmaq istəyən şəxslər üçün növbəti
                     sınaq imtahanı keçiriləcək.
                   </p>
+                  <div className="text-center text-muted">Sentyabr 9, 2019</div>
                 </div>
               </div>
             </div>
@@ -102,6 +106,7 @@ function Dim3() {
                   Bölgələr üzrə ümumi orta təhsil bazasında ( 9-cu sinif )
                   buraxılış imtahanlarının I mərhələsinin keçirilmə qrafiki.
                 </p>
+                <div className="text-center text-muted">Fevral 26, 2018</div>
               </div>
             </div>
           </div>

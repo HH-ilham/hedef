@@ -5,8 +5,10 @@ import Navbar from "../Navbar";
 import TopBar from "../TopBar";
 import CFooter from "../cFooter";
 import ClipLoader from "react-spinners/ClipLoader";
+import { TabTitle } from "../TitleFunction";
 
 function Activity() {
+  TabTitle('Fəaliyyətlərimiz');
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);

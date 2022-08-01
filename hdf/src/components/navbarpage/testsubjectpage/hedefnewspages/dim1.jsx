@@ -4,7 +4,10 @@ import Navbar from "../../../Navbar";
 import TopBar from "../../../TopBar";
 import CFooter from "../../../cFooter";
 import { Link } from "react-router-dom";
+import { TabTitle } from "../../../TitleFunction";
+
 function Dim1() {
+  TabTitle('Dövlət qulluğuna qəbul olmaq istəyən şəxslər üçün növbəti sınaq imtahanı keçiriləcək');
   return (
     <>
       <TopBar />
@@ -55,8 +58,9 @@ function Dim1() {
             sonra sınaq imtahanında iştirak etmək üçün DİM-in saytında onlayn
             qeydiyyatdan keçmək lazımdır.
           </p>
+          <div className="text-center text-muted">Sentyabr 9, 2019</div>
         </div>
-
+              
         <div className="col-md-3 othernews">
           <p className="fw-bold fs-4 othernewstext">Digər xəbərlər</p>
           <div className="col newscard">
@@ -75,6 +79,7 @@ function Dim1() {
                   Bölgələr üzrə ümumi orta təhsil bazasında ( 9-cu sinif )
                   buraxılış imtahanlarının I mərhələsinin keçirilmə qrafiki.
                 </p>
+                <div className="text-center text-muted">Fevral 26, 2018</div>
               </div>
             </div>
           </div>
@@ -94,6 +99,7 @@ function Dim1() {
                   Abituriyentlərin ixtisas qruplarını seçim imkanları
                   genişləndirildi.
                 </p>
+                <div className="text-center text-muted">Fevral 19, 2018</div>
               </div>
             </div>
           </div>

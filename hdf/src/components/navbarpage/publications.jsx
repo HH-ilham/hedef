@@ -3,14 +3,16 @@ import Navbar from "../Navbar";
 import TopBar from "../TopBar";
 import CFooter from "../cFooter";
 import "../../CSS/website/navbar.css";
+import { TabTitle } from "../TitleFunction";
 function Publications() {
+  TabTitle('Hədəf nəşrləri');
   return (
     <>
       <TopBar/>
       <Navbar/>
       <div className="container ">
         <h4 className="text-center fw-bold mt-5 mb-5">Hədəfə aparan yolun sirlərini bizimlə vərəqləyin!</h4>
-        <a href="https://hedefnesrleri.az/" target={'_blank'}> <img className="container publicationsimage" src="../../images/publications.jpg" alt=""/></a>
+        <a href="https://hedefnesrleri.az/" target='_blank'> <img className="container publicationsimage" src="../../images/publications.jpg" alt=""/></a>
         <div className="publicationstext">
           “Hədəf Nəşrləri” Məhdud Məsuliyyətli Cəmiyyəti 2009-cu ildə təsis
           edilmişdir. Azərbaycan Respublikasında ən məşhur mətbəə və

@@ -31,7 +31,7 @@ import {Link} from "react-router-dom";
                   <NavDropdown
                     title={
                       <span id="basic-nav-dropdown" className="Navlink">
-                        Hədəfi tanı 
+                        Hədəfi tanı
                       </span>
                     }
                   >

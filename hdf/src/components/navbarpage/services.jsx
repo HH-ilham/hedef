@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import Table from "react-bootstrap/Table";
 import "../../CSS/website/navbar.css";
 import Navbar from "../Navbar";
-
 import CFooter from "../cFooter";
 import Button from "react-bootstrap/Button";
 import Collapse from "react-bootstrap/Collapse";
-
+import { TabTitle } from "../TitleFunction";
 function Activity() {
+  TabTitle('Xidmətlərimiz');
   // const [state,setState]=useState(false);
   // const toggle =()=>{
   //   setState(!state);
@@ -19,7 +19,6 @@ function Activity() {
   const [open4, setOpen4] = useState(false);
   return (
     <>
-    
       <Navbar />
       <div className="comservices">
         <div className="container services">
@@ -218,18 +217,13 @@ function Activity() {
               </Collapse>
               <div className="allshowpage">
                 <Button
-                  onClick={() => 
-                    
-                    setOpen(!open)
-
-                  }
+                  onClick={() => setOpen(!open)}
                   aria-controls="example-collapse-text"
                   aria-expanded={open}
                   className="text-center "
-                  
                 >
-                 {/* {state ? 'Daha az':'Daha çox'} */}
-                 Daha çox
+                  {/* {state ? 'Daha az':'Daha çox'} */}
+                  Daha çox
                 </Button>
               </div>
             </div>
@@ -513,56 +507,54 @@ function Activity() {
                     />
                   </div>
                   <h5 className="fw-bold mt-3">MÜKAFATLARIMIZ</h5>
-              Aylıq sınaq imtahanında ilk 3 yeri tutan tələbələrə növbəti ay
-              üçün aşağıda göstərilən güzəştlər nəzərdə tutulmuşdur:
-              <li>I yer – 100%</li>
-              <li>II yer – 75%</li>
-              <li>III yer – 50%</li>
-              *Qəbul imtahanında 90+ bal yığan tələbəyə il ərzində ödədiyi
-              ödəniş geri qaytarılır.
-              <ul>
-                *Qəbul imtahanı mükafatı.
-                <li>Respublika birincisi – 5000 AZN</li>
-                <li>Respublika ikincisi – 3000 AZN</li>
-                <li>Respublika üçüncüsü –1000 AZN</li>
-              </ul>
-              <div className="masteryear">
-                <ul>
-                  <h5 className="fw-bold">Nəticələrimiz:</h5>
-                  <li>2009-2010-cu il – 88%</li>
-                  <li>2010-2011-ci il – 92%</li>
-                  <li>2011-2012-ci il – 99%</li>
-                  <li>2013-2014-cü il – 97%</li>
-                  <li>2014-2015-ci il – 98%</li>
-                  <li>2015-2016-cı il – 93%</li>
-                  <li>2016-2017-ci il – 95%</li>
-                  <li>2017-2018-ci il – 97%</li>
-                  <li>2018-2019-ci il –96 %</li>
-                  <li>2019- 2020-ci il – 94 %</li>
-                  <li>2020- 2021-ci il – 97 %</li>
-                  <li>2021- 2022-ci il – 99 %</li>
-                </ul>
-                <img
-                  className="masterimage1"
-                  src=".././images/magistr1.jpg"
-                  alt=""
-                />
-              </div>
+                  Aylıq sınaq imtahanında ilk 3 yeri tutan tələbələrə növbəti ay
+                  üçün aşağıda göstərilən güzəştlər nəzərdə tutulmuşdur:
+                  <li>I yer – 100%</li>
+                  <li>II yer – 75%</li>
+                  <li>III yer – 50%</li>
+                  *Qəbul imtahanında 90+ bal yığan tələbəyə il ərzində ödədiyi
+                  ödəniş geri qaytarılır.
+                  <ul>
+                    *Qəbul imtahanı mükafatı.
+                    <li>Respublika birincisi – 5000 AZN</li>
+                    <li>Respublika ikincisi – 3000 AZN</li>
+                    <li>Respublika üçüncüsü –1000 AZN</li>
+                  </ul>
+                  <div className="masteryear">
+                    <ul>
+                      <h5 className="fw-bold">Nəticələrimiz:</h5>
+                      <li>2009-2010-cu il – 88%</li>
+                      <li>2010-2011-ci il – 92%</li>
+                      <li>2011-2012-ci il – 99%</li>
+                      <li>2013-2014-cü il – 97%</li>
+                      <li>2014-2015-ci il – 98%</li>
+                      <li>2015-2016-cı il – 93%</li>
+                      <li>2016-2017-ci il – 95%</li>
+                      <li>2017-2018-ci il – 97%</li>
+                      <li>2018-2019-ci il –96 %</li>
+                      <li>2019- 2020-ci il – 94 %</li>
+                      <li>2020- 2021-ci il – 97 %</li>
+                      <li>2021- 2022-ci il – 99 %</li>
+                    </ul>
+                    <img
+                      className="masterimage1"
+                      src=".././images/magistr1.jpg"
+                      alt=""
+                    />
+                  </div>
                 </div>
               </Collapse>
               <Collapse in={open2}>
-                <div id="example-collapse-text">
-                  
-                </div>
+                <div id="example-collapse-text"></div>
               </Collapse>
               <div className="allshowpage">
-              <Button
-                onClick={() => setOpen2(!open2)}
-                aria-controls="example-collapse-text"
-                aria-expanded={open2}
-              >
-                Daha çox
-              </Button>
+                <Button
+                  onClick={() => setOpen2(!open2)}
+                  aria-controls="example-collapse-text"
+                  aria-expanded={open2}
+                >
+                  Daha çox
+                </Button>
               </div>
             </div>
             <div
@@ -586,9 +578,8 @@ function Activity() {
               qazananlar isə müxtəlif dövlət orqanlarında işə təyin olunma
               imkanı əldə edirlər.
               <ul>
-              <li>
+                <li>
                   1. Dövlət Qulluğuna hazırlıq
-                  
                   <ul>
                     <li>Qanunvericilik</li>
                     <li>Məntiq</li>
@@ -596,104 +587,101 @@ function Activity() {
                     <li>Azərbaycan dili</li>
                   </ul>
                 </li>
-                </ul> 
+              </ul>
               <Collapse in={open3}>
                 <div id="example-collapse-text">
-                <ul>
-               
-                <li>
-                  2. Gömrük orqanlarına hazırlıq:
                   <ul>
-                    <li> Gömrüklə bağlı qanunvericilik aktları</li>
-                    <li>Məntiq</li>
-                    <li>İnformatika</li>
+                    <li>
+                      2. Gömrük orqanlarına hazırlıq:
+                      <ul>
+                        <li> Gömrüklə bağlı qanunvericilik aktları</li>
+                        <li>Məntiq</li>
+                        <li>İnformatika</li>
+                      </ul>
+                    </li>
+                    <li>
+                      3. Prokurorluq orqanlarına hazırlıq
+                      <ul>
+                        <li>Qanunvericilik</li>
+                        <li>Məntiq</li>
+                      </ul>
+                    </li>
+                    <p>
+                      {" "}
+                      P.S : Prokurorluq Orqanlarına hazırlıq 3 hissədən
+                      ibarətdir : 1. test, 2. kazus ( yazılı imtahan), 3.şifahi
+                      müsahibə
+                    </p>
+                    <li>
+                      4. Miqrasiya Orqanlarına hazırlıq
+                      <ul>
+                        <li>Miqrasiya ilə bağlı qanunvericilik aktları</li>
+                        <li>Məntiq</li>
+                        <li>İnformatika</li>
+                        <li>Ümumi Dünyagörüşü (Tarix və Coğrafiya) </li>
+                      </ul>
+                    </li>
+                    <li>
+                      5. Vergi Orqanlarına hazırlıq
+                      <ul>
+                        <li>Vergi ilə bağlı qanunvericilik aktları</li>
+                        <li>Məntiq</li>
+                        <li>İnformatika</li>
+                      </ul>
+                    </li>
+                    <li>
+                      6. Notariat və Ədliyyə orqanlarına hazırlıq:
+                      <ul>
+                        <li>Qanunvericilik</li>
+                        <li>Məntiq</li>
+                        <li>İnformatika</li>
+                      </ul>
+                    </li>
+                    <li>
+                      7. Daxili İşlərə hazırlıq:
+                      <ul>
+                        <li>Qanunvericilik</li>
+                        <li>Məntiq</li>
+                        <li>İnformatika</li>
+                        <li>Psixoloji test (Pedaqogika və psixologiya)</li>
+                      </ul>
+                    </li>
+                    <li>
+                      8. Hakimlik orqanlarına hazırlıq:
+                      <ul>
+                        <li>Qanunvericilik</li>
+                        <li>Məntiq</li>
+                      </ul>
+                    </li>
                   </ul>
-                </li>
-                <li>
-                  
-
-
-                  3. Prokurorluq orqanlarına hazırlıq
-                  <ul>
-                    <li>Qanunvericilik</li>
-                    <li>Məntiq</li>
-                  </ul>
-                </li>
-                <p>
-                  {" "}
-                  P.S : Prokurorluq Orqanlarına hazırlıq 3 hissədən ibarətdir :
-                  1. test, 2. kazus ( yazılı imtahan), 3.şifahi müsahibə
-                </p>
-                <li>
-                  4. Miqrasiya Orqanlarına hazırlıq
-                  <ul>
-                    <li>Miqrasiya ilə bağlı qanunvericilik aktları</li>
-                    <li>Məntiq</li>
-                    <li>İnformatika</li>
-                    <li>Ümumi Dünyagörüşü (Tarix və Coğrafiya) </li>
-                  </ul>
-                </li>
-                <li>
-                  5. Vergi Orqanlarına hazırlıq
-                  <ul>
-                    <li>Vergi ilə bağlı qanunvericilik aktları</li>
-                    <li>Məntiq</li>
-                    <li>İnformatika</li>
-                  </ul>
-                </li>
-                <li>
-                  6. Notariat və Ədliyyə orqanlarına hazırlıq:
-                  <ul>
-                    <li>Qanunvericilik</li>
-                    <li>Məntiq</li>
-                    <li>İnformatika</li>
-                  </ul>
-                </li>
-                <li>
-                  7. Daxili İşlərə hazırlıq:
-                  <ul>
-                    <li>Qanunvericilik</li>
-                    <li>Məntiq</li>
-                    <li>İnformatika</li>
-                    <li>Psixoloji test (Pedaqogika və psixologiya)</li>
-                  </ul>
-                </li>
-                <li>
-                  8. Hakimlik orqanlarına hazırlıq:
-                  <ul>
-                    <li>Qanunvericilik</li>
-                    <li>Məntiq</li>
-                  </ul>
-                </li>
-              </ul>
-              <h5 className="text-center fw-bold"> MÜSAHİBƏ MƏRHƏLƏSİ</h5>
-              <li> Ümumi dünyagörüşü</li>
-              <li> Qanunvericilik</li>
-              <li> Vəzifə və orqanın proqramı</li>
-              <li>
-                {" "}
-                Etik davranışlar,bədən dili, informatika bilgiləri və dil
-                bilgiləri ( tələb olunduğu halda)
-              </li>
-              <h5 className="text-center fw-bold">
-                {" "}
-                Bundan başqa Hədəf Kurslarında Dövlət Banklarına hazırlıqda
-                mövcuddur.
-              </h5>
-              <li>
-                Mərkəzi Banka hazırlıq -həm test həm müsahibə mərhələsinin
-                hazırlığı
-              </li>
-              <li>Qanunvericilik</li>
-              <li>Məntiq</li>
-              <li>İnformatika</li>
-              <h5 className="text-center fw-bold">
-                {" "}
-                Qeyd: Bütün göstərilən hazırlıq istiqamətləri üzrə qəbul faizi
-                97 % -dir.
-                <br />
-                Əlaqə üçün : (+994)77 555 01 08\18 ( Nizami filialı )
-              </h5>
+                  <h5 className="text-center fw-bold"> MÜSAHİBƏ MƏRHƏLƏSİ</h5>
+                  <li> Ümumi dünyagörüşü</li>
+                  <li> Qanunvericilik</li>
+                  <li> Vəzifə və orqanın proqramı</li>
+                  <li>
+                    {" "}
+                    Etik davranışlar,bədən dili, informatika bilgiləri və dil
+                    bilgiləri ( tələb olunduğu halda)
+                  </li>
+                  <h5 className="text-center fw-bold">
+                    {" "}
+                    Bundan başqa Hədəf Kurslarında Dövlət Banklarına hazırlıqda
+                    mövcuddur.
+                  </h5>
+                  <li>
+                    Mərkəzi Banka hazırlıq -həm test həm müsahibə mərhələsinin
+                    hazırlığı
+                  </li>
+                  <li>Qanunvericilik</li>
+                  <li>Məntiq</li>
+                  <li>İnformatika</li>
+                  <h5 className="text-center fw-bold">
+                    {" "}
+                    Qeyd: Bütün göstərilən hazırlıq istiqamətləri üzrə qəbul
+                    faizi 97 % -dir.
+                    <br />
+                    Əlaqə üçün : (+994)77 555 01 08\18 ( Nizami filialı )
+                  </h5>
                 </div>
               </Collapse>
               <div className="allshowpage">
@@ -705,9 +693,7 @@ function Activity() {
                 >
                   Daha çox
                 </Button>
-                
               </div>
-             
             </div>
             {/*Məktəbəqədər hazırlıq  */}
             <div
@@ -732,73 +718,74 @@ function Activity() {
               <h3 className="text-center">Dərslərdə nələr öyrədilir?</h3>
               <Collapse in={open4}>
                 <div id="example-collapse-text">
-                <li>
-                Savad təlimi məşğələsində əlifba vasitəsilə sözlər qurula bilir
-              </li>
-              <li>
-                Riyaziyyat və məntiq məşğələsində sadə riyazi əməllər və
-                konstruktiv bacarıqlar nümayiş etdirilir, məkan və zamanla bağlı
-                ilkin riyazi əməliyyatlar yerinə yetirilir
-              </li>
-              <li>
-                Ətraf aləm məşğələsində canlı və cansız aləmdəki obyektlərlə
-                düzgün davranış bacarığı formalaşdırılır, ətraf mühitdə baş
-                verən hadisələr, ailə və vətən haqqında sadə məlumatlar
-                öyrədilir
-              </li>
-              <li>
-                Xarici dil dərsləri 3 günlük dərs proqramında yalnız ingilis
-                dili, 5 günlük dərs proqramında isə ingilis və rus dilləri
-                olaraq öyrədilir. Dərslər musiqili və əyləncəli formada
-                keçirilir
-              </li>
-              <li>
-                Uşaqların estetik inkişafı nəzərə alınaraq rəsm, rəqs, və
-                yaradıcı iş məşğələləri keçirilir.
-              </li>
-              Burada uşaqların intellektual, psixi hazırlığını təmin etmək
-              məqsədi ilə Hədəf Kurslarında məktəbəqədər hazırlıq 2 proqram
-              əsasında aparılır:
-              <h3 className="text-center">3 Günlük Dərs Proqramı</h3>
-              <ul>Həftəlik 6 saat dərslərin keçirilməsi</ul>
-              <ul>Dərs vəsaitlərinin pulsuz verilməsi</ul>
-              <ul>
-                Keçirilən fənlər:
-                <li>Savad təlimi və nitqin inkişafı</li>
-                <li>Riyaziyyat</li>
-                <li>Məntiq</li>
-                <li>İngilis dili</li>
-                <li>Ətraf aləm</li>
-                <li>Yaradıcı iş</li>
-              </ul>
-              <h3 className="text-center">5 Günlük Dərs Proqramı</h3>
-              <ul>Həftəlik 20 saat dərslərin keçirilməsi</ul>
-              <ul>Dərs vəsaitlərinin pulsuz verilməsi ( 4 kitab )</ul>
-              <ul>Çay fasiləsi</ul>
-              <ul>
-                Keçirilən fənlər
-                <li>Savad təlimi və nitqin inkişafı</li>
-                <li>Riyaziyyat</li>
-                <li>Məntiq</li>
-                <li>Ətraf aləm</li>
-                <li>İngilis dilid</li>
-                <li>Rus dili</li>
-                <li>Rəsm</li>
-                <li>Bədii qiraət</li>
-                <li>Davranış qaydaları</li>
-                <li>Oyun saatı</li>
-              </ul>
-              <h3 className="fw-bold">Qeyd:</h3>
-              <h5 className="fw-bold">
-                Hazırda 3 günlük dərs proqramı Nizami, Azadlıq, Yasamal,
-                Əhmədli, Xırdalan, Sumqayıt, Qara Qarayev filiallarında, həm 3,
-                həm də 5 günlük dərs proqramı isə Azadlıq, Yasamal və Xırdalan
-                filiallarımızda mövcüddür.
-              </h5>
+                  <li>
+                    Savad təlimi məşğələsində əlifba vasitəsilə sözlər qurula
+                    bilir
+                  </li>
+                  <li>
+                    Riyaziyyat və məntiq məşğələsində sadə riyazi əməllər və
+                    konstruktiv bacarıqlar nümayiş etdirilir, məkan və zamanla
+                    bağlı ilkin riyazi əməliyyatlar yerinə yetirilir
+                  </li>
+                  <li>
+                    Ətraf aləm məşğələsində canlı və cansız aləmdəki obyektlərlə
+                    düzgün davranış bacarığı formalaşdırılır, ətraf mühitdə baş
+                    verən hadisələr, ailə və vətən haqqında sadə məlumatlar
+                    öyrədilir
+                  </li>
+                  <li>
+                    Xarici dil dərsləri 3 günlük dərs proqramında yalnız ingilis
+                    dili, 5 günlük dərs proqramında isə ingilis və rus dilləri
+                    olaraq öyrədilir. Dərslər musiqili və əyləncəli formada
+                    keçirilir
+                  </li>
+                  <li>
+                    Uşaqların estetik inkişafı nəzərə alınaraq rəsm, rəqs, və
+                    yaradıcı iş məşğələləri keçirilir.
+                  </li>
+                  Burada uşaqların intellektual, psixi hazırlığını təmin etmək
+                  məqsədi ilə Hədəf Kurslarında məktəbəqədər hazırlıq 2 proqram
+                  əsasında aparılır:
+                  <h3 className="text-center">3 Günlük Dərs Proqramı</h3>
+                  <ul>Həftəlik 6 saat dərslərin keçirilməsi</ul>
+                  <ul>Dərs vəsaitlərinin pulsuz verilməsi</ul>
+                  <ul>
+                    Keçirilən fənlər:
+                    <li>Savad təlimi və nitqin inkişafı</li>
+                    <li>Riyaziyyat</li>
+                    <li>Məntiq</li>
+                    <li>İngilis dili</li>
+                    <li>Ətraf aləm</li>
+                    <li>Yaradıcı iş</li>
+                  </ul>
+                  <h3 className="text-center">5 Günlük Dərs Proqramı</h3>
+                  <ul>Həftəlik 20 saat dərslərin keçirilməsi</ul>
+                  <ul>Dərs vəsaitlərinin pulsuz verilməsi ( 4 kitab )</ul>
+                  <ul>Çay fasiləsi</ul>
+                  <ul>
+                    Keçirilən fənlər
+                    <li>Savad təlimi və nitqin inkişafı</li>
+                    <li>Riyaziyyat</li>
+                    <li>Məntiq</li>
+                    <li>Ətraf aləm</li>
+                    <li>İngilis dilid</li>
+                    <li>Rus dili</li>
+                    <li>Rəsm</li>
+                    <li>Bədii qiraət</li>
+                    <li>Davranış qaydaları</li>
+                    <li>Oyun saatı</li>
+                  </ul>
+                  <h3 className="fw-bold">Qeyd:</h3>
+                  <h5 className="fw-bold">
+                    Hazırda 3 günlük dərs proqramı Nizami, Azadlıq, Yasamal,
+                    Əhmədli, Xırdalan, Sumqayıt, Qara Qarayev filiallarında, həm
+                    3, həm də 5 günlük dərs proqramı isə Azadlıq, Yasamal və
+                    Xırdalan filiallarımızda mövcüddür.
+                  </h5>
                 </div>
               </Collapse>
               <div className="allshowpage">
-              <Button
+                <Button
                   onClick={() => setOpen4(!open4)}
                   aria-controls="example-collapse-text"
                   aria-expanded={open4}
@@ -806,7 +793,7 @@ function Activity() {
                 >
                   Daha çox
                 </Button>
-             </div>
+              </div>
             </div>
             {/* Yös hazırlığı */}
             <div

@@ -4,7 +4,11 @@ import TopBar from "../TopBar";
 import CFooter from "../cFooter";
 import "../../CSS/website/branchpage.css";
 import { Link } from "react-router-dom";
+import { TabTitle } from "../TitleFunction";
+
+
 function Mehdiabad() {
+  TabTitle('Mehdiabad filialı');
   return (
     <div>
       <TopBar />

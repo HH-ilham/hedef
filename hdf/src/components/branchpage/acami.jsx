@@ -5,7 +5,9 @@ import CFooter from "../cFooter";
 import "../../CSS/website/branchpage.css";
 import { Link } from "react-router-dom";
 import ClipLoader from "react-spinners/ClipLoader";
+import { TabTitle } from "../TitleFunction";
 function Acami() {
+  TabTitle('Əcəmi filialı');
   const [loading,setLoading]=useState(false)
   useEffect(()=>{
     setLoading(true)

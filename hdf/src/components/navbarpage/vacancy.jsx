@@ -1,12 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import Navbar from "../Navbar";
 import TopBar from "../TopBar";
 import CFooter from "../cFooter";
-import emailjs from "emailjs-com";
+import emailjs from '@emailjs/browser';
 import "../../CSS/website/vacancy.css";
 import swal from "sweetalert";
-
+import { TabTitle } from "../TitleFunction";
 function Vacancy() {
+  TabTitle('Vakansiya');
   function sendEmail(e) {
     e.preventDefault();
     emailjs
@@ -37,8 +38,9 @@ function Vacancy() {
     <div>
       <TopBar />
       <Navbar />
+      
       <div className="container mt-5 mb-3">
-        <form className="row g-3" onSubmit={sendEmail}>
+        <form className="row g-3" onSubmit={sendEmail} >
           <div className="row">
             <div className="fw-bolder border-bottom">
               <h3>Şəxsi Məlumatlar</h3>

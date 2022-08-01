@@ -4,7 +4,9 @@ import Navbar from "../../../Navbar";
 import TopBar from "../../../TopBar";
 import CFooter from "../../../cFooter";
 import { Link } from "react-router-dom";
+import { TabTitle } from "../../../TitleFunction";
 function Dim2() {
+  TabTitle('Bölgələr üzrə ümumi orta təhsil bazasında ( 9-cu sinif ) buraxılış imtahanlarının I mərhələsinin keçirilmə qrafiki ');
   return (
     <>
       <TopBar />
@@ -67,10 +69,12 @@ function Dim2() {
             şagirdlər “İmtahana buraxılış vərəqəsi”ni
             (https://eservices.dim.gov.az/sagirdbv/?frm=egov) çap edə bilərlər.
           </p>
+          
+          <div className="text-center text-muted">Fevral 26, 2018</div>
         </div>
 
         <div className="col-md-3 othernews">
-          <p className="fw-bold fs-4">Digər xəbərlər</p>
+          <p className="fw-bold fs-4 othernewstext">Digər xəbərlər</p>
           <div className="col newscard">
             <div className="col newscard">
               <div className="card">
@@ -88,6 +92,7 @@ function Dim2() {
                     Dövlət qulluğuna qəbul olmaq istəyən şəxslər üçün növbəti
                     sınaq imtahanı keçiriləcək.
                   </p>
+                  <div className="text-center text-muted">Sentyabr 9, 2019</div>
                 </div>
               </div>
             </div>
@@ -108,6 +113,7 @@ function Dim2() {
                   Abituriyentlərin ixtisas qruplarını seçim imkanları
                   genişləndirildi.
                 </p>
+                <div className="text-center text-muted">Fevral 19, 2018</div>
               </div>
             </div>
           </div>

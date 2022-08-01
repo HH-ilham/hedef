@@ -1,12 +1,11 @@
 import React from "react";
-
 import "../../CSS/website/gallery.css";
-
 import Navbar from "../Navbar";
 import TopBar from "../TopBar";
 import CFooter from "../cFooter";
-
+import { TabTitle } from "../TitleFunction";
 const Structure = () => {
+  TabTitle('Struktur');
   return (
     <>
       <TopBar />
@@ -14,10 +13,9 @@ const Structure = () => {
       <h4 className="text-center fw-bold">Həmtəsisçilər</h4>
       <div className="container mt-3 headerimage">
         <div className="ms-2 imagemobile">
-          <img className="imagemobiles"
+          <img
+            className="imagemobiles"
             src=".././images/img/semil.jpg"
-            
-           
             alt=""
           />
           <p>
@@ -26,10 +24,9 @@ const Structure = () => {
           </p>
         </div>
         <div className="ms-2 imagemobile">
-          <img className="imagemobiles"
+          <img
+            className="imagemobiles"
             src=".././images/img/semil.jpg"
-            
-           
             alt=""
           />
           <p>
@@ -41,10 +38,9 @@ const Structure = () => {
       <h4 className="text-center fw-bold">Həmtəsisçilər</h4>
       <div className="container mt-3 headerimage">
         <div className="ms-2 imagemobile">
-          <img className="imagemobiles"
+          <img
+            className="imagemobiles"
             src=".././images/img/semil.jpg"
-            
-           
             alt=""
           />
           <p>
@@ -53,10 +49,9 @@ const Structure = () => {
           </p>
         </div>
         <div className="ms-2 imagemobile">
-          <img className="imagemobiles"
+          <img
+            className="imagemobiles"
             src=".././images/img/semil.jpg"
-            
-           
             alt=""
           />
           <p>
@@ -65,25 +60,9 @@ const Structure = () => {
           </p>
         </div>
         <div className="ms-2 imagemobile">
-          <img className="imagemobiles"
+          <img
+            className="imagemobiles"
             src=".././images/img/semil.jpg"
-            
-           
-            alt=""
-          />
-          <p>
-            F.ü.f.d Şəmil Sadıqov <br />
-            <i>Hədəf Kursların həmtəsisçisi və baş direktoru.</i>
-          </p>
-        </div>
-      </div >
-      <h4 className="text-center fw-bold">Həmtəsisçilər</h4>
-      <div className="container mt-3 headerimage">
-        <div className="ms-2 imagemobile">
-          <img className="imagemobiles"
-            src=".././images/img/semil.jpg"
-            
-           
             alt=""
           />
           <p>
@@ -95,10 +74,23 @@ const Structure = () => {
       <h4 className="text-center fw-bold">Həmtəsisçilər</h4>
       <div className="container mt-3 headerimage">
         <div className="ms-2 imagemobile">
-          <img className="imagemobiless"
+          <img
+            className="imagemobiles"
             src=".././images/img/semil.jpg"
-           
-           
+            alt=""
+          />
+          <p>
+            F.ü.f.d Şəmil Sadıqov <br />
+            <i>Hədəf Kursların həmtəsisçisi və baş direktoru.</i>
+          </p>
+        </div>
+      </div>
+      <h4 className="text-center fw-bold">Həmtəsisçilər</h4>
+      <div className="container mt-3 headerimage">
+        <div className="ms-2 imagemobile">
+          <img
+            className="imagemobiless"
+            src=".././images/img/semil.jpg"
             alt=""
           />
           <p>
@@ -107,10 +99,9 @@ const Structure = () => {
           </p>
         </div>
         <div className="ms-2 imagemobile">
-          <img className="imagemobiless"
+          <img
+            className="imagemobiless"
             src=".././images/img/semil.jpg"
-           
-           
             alt=""
           />
           <p>
@@ -119,10 +110,9 @@ const Structure = () => {
           </p>
         </div>
         <div className="ms-2 imagemobile">
-          <img className="imagemobiless"
+          <img
+            className="imagemobiless"
             src=".././images/img/semil.jpg"
-           
-           
             alt=""
           />
           <p>
@@ -131,10 +121,9 @@ const Structure = () => {
           </p>
         </div>
         <div className="ms-2 imagemobile">
-          <img className="imagemobiless"
+          <img
+            className="imagemobiless"
             src=".././images/img/semil.jpg"
-           
-           
             alt=""
           />
           <p>
@@ -142,10 +131,6 @@ const Structure = () => {
             <i>Hədəf Kursların həmtəsisçisi və baş direktoru.</i>
           </p>
         </div>
-       
-       
-       
-        
       </div>
       <CFooter />
     </>

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Tab, Tabs, TabContent } from "react-bootstrap";
 import "../CSS/index.css";
 import {Link} from 'react-router-dom';
+import Card from 'react-bootstrap/Card';
 function News() {
   const [key, setKey] = useState("home");
 
@@ -39,6 +40,7 @@ function News() {
                             xatirəsi əbədiləşdirildi
                           </p>
                         </div>
+                        <Card.Footer className="text-muted">Fevral 10, 2022</Card.Footer>
                       </div>
                     </div>
                     <div className="col newscard">
@@ -57,6 +59,7 @@ function News() {
                             Rus bölməsi
                           </p>
                         </div>
+                        <Card.Footer className="text-muted">Fevral 4, 2022</Card.Footer>
                       </div>
                     </div>
                     <div className="col newscard">
@@ -75,6 +78,7 @@ function News() {
                             Azərbaycan bölməsi
                           </p>
                         </div>
+                        <Card.Footer className="text-muted">Fevral 4, 2022</Card.Footer>
                       </div>
                     </div>
                    
@@ -154,7 +158,9 @@ function News() {
                             Dövlət qulluğuna qəbul olmaq istəyən şəxslər üçün
                             növbəti sınaq imtahanı keçiriləcək.
                           </p>
+                         
                         </div>
+                        <Card.Footer className="text-muted">Fevral 19, 2018</Card.Footer>
                       </div>
                     </div>
                     <div className="col newscard">
@@ -173,7 +179,9 @@ function News() {
                             sinif ) buraxılış imtahanlarının I mərhələsinin
                             keçirilmə qrafiki.
                           </p>
+                         
                         </div>
+                        <Card.Footer className="text-muted">Fevral 19, 2018</Card.Footer>
                       </div>
                     </div>
                     <div className="col newscard">
@@ -192,7 +200,10 @@ function News() {
                             Abituriyentlərin ixtisas qruplarını seçim imkanları
                             genişləndirildi.
                           </p>
+                          
                         </div>
+                        <Card.Footer className="text-muted">Fevral 19, 2018</Card.Footer>
+                
                       </div>
                     </div>
                    
@@ -277,6 +288,7 @@ function News() {
                           Hədəf Kurslarında Magistratura üzrə Açıq Qapı günü keçirildi.
                           </p>
                         </div>
+                        <Card.Footer className="text-muted">Fevral 19, 2018</Card.Footer>
                       </div>
                     </div>
                     <div className="col newscard">
@@ -295,6 +307,7 @@ function News() {
                           Neftçilər filialının yeni binasının açılış mərasimi keçirildi
                           </p>
                         </div>
+                        <Card.Footer className="text-muted">Fevral 19, 2018</Card.Footer>
                       </div>
                     </div>
                     <div className="col newscard">
@@ -314,6 +327,7 @@ function News() {
                           Təcrübəçilər mükafatlandırıldı.
                           </p>
                         </div>
+                        <Card.Footer className="text-muted">Fevral 19, 2018</Card.Footer>
                       </div>
                     </div>
                     
@@ -383,47 +397,48 @@ function News() {
                   <div className="row row-cols-1 row-cols-md-2 g-4 comnewscard">
                     <div className="col newscard">
                       <div className="card">
-                        <a href="#">
-                          <img
+              
+                         <Link to="/projects1"> <img
                             src="./images/layiheler1.jpg"
                             className="card-img-top newsimage"
                             alt="..."
-                          />
-                        </a>
+                          /></Link>
                         <div className="card-body">
                           <h5 className="card-title">Layihələrimiz</h5>
                           <p className="card-text">
                           11-ci “Fənlərin Dostluğu Olimpiadası” keçirilmişdir
                           </p>
                         </div>
+                        <Card.Footer className="text-muted">Dekabr 6, 2021</Card.Footer>
                       </div>
                     </div>
                     <div className="col newscard">
                       <div className="card">
-                        <a href="#">
+                        <Link to="/projects2">
                           <img
                             src="./images/layiheler2.jpg"
                             className="card-img-top newsimage"
                             alt="..."
-                          />
-                        </a>
+                          /></Link>
+          
                         <div className="card-body">
                           <h5 className="card-title">Layihələrimiz</h5>
                           <p className="card-text">
                           11-ci “Fənlərin Dostluğu Olimpiadası” İmtahan Mərkəzləri.
                           </p>
                         </div>
+                        <Card.Footer className="text-muted">Dekabr 3, 2021</Card.Footer>
                       </div>
                     </div>
                     <div className="col newscard">
                       <div className="card">
-                        <a href="#">
+                      <Link to="/projects3">
                           <img
                             src="./images/6-7-8.jpg"
                             className="card-img-top newsimage"
                             alt="..."
-                          />
-                        </a>
+                          /></Link>
+                
                         <div className="card-body">
                           <h5 className="card-title">Card title</h5>
                           <p className="card-text">
@@ -431,6 +446,7 @@ function News() {
                             a natural lead-in to additional content.
                           </p>
                         </div>
+                        <Card.Footer className="text-muted">Fevral 19, 2018</Card.Footer>
                       </div>
                     </div>
                     
