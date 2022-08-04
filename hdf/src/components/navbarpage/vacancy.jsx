@@ -117,7 +117,7 @@ function Vacancy(props) {
                   type="text"
                   name="phone"
 
-                  mask='(999) 999-99-99' 
+                  mask='(999)-999-99-99' 
                   value={props.value} 
                   onChange={props.onChange}
                  placeholder="(012) 123 45 67"
@@ -155,7 +155,7 @@ function Vacancy(props) {
                 </label>
                 <InputMask 
                   type="text"
-                  name="phone"
+                  name="mobile"
 
                   mask='(999)999-99-99' 
                   value={props.value} 
@@ -311,8 +311,9 @@ function Vacancy(props) {
                 <small>*</small>
               </label>
               <input
-                type="date"
-                placeholder="dd-mm-yyyy"
+                type="year"
+                maxlength="4"
+                placeholder="yyyy"
                 min="1967-01-01"
                 max="2030-12-31"
                 name="acceptyear"
@@ -324,7 +325,7 @@ function Vacancy(props) {
           <div className="col-sm-5">
             <div className="form-group">
               Universitet (magistr)
-              <small>*</small>
+              
               <input
                 type="text"
                 name="universitymagistr"
@@ -335,7 +336,7 @@ function Vacancy(props) {
           <div className="col-sm-5">
             <div className="form-group">
               İxtisasınız
-              <small>*</small>
+             
               <input
                 type="text"
                 name="ixtisasmagistr"
@@ -347,10 +348,12 @@ function Vacancy(props) {
             <div className="form-group">
               <label for="form_email">
                 Qəbul ili
-                <small>*</small>
+                
               </label>
               <input
-                type="date"
+                type="year"
+                placeholder="yyyy"
+                maxlength="4"
                 name="acceptyearmagistr"
                 className="form-control"
               />
@@ -381,7 +384,7 @@ function Vacancy(props) {
             <div className="form-group">
               İş stajı
               <input
-                type="number"
+                type="text"
                 name="workexperience"
                 className="form-control"
               />

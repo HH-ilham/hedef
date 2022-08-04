@@ -60,12 +60,8 @@ function Mehdiabad() {
         </div>
       </div>
       <p className="container mt-4">
-        Əcəmi filialı Hədəf Kurslarının gənc filiallarından biridir. Öz
-        fəaliyyətinə 2017-ci ildən başlamışdır. Buna baxmayaraq öz fəaliyyət
-        dövründən başlayaraq təcrübəli müəllim heyəti ilə seçilmişdir. Artıq
-        illərdir ki, Hədəf Kurslarında çalışan müəllim heyəti qısa müddət
-        ərzində tələbələrin sevimlisi olmuşdur. 2019-cu ilin qəbul göstəricisi
-        94 % olmuşdur. Filialın müdiri Zaur Mustafayevdir.
+      Hədəf kursları Mehdiabad filialı 2021-ci ilin sentyabr ayında fəaliyyətə başlamışdır. Filialımızın yaranmasında əsas məqsəd Mehdiabad qəsəbəsi və ətraf kəndələrin şagirdlərinin uğurlu gələcəkləri üçün mükəmməl təhsil almalarına peşəkar müəllimlərimizlə öz töhvəmizi verməkdir. Filialımızda eyni zamanda məktəbəqədər dərslərin tədris və Hədəf Balabilgə uşaq baxçası fəaliyyət göstərir. Tədris üçün nəzərdə tutulmuş yeni binamız yüsək səviyyəli maddi-texniti təminatla təchiz olunub.
+Şagirdlərin təhsil prosesi ilə yanaşı sosial aktivliklərinin artırılması üçün mütəmadi tədbirlər və psixoloji xidmətlər göstərilməkdədir.
       </p>
       <p className="text-center fs-5 fw-bold">Hazırlıq istiqamətləri</p>
       <ul className="container text-center list-unstyled">

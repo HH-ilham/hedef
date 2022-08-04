@@ -673,22 +673,24 @@ function Navtab() {
                       src="./images/6-7-8.jpg"
                     />
                     <Card.Body>
-                      <Card.Title>Rus bölməsi</Card.Title>
+                      <Card.Title>Azərbaycan bölməsi</Card.Title>
                       <Card.Text>
-                        Buraxılış fənləri üzrə MQT 5 mövzuları – Rus
-                        bölməsi
-                        <div className="text-center text-muted">Fevral 4,2022</div>
+                        Buraxılış fənləri üzrə MQT 5 mövzuları
                       </Card.Text>
                     </Card.Body>
+                    <div className="text-center text-muted">Avqust 3,2022</div>
 
                     <Card.Footer>
                       <small className="text-muted">
-                       <Link to="/testsubject1"> <button
-                          type="button"
-                          class="CardInfoBtn btn btn-info w-50 "
-                        >
-                          Daha çox
-                        </button></Link>
+                        <Link to="/testsubject1">
+                          {" "}
+                          <button
+                            type="button"
+                            class="CardInfoBtn btn btn-info w-50 "
+                          >
+                            Daha çox
+                          </button>
+                        </Link>
                       </small>
                     </Card.Footer>
                   </Card>
@@ -699,21 +701,51 @@ function Navtab() {
                       src="./images/6-7-8.jpg"
                     />
                     <Card.Body>
-                      <Card.Title>Azərbaycan bölməsi</Card.Title>
+                      <Card.Title>Rus bölməsi</Card.Title>
                       <Card.Text>
-                        Buraxılış fənləri üzrə imtahan mövzuları MQT 5 
-                         – Azərbaycan bölməsi
-                        <div className="text-center text-muted">Fevral 4,2022</div>
+                        Buraxılış fənləri üzrə imtahan mövzuları MQT 5
                       </Card.Text>
                     </Card.Body>
+                    <div className="text-center text-muted">Avqust 3,2022</div>
                     <Card.Footer>
                       <small className="text-muted">
-                      <Link to="/testsubject2">  <button
-                          type="button"
-                          class="CardInfoBtn btn btn-info w-50 "
-                        >
-                          Daha çox
-                        </button></Link>
+                        <Link to="/testsubject2">
+                          {" "}
+                          <button
+                            type="button"
+                            class="CardInfoBtn btn btn-info w-50 "
+                          >
+                            Daha çox
+                          </button>
+                        </Link>
+                      </small>
+                    </Card.Footer>
+                  </Card>
+
+                  <Card className="CardImage">
+                    <Card.Img
+                      className="depimages"
+                      variant="top"
+                      src="./images/6-7-8.jpg"
+                    />
+                    <Card.Body>
+                      <Card.Title>Azərbaycan bölməsi</Card.Title>
+                      <Card.Text>
+                        Buraxılış fənləri üzrə MQT 4 mövzuları – Azərbaycan
+                        bölməsi
+                      </Card.Text>
+                    </Card.Body>
+                    <div className="text-center text-muted">Avqust 1,2022</div>
+                    <Card.Footer>
+                      <small className="text-muted">
+                        <Link to="/testsubject3">
+                          <button
+                            type="button"
+                            class="CardInfoBtn btn btn-info w-50 "
+                          >
+                            Daha çox
+                          </button>
+                        </Link>
                       </small>
                     </Card.Footer>
                   </Card>
@@ -724,21 +756,146 @@ function Navtab() {
                       src="./images/6-7-8.jpg"
                     />
                     <Card.Body>
+                      <Card.Title>Rus bölməsi</Card.Title>
+                      <Card.Text>
+                        Buraxılış fənləri üzrə MQT 5 mövzuları – Rus bölməsi
+                      </Card.Text>
+                    </Card.Body>
+                    <div className="text-center text-muted">İyul 30,2022</div>
+
+                    <Card.Footer>
+                      <small className="text-muted">
+                        <Link to="/testsubject4">
+                          {" "}
+                          <button
+                            type="button"
+                            class="CardInfoBtn btn btn-info w-50 "
+                          >
+                            Daha çox
+                          </button>
+                        </Link>
+                      </small>
+                    </Card.Footer>
+                  </Card>
+                </CardGroup>
+              </div>
+
+              {/* <div class="container departcard carousel-item">
+                <CardGroup>
+                  <Card className="CardImage">
+                    <Card.Img
+                      className="depimages"
+                      variant="top"
+                      src="./images/6-7-8.jpg"
+                    />
+                    <Card.Body>
                       <Card.Title>Azərbaycan bölməsi</Card.Title>
                       <Card.Text>
-                        Buraxılış fənləri üzrə MQT 4 mövzuları –
+                        Buraxılış fənləri üzrə imtahan mövzuları MQT 5 –
                         Azərbaycan bölməsi
-                        <div className="text-center text-muted">Fevral 4,2022</div>
                       </Card.Text>
                     </Card.Body>
+                        <div className="text-center text-muted">
+                          Fevral 4,2022
+                        </div>
                     <Card.Footer>
                       <small className="text-muted">
-                      <Link to="/testsubject3"><button
-                          type="button"
-                          class="CardInfoBtn btn btn-info w-50 "
-                        >
-                          Daha çox
-                        </button></Link>
+                        <Link to="/testsubject5">
+                          <button
+                            type="button"
+                            class="CardInfoBtn btn btn-info w-50 "
+                          >
+                            Daha çox
+                          </button>
+                        </Link>
+                      </small>
+                    </Card.Footer>
+                  </Card>
+                  <Card className="CardImage">
+                    <Card.Img
+                      className="depimages"
+                      variant="top"
+                      src="./images/6-7-8.jpg"
+                    />
+                    <Card.Body>
+                      <Card.Title>Azərbaycan bölməsi</Card.Title>
+                      <Card.Text>
+                        Buraxılış fənləri üzrə MQT 4 mövzuları – Azərbaycan
+                        bölməsi
+                      </Card.Text>
+                    </Card.Body>
+                        <div className="text-center text-muted">
+                          Fevral 4,2022
+                        </div>
+                    <Card.Footer>
+                      <small className="text-muted">
+                        <Link to="/testsubject6">
+                          <button
+                            type="button"
+                            class="CardInfoBtn btn btn-info w-50 "
+                          >
+                            Daha çox
+                          </button>
+                        </Link>
+                      </small>
+                    </Card.Footer>
+                  </Card>
+                  <Card className="CardImage">
+                    <Card.Img
+                      className="depimages"
+                      variant="top"
+                      src="./images/6-7-8.jpg"
+                    />
+                    <Card.Body>
+                      <Card.Title>Rus bölməsi</Card.Title>
+                      <Card.Text>
+                        Buraxılış fənləri üzrə MQT 5 mövzuları – Rus bölməsi
+                      </Card.Text>
+                    </Card.Body>
+                        <div className="text-center text-muted">
+                          Fevral 4,2022
+                        </div>
+
+                    <Card.Footer>
+                      <small className="text-muted">
+                        <Link to="/testsubject7">
+                          <button
+                            type="button"
+                            class="CardInfoBtn btn btn-info w-50 "
+                          >
+                            Daha çox
+                          </button>
+                        </Link>
+                      </small>
+                    </Card.Footer>
+                  </Card>
+                  <Card className="CardImage">
+                    <Card.Img
+                      className="depimages"
+                      variant="top"
+                      src="./images/6-7-8.jpg"
+                    />
+                    <Card.Body>
+                      <Card.Title>Azərbaycan bölməsi</Card.Title>
+                      <Card.Text>
+                        Buraxılış fənləri üzrə imtahan mövzuları MQT 5 –
+                        Azərbaycan bölməsi
+                      </Card.Text>
+                    </Card.Body>
+                        <div className="text-center text-muted">
+                          Fevral 4,2022
+                        </div>
+                    <Card.Footer>
+                      <small className="text-muted">
+                        <Link to="/testsubject8">
+                          {" "}
+                          <button
+                            type="button"
+                            class="CardInfoBtn btn btn-info w-50 "
+                          >
+                            Daha çox
+                          </button>
+                        </Link>
                       </small>
                     </Card.Footer>
                   </Card>
@@ -746,7 +903,37 @@ function Navtab() {
               </div>
 
               <div class="container departcard carousel-item">
-              <CardGroup>
+                <CardGroup>
+                  <Card className="CardImage">
+                    <Card.Img
+                      className="depimages"
+                      variant="top"
+                      src="./images/6-7-8.jpg"
+                    />
+                    <Card.Body>
+                      <Card.Title>Azərbaycan bölməsi</Card.Title>
+                      <Card.Text>
+                        Buraxılış fənləri üzrə MQT 4 mövzuları – Azərbaycan
+                        bölməsi
+                      </Card.Text>
+                    </Card.Body>
+                        <div className="text-center text-muted">
+                          Fevral 4,2022
+                        </div>
+                    <Card.Footer>
+                      <small className="text-muted">
+                        <Link to="/testsubject9">
+                          <button
+                            type="button"
+                            class="CardInfoBtn btn btn-info w-50 "
+                          >
+                            Daha çox
+                          </button>
+                        </Link>
+                      </small>
+                    </Card.Footer>
+                  </Card>
+
                   <Card className="CardImage">
                     <Card.Img
                       className="depimages"
@@ -756,20 +943,24 @@ function Navtab() {
                     <Card.Body>
                       <Card.Title>Rus bölməsi</Card.Title>
                       <Card.Text>
-                        Buraxılış fənləri üzrə MQT 5 mövzuları – Rus
-                        bölməsi
-                        <div className="text-center text-muted">Fevral 4,2022</div>
+                        Buraxılış fənləri üzrə MQT 5 mövzuları – Rus bölməsi
                       </Card.Text>
                     </Card.Body>
+                        <div className="text-center text-muted">
+                          Fevral 4,2022
+                        </div>
 
                     <Card.Footer>
                       <small className="text-muted">
-                      <Link to="/testsubject4"> <button
-                          type="button"
-                          class="CardInfoBtn btn btn-info w-50 "
-                        >
-                          Daha çox
-                        </button></Link>
+                        <Link to="/testsubject10">
+                          {" "}
+                          <button
+                            type="button"
+                            class="CardInfoBtn btn btn-info w-50 "
+                          >
+                            Daha çox
+                          </button>
+                        </Link>
                       </small>
                     </Card.Footer>
                   </Card>
@@ -782,44 +973,55 @@ function Navtab() {
                     <Card.Body>
                       <Card.Title>Azərbaycan bölməsi</Card.Title>
                       <Card.Text>
-                        Buraxılış fənləri üzrə imtahan mövzuları MQT 5 
-                         – Azərbaycan bölməsi
-                        <div className="text-center text-muted">Fevral 4,2022</div>
-                      </Card.Text>
-                    </Card.Body>
-                    <Card.Footer>
-                      <small className="text-muted">
-                      <Link to="/testsubject5"><button
-                          type="button"
-                          class="CardInfoBtn btn btn-info w-50 "
-                        >
-                          Daha çox
-                        </button></Link>
-                      </small>
-                    </Card.Footer>
-                  </Card>
-                  <Card className="CardImage">
-                    <Card.Img
-                      className="depimages"
-                      variant="top"
-                      src="./images/6-7-8.jpg"
-                    />
-                    <Card.Body>
-                      <Card.Title>Azərbaycan bölməsi</Card.Title>
-                      <Card.Text>
-                        Buraxılış fənləri üzrə MQT 4 mövzuları –
+                        Buraxılış fənləri üzrə imtahan mövzuları MQT 5 –
                         Azərbaycan bölməsi
-                        <div className="text-center text-muted">Fevral 4,2022</div>
                       </Card.Text>
                     </Card.Body>
+                        <div className="text-center text-muted">
+                          Fevral 4,2022
+                        </div>
                     <Card.Footer>
                       <small className="text-muted">
-                      <Link to="/testsubject6"><button
-                          type="button"
-                          class="CardInfoBtn btn btn-info w-50 "
-                        >
-                          Daha çox
-                        </button></Link>
+                        <Link to="/testsubject11">
+                          {" "}
+                          <button
+                            type="button"
+                            class="CardInfoBtn btn btn-info w-50 "
+                          >
+                            Daha çox
+                          </button>
+                        </Link>
+                      </small>
+                    </Card.Footer>
+                  </Card>
+                  <Card className="CardImage">
+                    <Card.Img
+                      className="depimages"
+                      variant="top"
+                      src="./images/6-7-8.jpg"
+                    />
+                    <Card.Body>
+                      <Card.Title>Azərbaycan bölməsi</Card.Title>
+                      <Card.Text>
+                        Buraxılış fənləri üzrə MQT 4 mövzuları – Azərbaycan
+                        bölməsi
+                        
+                      </Card.Text>
+                    </Card.Body>
+                    <div className="text-center text-muted">
+                          Fevral 4,2022
+                        </div>
+                    <Card.Footer>
+                      <small className="text-muted">
+                        <Link to="/testsubject12">
+                          {" "}
+                          <button
+                            type="button"
+                            class="CardInfoBtn btn btn-info w-50 "
+                          >
+                            Daha çox
+                          </button>
+                        </Link>
                       </small>
                     </Card.Footer>
                   </Card>
@@ -827,7 +1029,7 @@ function Navtab() {
               </div>
 
               <div class="container departcard carousel-item">
-              <CardGroup>
+                <CardGroup>
                   <Card className="CardImage">
                     <Card.Img
                       className="depimages"
@@ -837,20 +1039,24 @@ function Navtab() {
                     <Card.Body>
                       <Card.Title>Rus bölməsi</Card.Title>
                       <Card.Text>
-                        Buraxılış fənləri üzrə MQT 5 mövzuları – Rus
-                        bölməsi
-                        <div className="text-center text-muted">Fevral 4,2022</div>
+                        Buraxılış fənləri üzrə MQT 5 mövzuları – Rus bölməsi
+                        
                       </Card.Text>
                     </Card.Body>
-
+                    <div className="text-center text-muted">
+                          Fevral 4,2022
+                        </div>
                     <Card.Footer>
                       <small className="text-muted">
-                      <Link to="/testsubject7"><button
-                          type="button"
-                          class="CardInfoBtn btn btn-info w-50 "
-                        >
-                          Daha çox
-                        </button></Link>
+                        <Link to="/testsubject13">
+                          {" "}
+                          <button
+                            type="button"
+                            class="CardInfoBtn btn btn-info w-50 "
+                          >
+                            Daha çox
+                          </button>
+                        </Link>
                       </small>
                     </Card.Footer>
                   </Card>
@@ -863,211 +1069,93 @@ function Navtab() {
                     <Card.Body>
                       <Card.Title>Azərbaycan bölməsi</Card.Title>
                       <Card.Text>
-                        Buraxılış fənləri üzrə imtahan mövzuları MQT 5 
-                         – Azərbaycan bölməsi
-                        <div className="text-center text-muted">Fevral 4,2022</div>
-                      </Card.Text>
-                    </Card.Body>
-                    <Card.Footer>
-                      <small className="text-muted">
-                      <Link to="/testsubject8"> <button
-                          type="button"
-                          class="CardInfoBtn btn btn-info w-50 "
-                        >
-                          Daha çox
-                        </button></Link>
-                      </small>
-                    </Card.Footer>
-                  </Card>
-                  <Card className="CardImage">
-                    <Card.Img
-                      className="depimages"
-                      variant="top"
-                      src="./images/6-7-8.jpg"
-                    />
-                    <Card.Body>
-                      <Card.Title>Azərbaycan bölməsi</Card.Title>
-                      <Card.Text>
-                        Buraxılış fənləri üzrə MQT 4 mövzuları –
+                        Buraxılış fənləri üzrə imtahan mövzuları MQT 5 –
                         Azərbaycan bölməsi
-                        <div className="text-center text-muted">Fevral 4,2022</div>
+                        
                       </Card.Text>
                     </Card.Body>
+                    <div className="text-center text-muted">
+                          Fevral 4,2022
+                        </div>
                     <Card.Footer>
                       <small className="text-muted">
-                      <Link to="/testsubject9"><button
-                          type="button"
-                          class="CardInfoBtn btn btn-info w-50 "
-                        >
-                          Daha çox
-                        </button></Link>
+                        <Link to="/testsubject14">
+                          {" "}
+                          <button
+                            type="button"
+                            class="CardInfoBtn btn btn-info w-50 "
+                          >
+                            Daha çox
+                          </button>
+                        </Link>
+                      </small>
+                    </Card.Footer>
+                  </Card>
+                  <Card className="CardImage">
+                    <Card.Img
+                      className="depimages"
+                      variant="top"
+                      src="./images/6-7-8.jpg"
+                    />
+                    <Card.Body>
+                      <Card.Title>Azərbaycan bölməsi</Card.Title>
+                      <Card.Text>
+                        Buraxılış fənləri üzrə MQT 4 mövzuları – Azərbaycan
+                        bölməsi
+                       
+                      </Card.Text>
+                    </Card.Body>
+                    <div className="text-center text-muted">
+                          Fevral 4,2022
+                        </div>
+                    <Card.Footer>
+                      <small className="text-muted">
+                        <Link to="/testsubject16">
+                          {" "}
+                          <button
+                            type="button"
+                            class="CardInfoBtn btn btn-info w-50 "
+                          >
+                            Daha çox
+                          </button>
+                        </Link>
+                      </small>
+                    </Card.Footer>
+                  </Card>
+                  <Card className="CardImage">
+                    <Card.Img
+                      className="depimages"
+                      variant="top"
+                      src="./images/6-7-8.jpg"
+                    />
+                    <Card.Body>
+                      <Card.Title>Azərbaycan bölməsi</Card.Title>
+                      <Card.Text>
+                        Buraxılış fənləri üzrə MQT 4 mövzuları – Azərbaycan
+                        bölməsi
+                      </Card.Text>
+                    </Card.Body>
+                        <div className="text-center text-muted">
+                          Fevral 4,2022
+                        </div>
+                    <Card.Footer>
+                      <small className="text-muted">
+                        <Link to="/testsubject15">
+                          {" "}
+                          <button
+                            type="button"
+                            class="CardInfoBtn btn btn-info w-50 "
+                          >
+                            Daha çox
+                          </button>
+                        </Link>
                       </small>
                     </Card.Footer>
                   </Card>
                 </CardGroup>
-              </div>
-              <div class="container departcard carousel-item">
-              <CardGroup>
-                  <Card className="CardImage">
-                    <Card.Img
-                      className="depimages"
-                      variant="top"
-                      src="./images/6-7-8.jpg"
-                    />
-                    <Card.Body>
-                      <Card.Title>Rus bölməsi</Card.Title>
-                      <Card.Text>
-                        Buraxılış fənləri üzrə MQT 5 mövzuları – Rus
-                        bölməsi
-                        <div className="text-center text-muted">Fevral 4,2022</div>
-                      </Card.Text>
-                    </Card.Body>
-
-                    <Card.Footer>
-                      <small className="text-muted">
-                      <Link to="/testsubject10">  <button
-                          type="button"
-                          class="CardInfoBtn btn btn-info w-50 "
-                        >
-                          Daha çox
-                        </button></Link>
-                      </small>
-                    </Card.Footer>
-                  </Card>
-                  <Card className="CardImage">
-                    <Card.Img
-                      className="depimages"
-                      variant="top"
-                      src="./images/6-7-8.jpg"
-                    />
-                    <Card.Body>
-                      <Card.Title>Azərbaycan bölməsi</Card.Title>
-                      <Card.Text>
-                        Buraxılış fənləri üzrə imtahan mövzuları MQT 5 
-                         – Azərbaycan bölməsi
-                        <div className="text-center text-muted">Fevral 4,2022</div>
-                      </Card.Text>
-                    </Card.Body>
-                    <Card.Footer>
-                      <small className="text-muted">
-                      <Link to="/testsubject11"> <button
-                          type="button"
-                          class="CardInfoBtn btn btn-info w-50 "
-                        >
-                          Daha çox
-                        </button></Link>
-                      </small>
-                    </Card.Footer>
-                  </Card>
-                  <Card className="CardImage">
-                    <Card.Img
-                      className="depimages"
-                      variant="top"
-                      src="./images/6-7-8.jpg"
-                    />
-                    <Card.Body>
-                      <Card.Title>Azərbaycan bölməsi</Card.Title>
-                      <Card.Text>
-                        Buraxılış fənləri üzrə MQT 4 mövzuları –
-                        Azərbaycan bölməsi
-                        <div className="text-center text-muted">Fevral 4,2022</div>
-                      </Card.Text>
-                    </Card.Body>
-                    <Card.Footer>
-                      <small className="text-muted">
-                      <Link to="/testsubject12"> <button
-                    
-                          type="button"
-                          class="CardInfoBtn btn btn-info w-50 "
-                        >
-                          Daha çox
-                        </button></Link>
-                      </small>
-                    </Card.Footer>
-                  </Card>
-                </CardGroup>
-              </div>
-              <div class="container departcard carousel-item">
-              <CardGroup>
-                  <Card className="CardImage">
-                    <Card.Img
-                      className="depimages"
-                      variant="top"
-                      src="./images/6-7-8.jpg"
-                    />
-                    <Card.Body>
-                      <Card.Title>Rus bölməsi</Card.Title>
-                      <Card.Text>
-                        Buraxılış fənləri üzrə MQT 5 mövzuları – Rus
-                        bölməsi
-                        <div className="text-center text-muted">Fevral 4,2022</div>
-                      </Card.Text>
-                    </Card.Body>
-
-                    <Card.Footer>
-                      <small className="text-muted">
-                      <Link to="/testsubject13"> <button
-                          type="button"
-                          class="CardInfoBtn btn btn-info w-50 "
-                        >
-                          Daha çox
-                        </button></Link>
-                      </small>
-                    </Card.Footer>
-                  </Card>
-                  <Card className="CardImage">
-                    <Card.Img
-                      className="depimages"
-                      variant="top"
-                      src="./images/6-7-8.jpg"
-                    />
-                    <Card.Body>
-                      <Card.Title>Azərbaycan bölməsi</Card.Title>
-                      <Card.Text>
-                        Buraxılış fənləri üzrə imtahan mövzuları MQT 5 
-                         – Azərbaycan bölməsi
-                        <div className="text-center text-muted">Fevral 4,2022</div>
-                      </Card.Text>
-                    </Card.Body>
-                    <Card.Footer>
-                      <small className="text-muted">
-                      <Link to="/testsubject14"> <button
-                          type="button"
-                          class="CardInfoBtn btn btn-info w-50 "
-                        >
-                          Daha çox
-                        </button></Link>
-                      </small>
-                    </Card.Footer>
-                  </Card>
-                  <Card className="CardImage">
-                    <Card.Img
-                      className="depimages"
-                      variant="top"
-                      src="./images/6-7-8.jpg"
-                    />
-                    <Card.Body>
-                      <Card.Title>Azərbaycan bölməsi</Card.Title>
-                      <Card.Text>
-                        Buraxılış fənləri üzrə MQT 4 mövzuları –
-                        Azərbaycan bölməsi
-                        <div className="text-center text-muted">Fevral 4,2022</div>
-                      </Card.Text>
-                    </Card.Body>
-                    <Card.Footer>
-                      <small className="text-muted">
-                      <Link to="/testsubject15"> <button
-                          type="button"
-                          class="CardInfoBtn btn btn-info w-50 "
-                        >
-                          Daha çox
-                        </button></Link>
-                      </small>
-                    </Card.Footer>
-                  </Card>
-                </CardGroup>
-              </div>
+              </div>*/}
             </div>
+
             <button
               class="nexticon carousel-control-prev"
               type="button"
@@ -1111,42 +1199,94 @@ function Navtab() {
             <div className="CommonSection">
               <div className="Buttongr">
                 <ButtonGroup vertical>
-                  <a href="http://hedef.edu.az/hedefupdv/2021/09/Azerbaycan-dili-9-cu-sinif.pdf" target='_blank'>
+                  <a
+                    href="http://hedef.edu.az/hedefupdv/2021/09/Azerbaycan-dili-9-cu-sinif.pdf"
+                    target="_blank"
+                  >
                     <Button className="btncolor" variant="info">
                       Azərbaycan dili
                     </Button>
                   </a>
-                  <a href="https://hedef.edu.az/hedefupdv/2019/09/%C6%8Fd%C9%99biyyat-9-cu-sinif.pdf" target='_blank'><Button className="btncolor" variant="info">
-                    Ədəbiyyat
-                  </Button></a>
-                 <a href="https://hedef.edu.az/hedefupdv/2019/09/Riyaziyyat-9-cu-sinif-I-II-III-qrup.pdf" target='_blank'> <Button className="btncolor" variant="info">
-                    Riyaziyyat
-                  </Button></a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2019/09/%C6%8Fd%C9%99biyyat-9-cu-sinif.pdf"
+                    target="_blank"
+                  >
+                    <Button className="btncolor" variant="info">
+                      Ədəbiyyat
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2019/09/Riyaziyyat-9-cu-sinif-I-II-III-qrup.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor" variant="info">
+                      Riyaziyyat
+                    </Button>
+                  </a>
                   <Button className="btncolor" variant="info">
-                    <a href="http://hedef.edu.az/hedefupdv/2021/09/Fizika-9-cu-sinif-I-qrup.pdf" target='_blank'> Fizika</a>
+                    <a
+                      href="http://hedef.edu.az/hedefupdv/2021/09/Fizika-9-cu-sinif-I-qrup.pdf"
+                      target="_blank"
+                    >
+                      {" "}
+                      Fizika
+                    </a>
                   </Button>
-                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Biologiya-9-cu-sinif.pdf" target="_blank"> <Button className="btncolor" variant="info">
-                    Biologiya
-                  </Button></a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Biologiya-9-cu-sinif.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor" variant="info">
+                      Biologiya
+                    </Button>
+                  </a>
                 </ButtonGroup>
               </div>
               <div className="Buttongr">
                 <ButtonGroup vertical>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Cografiya-9-cu-sinif.pdf" target="_blank"><Button className="btncolor" variant="info">
-                    Coğrafiyya
-                  </Button></a>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Tarix-9-cu-sinif-II-qrup.pdf" target="_blank"><Button className="btncolor" variant="info">
-                    Tarix
-                  </Button></a>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/%C4%B0ngilis-dili-9-cu-sinif.pdf" target="_blank"><Button className="btncolor" variant="info">
-                    İngilis dili
-                  </Button></a>
-                 <a href="http://hedef.edu.az/hedefupdv/2021/09/Rus-dili-9-cu-sinif-az-bolmesi.pdf" target="_blank"> <Button className="btncolor" variant="info">
-                    Rus dili
-                  </Button></a>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Kimya-9-cu-sinif.pdf" target="_blank"><Button className="btncolor" variant="info">
-                    Kimya
-                  </Button></a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Cografiya-9-cu-sinif.pdf"
+                    target="_blank"
+                  >
+                    <Button className="btncolor" variant="info">
+                      Coğrafiyya
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Tarix-9-cu-sinif-II-qrup.pdf"
+                    target="_blank"
+                  >
+                    <Button className="btncolor" variant="info">
+                      Tarix
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/%C4%B0ngilis-dili-9-cu-sinif.pdf"
+                    target="_blank"
+                  >
+                    <Button className="btncolor" variant="info">
+                      İngilis dili
+                    </Button>
+                  </a>
+                  <a
+                    href="http://hedef.edu.az/hedefupdv/2021/09/Rus-dili-9-cu-sinif-az-bolmesi.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor" variant="info">
+                      Rus dili
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Kimya-9-cu-sinif.pdf"
+                    target="_blank"
+                  >
+                    <Button className="btncolor" variant="info">
+                      Kimya
+                    </Button>
+                  </a>
                 </ButtonGroup>
               </div>
             </div>
@@ -1154,81 +1294,191 @@ function Navtab() {
             <div className="CommonSection">
               <div className="Buttongr">
                 <ButtonGroup vertical>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Azerbaycan-dili-10-cu-sinif.pdf" target="_blank"><Button className="btncolor" variant="danger">
-                    Azərbaycan dili
-                  </Button></a>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/%C6%8Fd%C9%99biyyat-10-cu-sinif.pdf" target="_blank"><Button className="btncolor" variant="danger">
-                    Ədəbiyyat
-                  </Button></a>
-                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Riyaziyyat-10-cu-sinif-I-qrup.pdf" target="_blank"> <Button className="btncolor" variant="danger">
-                    Riyaziyyat
-                  </Button></a>
-                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Fizika-10-cu-sinif-IV-qrup.pdf" target="_blank"> <Button className="btncolor" variant="danger">
-                    Fizika
-                  </Button></a>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Biologiya-10-cu-sinif.pdf" target="_blank"><Button className="btncolor" variant="danger">
-                    Biologiya
-                  </Button></a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Azerbaycan-dili-10-cu-sinif.pdf"
+                    target="_blank"
+                  >
+                    <Button className="btncolor" variant="danger">
+                      Azərbaycan dili
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/%C6%8Fd%C9%99biyyat-10-cu-sinif.pdf"
+                    target="_blank"
+                  >
+                    <Button className="btncolor" variant="danger">
+                      Ədəbiyyat
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Riyaziyyat-10-cu-sinif-I-qrup.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor" variant="danger">
+                      Riyaziyyat
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Fizika-10-cu-sinif-IV-qrup.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor" variant="danger">
+                      Fizika
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Biologiya-10-cu-sinif.pdf"
+                    target="_blank"
+                  >
+                    <Button className="btncolor" variant="danger">
+                      Biologiya
+                    </Button>
+                  </a>
                 </ButtonGroup>
               </div>
               <div className="Buttongr">
                 <ButtonGroup vertical>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Cografiya-10-cu-sinif.pdf" target="_blank"><Button className="btncolor" variant="danger">
-                    Coğrafiyya
-                  </Button></a>
-                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Tarix-10-cu-sinif-II-qrup.pdf" target="_blank"> <Button className="btncolor" variant="danger">
-                    Tarix
-                  </Button></a>
-                 <a href="https://hedef.edu.az/hedefupdv/2021/09/%C4%B0ngilis-dili-10-cu-sinif.pdf" target="_blank"> <Button className="btncolor" variant="danger">
-                    İngilis dili
-                  </Button></a>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Rus-dili-10-cu-sinif-az-bolmesi.pdf" target="_blank"><Button className="btncolor" variant="danger">
-                    Rus dili
-                  </Button></a>
-                 <a href="http://hedef.edu.az/hedefupdv/2021/09/Kimya-10-cu-sinif.pdf" target="_blank"> <Button className="btncolor" variant="danger">
-                    Kimya
-                  </Button></a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Cografiya-10-cu-sinif.pdf"
+                    target="_blank"
+                  >
+                    <Button className="btncolor" variant="danger">
+                      Coğrafiyya
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Tarix-10-cu-sinif-II-qrup.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor" variant="danger">
+                      Tarix
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/%C4%B0ngilis-dili-10-cu-sinif.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor" variant="danger">
+                      İngilis dili
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Rus-dili-10-cu-sinif-az-bolmesi.pdf"
+                    target="_blank"
+                  >
+                    <Button className="btncolor" variant="danger">
+                      Rus dili
+                    </Button>
+                  </a>
+                  <a
+                    href="http://hedef.edu.az/hedefupdv/2021/09/Kimya-10-cu-sinif.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor" variant="danger">
+                      Kimya
+                    </Button>
+                  </a>
                 </ButtonGroup>
               </div>
             </div>
             {/* 11 sinif Azərbaycan bölməsi */}
             <div className="CommonSection">
               <div className="Buttongr">
-              <ButtonGroup vertical>
-                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Azerbaycan-dili-11-ci-sinif.pdf"  target="_blank"> <Button className="btncolor" variant="success">
-                    Azərbaycan dili
-                  </Button></a>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/%C6%8Fd%C9%99biyyat-11-ci-sinif.pdf" target="_blank"><Button className="btncolor" variant="success">
-                    Ədəbiyyat
-                  </Button></a>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Riyaziyyat-11-cu-sinif-I-II-qrup.pdf" target="_blank"><Button className="btncolor" variant="success">
-                    Riyaziyyat
-                  </Button></a>
-                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Fizika-11-ci-sinif-I-IV-qrup.pdf" target="_blank"> <Button className="btncolor" variant="success">
-                    Fizika
-                  </Button></a>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Biologiya-11-ci-sinif.pdf" target="_blank"> <Button className="btncolor" variant="success">
-                    Biologiya
-                  </Button></a>
+                <ButtonGroup vertical>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Azerbaycan-dili-11-ci-sinif.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor" variant="success">
+                      Azərbaycan dili
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/%C6%8Fd%C9%99biyyat-11-ci-sinif.pdf"
+                    target="_blank"
+                  >
+                    <Button className="btncolor" variant="success">
+                      Ədəbiyyat
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Riyaziyyat-11-cu-sinif-I-II-qrup.pdf"
+                    target="_blank"
+                  >
+                    <Button className="btncolor" variant="success">
+                      Riyaziyyat
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Fizika-11-ci-sinif-I-IV-qrup.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor" variant="success">
+                      Fizika
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Biologiya-11-ci-sinif.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor" variant="success">
+                      Biologiya
+                    </Button>
+                  </a>
                 </ButtonGroup>
               </div>
               <div className="Buttongr">
                 <ButtonGroup vertical>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Cografiya-11-ci-sinif.pdf" target="_blank"><Button className="btncolor" variant="success">
-                    Coğrafiyya
-                  </Button></a>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Tarix-11-ci-sinif-II-qrup.pdf" target="_blank"><Button className="btncolor" variant="success">
-                    Tarix
-                  </Button></a>
-                 <a href="https://hedef.edu.az/hedefupdv/2021/09/%C4%B0ngilis-dili-11-ci-sinif-.pdf" target="_blank"> <Button className="btncolor" variant="success">
-                    İngilis dili
-                  </Button></a>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Rus-dili-11-ci-sinif-az-bolmesi.pdf" target="_blank"><Button className="btncolor" variant="success">
-                    Rus dili
-                  </Button></a>
-                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Kimya-11-ci-sinif-.pdf" target="_blank"> <Button className="btncolor" variant="success">
-                    Kimya
-                  </Button></a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Cografiya-11-ci-sinif.pdf"
+                    target="_blank"
+                  >
+                    <Button className="btncolor" variant="success">
+                      Coğrafiyya
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Tarix-11-ci-sinif-II-qrup.pdf"
+                    target="_blank"
+                  >
+                    <Button className="btncolor" variant="success">
+                      Tarix
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/%C4%B0ngilis-dili-11-ci-sinif-.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor" variant="success">
+                      İngilis dili
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Rus-dili-11-ci-sinif-az-bolmesi.pdf"
+                    target="_blank"
+                  >
+                    <Button className="btncolor" variant="success">
+                      Rus dili
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Kimya-11-ci-sinif-.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor" variant="success">
+                      Kimya
+                    </Button>
+                  </a>
                 </ButtonGroup>
               </div>
             </div>
@@ -1244,38 +1494,90 @@ function Navtab() {
             <div className="CommonRusSection">
               <div className="Buttongr">
                 <ButtonGroup vertical>
-                 <a href="https://hedef.edu.az/hedefupdv/2021/09/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%D1%8F%D0%B7%D1%8B%D0%BA-9-cu-sinif.pdf" target="_blank"> <Button className="btncolor_rus" variant="info">
-                    Русский-язык
-                  </Button></a>
-                 <a href="https://hedef.edu.az/hedefupdv/2021/09/%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0-9-cu-sinif.pdf" target="_blank"> <Button className="btncolor_rus" variant="info">
-                    Литература
-                  </Button></a>
-              <a href="https://hedef.edu.az/hedefupdv/2021/09/Riyaziyyat-9-cu-sinif-I-II-III-qrup-1.pdf" target="_blank">   <Button className="btncolor_rus" variant="info">
-                    Математика
-                  </Button></a> 
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Fizika-9-cu-sinif-I-qrup-1.pdf" target="_blank"><Button className="btncolor_rus" variant="info">
-                    Физика
-                  </Button></a>
-                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Biologiya-9-cu-sinif-1.pdf" target="_blank"> <Button className="btncolor_rus" variant="info">
-                    Биология
-                  </Button></a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%D1%8F%D0%B7%D1%8B%D0%BA-9-cu-sinif.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor_rus" variant="info">
+                      Русский-язык
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0-9-cu-sinif.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor_rus" variant="info">
+                      Литература
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Riyaziyyat-9-cu-sinif-I-II-III-qrup-1.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor_rus" variant="info">
+                      Математика
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Fizika-9-cu-sinif-I-qrup-1.pdf"
+                    target="_blank"
+                  >
+                    <Button className="btncolor_rus" variant="info">
+                      Физика
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Biologiya-9-cu-sinif-1.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor_rus" variant="info">
+                      Биология
+                    </Button>
+                  </a>
                 </ButtonGroup>
               </div>
               <div className="Buttongr">
                 <ButtonGroup vertical>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Cografiya-9-cu-sinif-1.pdf" target="_blank"><Button className="btncolor_rus" variant="info">
-                    География
-                  </Button></a>
-                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Tarix-9-cu-sinif-II-qrup-1.pdf" target="_blank"> <Button className="btncolor_rus" variant="info">
-                    История
-                  </Button></a>
-                 <a href="https://hedef.edu.az/hedefupdv/2021/09/%C4%B0ngilis-dili-9-cu-sinif-1.pdf" target="_blank"> <Button className="btncolor_rus" variant="info">
-                    Aнглийский-язык
-                  </Button></a>
-                 
-                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Kimya-9-cu-sinif-1.pdf" target="_blank"> <Button className="btncolor_rus" variant="info">
-                    Химия
-                  </Button></a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Cografiya-9-cu-sinif-1.pdf"
+                    target="_blank"
+                  >
+                    <Button className="btncolor_rus" variant="info">
+                      География
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Tarix-9-cu-sinif-II-qrup-1.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor_rus" variant="info">
+                      История
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/%C4%B0ngilis-dili-9-cu-sinif-1.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor_rus" variant="info">
+                      Aнглийский-язык
+                    </Button>
+                  </a>
+
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Kimya-9-cu-sinif-1.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor_rus" variant="info">
+                      Химия
+                    </Button>
+                  </a>
                 </ButtonGroup>
               </div>
             </div>
@@ -1283,39 +1585,87 @@ function Navtab() {
             <div className="CommonRusSection">
               <div className="Buttongr">
                 <ButtonGroup vertical>
-                 <a href="https://hedef.edu.az/hedefupdv/2021/09/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%D1%8F%D0%B7%D1%8B%D0%BA-10-cu-sinif.pdf" target="_blank"> <Button className="btncolor_rus" variant="danger">
-                    Русский-язык
-                  </Button></a>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0-10-cu-sinif.pdf" target="_blank"><Button className="btncolor_rus" variant="danger">
-                    Литература
-                  </Button></a>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Riyaziyyat-10-cu-sinif-IV-qrup-1.pdf" target="_blank"><Button className="btncolor_rus" variant="danger">
-                    Математика
-                  </Button></a>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Fizika-10-cu-sinif-I-qrup-1.pdf" target="_blank"><Button className="btncolor_rus" variant="danger">
-                    Физика
-                  </Button></a>
-                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Biologiya-10-cu-sinif-1.pdf" target="_blank"> <Button className="btncolor_rus" variant="danger">
-                    Биология
-                  </Button></a>  
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%D1%8F%D0%B7%D1%8B%D0%BA-10-cu-sinif.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor_rus" variant="danger">
+                      Русский-язык
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0-10-cu-sinif.pdf"
+                    target="_blank"
+                  >
+                    <Button className="btncolor_rus" variant="danger">
+                      Литература
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Riyaziyyat-10-cu-sinif-IV-qrup-1.pdf"
+                    target="_blank"
+                  >
+                    <Button className="btncolor_rus" variant="danger">
+                      Математика
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Fizika-10-cu-sinif-I-qrup-1.pdf"
+                    target="_blank"
+                  >
+                    <Button className="btncolor_rus" variant="danger">
+                      Физика
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Biologiya-10-cu-sinif-1.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor_rus" variant="danger">
+                      Биология
+                    </Button>
+                  </a>
                 </ButtonGroup>
               </div>
               <div className="Buttongr">
                 <ButtonGroup vertical>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Cografiya-10-cu-sinif-1.pdf" target="_blank"><Button className="btncolor_rus" variant="danger">
-                    География
-                  </Button></a>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Tarix-10-cu-sinif-II-qrup-1.pdf" target="_blank"><Button className="btncolor_rus" variant="danger">
-                    История
-                  </Button></a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Cografiya-10-cu-sinif-1.pdf"
+                    target="_blank"
+                  >
+                    <Button className="btncolor_rus" variant="danger">
+                      География
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Tarix-10-cu-sinif-II-qrup-1.pdf"
+                    target="_blank"
+                  >
+                    <Button className="btncolor_rus" variant="danger">
+                      История
+                    </Button>
+                  </a>
 
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/%C4%B0ngilis-dili-10-cu-sinif-1.pdf" target="_blank"><Button className="btncolor_rus" variant="danger">
-                    Aнглийский-язык
-                  </Button></a>
-                  
-                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Kimya-10-cu-sinif-1.pdf" target="_blank"> <Button className="btncolor_rus" variant="danger">
-                    Химия
-                  </Button></a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/%C4%B0ngilis-dili-10-cu-sinif-1.pdf"
+                    target="_blank"
+                  >
+                    <Button className="btncolor_rus" variant="danger">
+                      Aнглийский-язык
+                    </Button>
+                  </a>
+
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Kimya-10-cu-sinif-1.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor_rus" variant="danger">
+                      Химия
+                    </Button>
+                  </a>
                 </ButtonGroup>
               </div>
             </div>
@@ -1323,38 +1673,89 @@ function Navtab() {
             <div className="CommonRusSection">
               <div className="Buttongr">
                 <ButtonGroup vertical>
-                <a href="https://hedef.edu.az/hedefupdv/2021/09/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%D1%8F%D0%B7%D1%8B%D0%BA-11-ci-sinif.pdf"  target="_blank"> <Button className="btncolor_rus" variant="success">
-                    Русский-язык
-                  </Button></a>
-                 <a href="https://hedef.edu.az/hedefupdv/2021/09/%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0-11-ci-sinif.pdf" target="_blank"> <Button className="btncolor_rus" variant="success">
-                    Литература
-                  </Button></a>
-                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Riyaziyyat-11-cu-sinif-III-IV-qrup-1.pdf" target="_blank"> <Button className="btncolor_rus" variant="success">
-                    Математика
-                  </Button></a>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Fizika-11-ci-sinif-I-IV-qrup-1.pdf" target="_blank"><Button className="btncolor_rus" variant="success">
-                    Физика
-                  </Button></a>
-                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Biologiya-11-ci-sinif-1.pdf" target="_blank"> <Button className="btncolor_rus" variant="success">
-                    Биология
-                  </Button></a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%D1%8F%D0%B7%D1%8B%D0%BA-11-ci-sinif.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor_rus" variant="success">
+                      Русский-язык
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0-11-ci-sinif.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor_rus" variant="success">
+                      Литература
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Riyaziyyat-11-cu-sinif-III-IV-qrup-1.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor_rus" variant="success">
+                      Математика
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Fizika-11-ci-sinif-I-IV-qrup-1.pdf"
+                    target="_blank"
+                  >
+                    <Button className="btncolor_rus" variant="success">
+                      Физика
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Biologiya-11-ci-sinif-1.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor_rus" variant="success">
+                      Биология
+                    </Button>
+                  </a>
                 </ButtonGroup>
               </div>
               <div className="Buttongr">
                 <ButtonGroup vertical>
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Cografiya-11-ci-sinif-1.pdf" target='_blank'><Button className="btncolor_rus" variant="success">
-                    География
-                  </Button></a>
-                 <a href="https://hedef.edu.az/hedefupdv/2021/09/Tarix-11-ci-sinif-III-qrup.pdf" target='_blank'> <Button className="btncolor_rus" variant="success">
-                    История
-                  </Button></a>
-                 <a href="https://hedef.edu.az/hedefupdv/2021/09/%C4%B0ngilis-dili-11-ci-sinif-1-1.pdf" target="_blank"> <Button className="btncolor_rus" variant="success">
-                    Aнглийский-язык
-                  </Button></a>
-                 
-                  <a href="https://hedef.edu.az/hedefupdv/2021/09/Kimya-11-ci-sinif-1-1.pdf" target='_blank'><Button className="btncolor_rus" variant="success">
-                    Химия
-                  </Button></a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Cografiya-11-ci-sinif-1.pdf"
+                    target="_blank"
+                  >
+                    <Button className="btncolor_rus" variant="success">
+                      География
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Tarix-11-ci-sinif-III-qrup.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor_rus" variant="success">
+                      История
+                    </Button>
+                  </a>
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/%C4%B0ngilis-dili-11-ci-sinif-1-1.pdf"
+                    target="_blank"
+                  >
+                    {" "}
+                    <Button className="btncolor_rus" variant="success">
+                      Aнглийский-язык
+                    </Button>
+                  </a>
+
+                  <a
+                    href="https://hedef.edu.az/hedefupdv/2021/09/Kimya-11-ci-sinif-1-1.pdf"
+                    target="_blank"
+                  >
+                    <Button className="btncolor_rus" variant="success">
+                      Химия
+                    </Button>
+                  </a>
                 </ButtonGroup>
               </div>
             </div>
@@ -1368,66 +1769,157 @@ function Navtab() {
           <div className="MIQsection">
             <div className="Buttongr">
               <ButtonGroup vertical>
-               <a href="https://hedef.edu.az/hedefupdv/2019/05/az-dili.pdf" target="_blank"> <Button className="btncolor_teacher" variant="secondary">
-                  Azərbaycan dili
-                </Button></a>
-                
-               <a href="https://hedef.edu.az/hedefupdv/2019/05/co%C4%9Frafiya.pdf" target="_blank"> <Button className="btncolor_teacher" variant="secondary">
-                  Coğrafiyya
-                </Button></a>
-                <a href="https://hedef.edu.az/hedefupdv/2019/05/biologiya.pdf" target="_blank"> <Button className="btncolor_teacher" variant="secondary">
-                  Biologiya
-                </Button></a>
-                <a href="https://hedef.edu.az/hedefupdv/2019/05/%C9%99d%C9%99biyyat.pdf" target="_blank"><Button className="btncolor_teacher" variant="secondary">
-                  Ədəbiyyat (Azərbaycan bölməsi)
-                </Button></a>
-              <a href="https://hedef.edu.az/hedefupdv/2019/05/%C9%99d%C9%99biyyat-rus-b%C3%B6lm%C9%99si.pdf" target="_blank">  <Button className="btncolor_teacher" variant="secondary">
-                  Ədəbiyyat (Rus bölməsi)
-                </Button></a>
-               <a href="https://hedef.edu.az/hedefupdv/2019/05/fizika.pdf" target="_blank"> <Button className="btncolor_teacher" variant="secondary">
-                  Fizika
-                </Button></a>
+                <a
+                  href="https://hedef.edu.az/hedefupdv/2019/05/az-dili.pdf"
+                  target="_blank"
+                >
+                  {" "}
+                  <Button className="btncolor_teacher" variant="secondary">
+                    Azərbaycan dili
+                  </Button>
+                </a>
+
+                <a
+                  href="https://hedef.edu.az/hedefupdv/2019/05/co%C4%9Frafiya.pdf"
+                  target="_blank"
+                >
+                  {" "}
+                  <Button className="btncolor_teacher" variant="secondary">
+                    Coğrafiyya
+                  </Button>
+                </a>
+                <a
+                  href="https://hedef.edu.az/hedefupdv/2019/05/biologiya.pdf"
+                  target="_blank"
+                >
+                  {" "}
+                  <Button className="btncolor_teacher" variant="secondary">
+                    Biologiya
+                  </Button>
+                </a>
+                <a
+                  href="https://hedef.edu.az/hedefupdv/2019/05/%C9%99d%C9%99biyyat.pdf"
+                  target="_blank"
+                >
+                  <Button className="btncolor_teacher" variant="secondary">
+                    Ədəbiyyat (Azərbaycan bölməsi)
+                  </Button>
+                </a>
+                <a
+                  href="https://hedef.edu.az/hedefupdv/2019/05/%C9%99d%C9%99biyyat-rus-b%C3%B6lm%C9%99si.pdf"
+                  target="_blank"
+                >
+                  {" "}
+                  <Button className="btncolor_teacher" variant="secondary">
+                    Ədəbiyyat (Rus bölməsi)
+                  </Button>
+                </a>
+                <a
+                  href="https://hedef.edu.az/hedefupdv/2019/05/fizika.pdf"
+                  target="_blank"
+                >
+                  {" "}
+                  <Button className="btncolor_teacher" variant="secondary">
+                    Fizika
+                  </Button>
+                </a>
               </ButtonGroup>
             </div>
             <div className="Buttongr">
               <ButtonGroup vertical>
-                <a href="https://hedef.edu.az/hedefupdv/2019/05/ibtidai-sinif-az-dili.pdf" target="_blank"><Button className="btncolor_teacher" variant="secondary">
-                  İbtidai Qrup Azərbaycan dili
-                </Button></a>
-                <a href="#" target="_blank"><Button className="btncolor_teacher" variant="secondary">
-                  Tarix
-                </Button></a>
-               <a href="https://hedef.edu.az/hedefupdv/2019/05/ibtidai-sinif-az-dili.pdf" target="_blank"> <Button className="btncolor_teacher" variant="secondary">
-                  İbtidai Qrup Riyaziyyat
-                </Button></a>
-               <a href="https://hedef.edu.az/hedefupdv/2019/05/informatika.pdf" target="_blank"> <Button className="btncolor_teacher" variant="secondary">
-                  İnformatika
-                </Button></a>  
-                <a href="https://hedef.edu.az/hedefupdv/2019/05/kimya-1.pdf" target="_blank"><Button className="btncolor_teacher" variant="secondary">
-                  Kimya
-                </Button></a>
-                <a href="https://hedef.edu.az/hedefupdv/2020/02/ingilis-dili-miq.pdf" target="_blank"><Button className="btncolor_teacher" variant="secondary">
-                  İngilis dili
-                </Button></a>
+                <a
+                  href="https://hedef.edu.az/hedefupdv/2019/05/ibtidai-sinif-az-dili.pdf"
+                  target="_blank"
+                >
+                  <Button className="btncolor_teacher" variant="secondary">
+                    İbtidai Qrup Azərbaycan dili
+                  </Button>
+                </a>
+                <a href="#" target="_blank">
+                  <Button className="btncolor_teacher" variant="secondary">
+                    Tarix
+                  </Button>
+                </a>
+                <a
+                  href="https://hedef.edu.az/hedefupdv/2019/05/ibtidai-sinif-az-dili.pdf"
+                  target="_blank"
+                >
+                  {" "}
+                  <Button className="btncolor_teacher" variant="secondary">
+                    İbtidai Qrup Riyaziyyat
+                  </Button>
+                </a>
+                <a
+                  href="https://hedef.edu.az/hedefupdv/2019/05/informatika.pdf"
+                  target="_blank"
+                >
+                  {" "}
+                  <Button className="btncolor_teacher" variant="secondary">
+                    İnformatika
+                  </Button>
+                </a>
+                <a
+                  href="https://hedef.edu.az/hedefupdv/2019/05/kimya-1.pdf"
+                  target="_blank"
+                >
+                  <Button className="btncolor_teacher" variant="secondary">
+                    Kimya
+                  </Button>
+                </a>
+                <a
+                  href="https://hedef.edu.az/hedefupdv/2020/02/ingilis-dili-miq.pdf"
+                  target="_blank"
+                >
+                  <Button className="btncolor_teacher" variant="secondary">
+                    İngilis dili
+                  </Button>
+                </a>
               </ButtonGroup>
             </div>
             <div className="Buttongr">
               <ButtonGroup vertical>
-                <a href="https://hedef.edu.az/hedefupdv/2020/02/kurikulum-proqram.pdf" target="_blank"><Button className="btncolor_teacher" variant="secondary">
-                  Kurikulum
-                </Button></a>
-               <a href="https://hedef.edu.az/hedefupdv/2019/05/riyaziyyat.pdf" target="_blank"> <Button className="btncolor_teacher" variant="secondary">
-                  Riyaziyyat
-                </Button></a>
-                <a href="https://hedef.edu.az/hedefupdv/2019/05/m%C9%99ntiq.pdf" target="_blank"><Button className="btncolor_teacher" variant="secondary">
-                  Məntiq
-                </Button></a>
-               <a href="https://hedef.edu.az/hedefupdv/2019/05/rus-dili-rus-b%C3%B6lm%C9%99si-1.pdf" target="_blank"> <Button className="btncolor_teacher" variant="secondary">
-                  Rus dili(Rus bölməsi)
-                </Button></a>
-                <a href="https://hedef.edu.az/hedefupdv/2019/05/rus-dili-az-b%C3%B6lm%C9%99si-%C3%BC%C3%A7%C3%BCn.pdf" target="_blank"><Button className="btncolor_teacher" variant="secondary">
-                  Rus dili (Azərbaycan bölməsi)
-                </Button></a>
+                <a
+                  href="https://hedef.edu.az/hedefupdv/2020/02/kurikulum-proqram.pdf"
+                  target="_blank"
+                >
+                  <Button className="btncolor_teacher" variant="secondary">
+                    Kurikulum
+                  </Button>
+                </a>
+                <a
+                  href="https://hedef.edu.az/hedefupdv/2019/05/riyaziyyat.pdf"
+                  target="_blank"
+                >
+                  {" "}
+                  <Button className="btncolor_teacher" variant="secondary">
+                    Riyaziyyat
+                  </Button>
+                </a>
+                <a
+                  href="https://hedef.edu.az/hedefupdv/2019/05/m%C9%99ntiq.pdf"
+                  target="_blank"
+                >
+                  <Button className="btncolor_teacher" variant="secondary">
+                    Məntiq
+                  </Button>
+                </a>
+                <a
+                  href="https://hedef.edu.az/hedefupdv/2019/05/rus-dili-rus-b%C3%B6lm%C9%99si-1.pdf"
+                  target="_blank"
+                >
+                  {" "}
+                  <Button className="btncolor_teacher" variant="secondary">
+                    Rus dili(Rus bölməsi)
+                  </Button>
+                </a>
+                <a
+                  href="https://hedef.edu.az/hedefupdv/2019/05/rus-dili-az-b%C3%B6lm%C9%99si-%C3%BC%C3%A7%C3%BCn.pdf"
+                  target="_blank"
+                >
+                  <Button className="btncolor_teacher" variant="secondary">
+                    Rus dili (Azərbaycan bölməsi)
+                  </Button>
+                </a>
               </ButtonGroup>
             </div>
           </div>
