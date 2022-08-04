@@ -73,6 +73,10 @@ a {
     font-size: 1.2rem;
 }
 
+.navbarlink1:hover {
+    color: rgb(255, 171, 3) !important;
+}
+
 .logo-second {
     display: block;
     display: flex;
@@ -130,13 +134,11 @@ a {
     margin: 10px -5px 10px -5px !important;
     font-size: 1.2rem;
     font-weight: 520 !important;
-    border-radius: 50%;
+    border-radius: 0%;
     margin-left: 15px !important;
 }
 
-.navhover:hover {
-    border-bottom: 2px solid rgb(255, 255, 255);
-}
+.Navlink:hover {}
 
 @media screen and (max-width:1200px) {
     .Navlink {
@@ -151,12 +153,24 @@ a {
     }
 }
 
+.Navlink:hover {
+    color: rgb(255, 171, 3) !important;
+}
+
 .navbar2 {
     color: #000000 !important;
 }
 
 .bgcolor {
-    background-color: rgb(0, 213, 250) !important;
+    background-color: rgb(91, 230, 255) !important;
+}
+
+.dropdown-toggle::after {
+    margin-left: 0.450em !important;
+}
+
+.dropdown-toggle:hover {
+    color: rgb(255, 171, 3) !important;
 }
 
 

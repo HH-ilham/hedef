@@ -36,16 +36,16 @@ import {Link} from "react-router-dom";
                     }
                   >
                     <NavDropdown.Item >
-                    <Link className="navbarlink" to="/services">Xidmətlər</Link>
+                    <Link className="navbarlink" to="/services"><div>Xidmətlər</div></Link>
                     
                     </NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item>
-                     <Link className="navbarlink" to="/structure">Struktur</Link> 
+                     <Link className="navbarlink" to="/structure"><div>Struktur</div></Link> 
                     </NavDropdown.Item>
                     <NavDropdown.Divider />                   
                     <NavDropdown.Item href="#action/3.4">
-                    <Link className="navbarlink" to="/publications">Hədəf Nəşrləri</Link>                     
+                    <Link className="navbarlink" to="/publications"><div>Hədəf Nəşrləri</div></Link>                     
                     </NavDropdown.Item>                                                                     
                     
                     
@@ -79,7 +79,7 @@ import {Link} from "react-router-dom";
                     id="basic-nav-dropdown"
                   >
                     <NavDropdown.Item>
-                    <Link className="navbarlink" to="/aplicantuseful"> Abituriyentə faydalı</Link>
+                    <Link className="navbarlink" to="/aplicantuseful"> <div>Abituriyentə faydalı</div></Link>
                     </NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="#action/3.2">

@@ -8,7 +8,7 @@ import { TabTitle } from "../../TitleFunction";
 import Table from 'react-bootstrap/Table';
 
 const Testsubject2 = () => {
-    TabTitle('Azadlıq filialı');
+    TabTitle('Buraxılış fənləri üzrə MQT 5 mövzuları  Azərbaycan bölməsi');
   return (
     <div>
       <TopBar />

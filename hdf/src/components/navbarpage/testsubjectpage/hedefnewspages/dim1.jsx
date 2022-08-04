@@ -45,7 +45,8 @@ function Dim1() {
             kompüter vasitəsilə elektron formada verəcəklər. Qeyd olunan
             imtahanda iştirak etmək üçün onlayn qeydiyyat 13 sentyabr saat
             09:00-da başa çatacaq. Qeydiyyatdan keçmək üçün
-            http://eservices.dim.gov.az/dqq/Exam/TestExamRegCom keçidinə daxil
+            http://eservices.dim.gov.az
+            /dqq/Exam/TestExamRegCom keçidinə daxil
             olmaq lazımdır.
           </p>
           <p className="container">
