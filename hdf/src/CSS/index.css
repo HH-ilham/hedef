@@ -1,158 +1,185 @@
+.html {
+    height: 100% !important;
+}
+
+.PartnerImage {
+    padding: 5px !important;
+    padding-top: 20px;
+    border-radius: 50% !important;
+    transition: 0.5s;
+}
+
+.PartnerImage:hover {
+    padding: 5px !important;
+    padding-top: 20px;
+    border-radius: 20% !important;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 1272px) {
     .PartnerImage {
-        padding: 5px !important;
-        padding-top: 20px;
+        width: 160px !important;
     }
-    
-    @media screen and (max-width: 1272px) {
-        .PartnerImage {
-            width: 160px !important;
-        }
+}
+
+@media screen and (max-width: 990px) {
+    .CommonPartner {
+        display: none;
     }
-    
-    @media screen and (max-width: 990px) {
-        .CommonPartner {
-            display: none;
-        }
+}
+
+@media screen and (min-width: 990px) {
+    .CommonPartnermobile {
+        display: none;
     }
-    
-    @media screen and (min-width: 990px) {
-        .CommonPartnermobile {
-            display: none;
-        }
-    }
-    
-    .PartnerImageCard {
-        max-width: 100%;
-        margin-left: auto !important;
-        margin-right: auto !important;
-    }
-    
-    .PartnerCard {
-        background-image: radial-gradient(rgb(0, 195, 239), rgb(216, 216, 216), rgb(174, 174, 174));
-        height: 210px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .PartnerCardmobile {
-        background-image: radial-gradient(rgb(0, 195, 239), rgb(216, 216, 216), rgb(174, 174, 174));
-        height: 210px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .PartnerImagemobile {
-        padding: 0px;
-        margin: 0px;
-        width: 300px !important;
-    }
-    
-    .hdfcompain {
-        text-align: center;
-        font-size: 30px;
-        font-weight: bold;
-        background-image: radial-gradient(rgb(255, 255, 255), rgb(216, 216, 216), rgb(174, 174, 174));
-        border-radius: 50%;
-        margin-bottom: 0px;
-        margin-top: 20px;
-        box-shadow: 5px 10px 10px 10px;
-    }
-    /* News */
-    
-    .NewsHeader {
-        text-align: center;
-        font-size: 30px;
-        font-weight: bold;
-    }
-    
+}
+
+.PartnerImageCard {
+    max-width: 100%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.PartnerCard {
+    background-image: radial-gradient(rgb(0, 195, 239), rgb(216, 216, 216), rgb(174, 174, 174));
+    height: 210px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardds {
+    border-radius: 50% !important;
+    transition: 0.5s;
+}
+
+.cardds:hover {
+    border-radius: 20% !important;
+}
+
+.PartnerCardmobile {
+    background-image: radial-gradient(rgb(0, 195, 239), rgb(216, 216, 216), rgb(174, 174, 174));
+    height: 210px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PartnerImagemobile {
+    padding: 0px;
+    margin: 0px;
+    width: 300px !important;
+}
+
+.hdfcompain {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    background-image: radial-gradient(rgb(255, 255, 255), rgb(216, 216, 216), rgb(174, 174, 174));
+    border-radius: 50%;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    box-shadow: 5px 10px 10px 10px;
+}
+
+
+/* News */
+
+.NewsHeader {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.NewsTab {
+    font-size: 20px;
+    /* margin-left: 85px !important;*/
+    width: 218px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (max-width:1010px) {
     .NewsTab {
-        font-size: 20px;
-        /* margin-left: 85px !important;*/
-        width: 218px;
-        color: black;
-        font-weight: bold;
-        text-align: center;
+        width: 185px;
     }
-    
-    @media screen and (max-width:1010px) {
-        .NewsTab {
-            width: 185px;
-        }
+}
+
+@media screen and (max-width: 910px) {
+    .NewsTab {
+        width: 160px;
     }
-    
-    @media screen and (max-width: 910px) {
-        .NewsTab {
-            width: 160px;
-        }
+}
+
+@media screen and (max-width: 776px) {
+    .NewsTab {
+        width: 300px;
     }
-    
-    @media screen and (max-width: 776px) {
-        .NewsTab {
-            width: 300px;
-        }
-    }
-    
-    .CommonNews {
-        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSEZUQYPBOhAWV-rQ-u4cNWQ0RxJ9SHj-g9Q&usqp=CAU");
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin-bottom: 10px;
-    }
-    
-    .newsimage {
-        height: 200px !important;
-    }
-    
-    .newscard {
-        width: 310px !important;
-        display: flex;
-        margin-bottom: 15px;
-    }
-    
-    .newscard:hover {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-    
-    .comnewscard {
-        /* margin-left: 50px !important; */
-        justify-content: center !important;
-    }
-    /* Footer */
-    
-    .commonfooter {
-        background-color: rgb(222, 222, 222);
-    }
-    
+}
+
+.CommonNews {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSEZUQYPBOhAWV-rQ-u4cNWQ0RxJ9SHj-g9Q&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.newsimage {
+    height: 200px !important;
+}
+
+.newscard {
+    width: 310px !important;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.newscard:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.comnewscard {
+    /* margin-left: 50px !important; */
+    justify-content: center !important;
+}
+
+
+/* Footer */
+
+.commonfooter {
+    background-color: rgb(222, 222, 222);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: auto;
+}
+
+@media screen and (max-width: 990px) {
     .footer {
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    @media screen and (max-width: 990px) {
-        .footer {
-            display: block;
-            text-align: center;
-        }
-    }
-    
-    .footertext {
-        margin-top: 20px;
-        font-size: 15px;
-        font-weight: bold;
-    }
-    
-    .infohdf {
+        display: block;
         text-align: center;
-        margin-bottom: 0px;
-        color: rgb(145, 145, 145);
     }
-    
-    @media screen and (max-width: 990px) {
-        .infohdf {
-            font-size: 12px;
-        }
+}
+
+.footertext {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.infohdf {
+    text-align: center;
+    margin-bottom: 0px;
+    color: rgb(145, 145, 145);
+}
+
+@media screen and (max-width: 990px) {
+    .infohdf {
+        font-size: 12px;
     }
+}

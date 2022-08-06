@@ -4,17 +4,17 @@ import TopBar from "../TopBar";
 import CFooter from "../cFooter";
 import "../../CSS/website/branchpage.css";
 import { Link } from "react-router-dom";
-import ClipLoader from "react-spinners/ClipLoader";
+// import ClipLoader from "react-spinners/ClipLoader";
 import { TabTitle } from "../TitleFunction";
 function Acami() {
   TabTitle('Əcəmi filialı');
-  const [loading,setLoading]=useState(false)
-  useEffect(()=>{
-    setLoading(true)
-    setTimeout(()=>{
-      setLoading(false)
-    },400)
-  },[])
+  // const [loading,setLoading]=useState(false)
+  // useEffect(()=>{
+  //   setLoading(true)
+  //   setTimeout(()=>{
+  //     setLoading(false)
+  //   },400)
+  // },[])
   return (
     <div>
             
@@ -61,12 +61,12 @@ function Acami() {
             alt="image"
           />
         </div>
-         { 
+         {/* { 
                 loading ? (
                   <div className="spinners ">
                   <ClipLoader color={'#00FFCC'} loading={loading} size={60}/>
                   </div>
-                ) :
+                ) :  } */}
         <div>
           
              
@@ -76,7 +76,7 @@ function Acami() {
             width="400"
             height="300"
           ></iframe>
-        </div>}
+        </div>
       </div>
       <p className="container mt-4">
         Əcəmi filialı Hədəf Kurslarının gənc filiallarından biridir. Öz

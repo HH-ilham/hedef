@@ -1,20 +1,20 @@
-import React,{useState,useEffect} from "react";
+import React from "react";
 import Navbar from "../Navbar";
 import TopBar from "../TopBar";
 import CFooter from "../cFooter";
 import "../../CSS/website/branchpage.css";
 import { Link } from "react-router-dom";
-import ClipLoader from "react-spinners/ClipLoader";
+// import ClipLoader from "react-spinners/ClipLoader";
 import { TabTitle } from "../TitleFunction";
 function Ahmadli() {
 TabTitle('Əhmədli filialı');
-  const [loading, setLoading] = useState(false);
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 400);
-  }, []);
+  // const [loading, setLoading] = useState(false);
+  // useEffect(() => {
+  //   setLoading(true);
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 400);
+  // }, []);
   return (
     <div>
       <TopBar />
@@ -55,11 +55,11 @@ TabTitle('Əhmədli filialı');
             alt="image"
           />
         </div>  
-        {loading ? (
+        {/* {loading ? (
           <div className="spinners ">
           <ClipLoader color={'#00FFCC'} loading={loading} size={60}/>
           </div>
-        ) : (
+        ) : (  )} */}
           <div>
             <iframe
               className="branchmap"
@@ -68,7 +68,7 @@ TabTitle('Əhmədli filialı');
               height="300"
             ></iframe>
           </div>
-        )}
+       
       </div>
       <p className="container mt-4">
         Hədəf Kurslarının ən gənc filiallarından olan Əhmədli filialı 2016-cı

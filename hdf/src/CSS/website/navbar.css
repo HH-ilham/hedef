@@ -16,22 +16,22 @@
 }
 
 .hdfcarouselText {
-    background-color: rgb(231, 247, 126, 0.9);
+    background-color: rgba(134, 246, 240, 0.9);
     /* width: 650px; */
     height: 350px;
     font-size: 20px;
     border: 10px solid transparent;
     padding: 55px;
-    border: 20px solid;
-    border-image: url(https://w7.pngwing.com/pngs/915/345/png-transparent-multicolored-balloons-illustration-balloon-balloon-free-balloons-easter-egg-desktop-wallpaper-party-thumbnail.png) 120 stretch !important;
+    border: 10px solid rgb(0, 163, 192);
+    /* border-image: url(https://w7.pngwing.com/pngs/915/345/png-transparent-multicolored-balloons-illustration-balloon-balloon-free-balloons-easter-egg-desktop-wallpaper-party-thumbnail.png) 120 stretch !important; */
     text-align: justify;
 }
 
 .headerhdfcompain {
-    background-color: rgba(231, 247, 126, 0.9);
-    border-image: url(https://w7.pngwing.com/pngs/915/345/png-transparent-multicolored-balloons-illustration-balloon-balloon-free-balloons-easter-egg-desktop-wallpaper-party-thumbnail.png) 120 stretch !important;
+    background-color: rgb(0, 190, 223);
+    /* border-image: url(https://w7.pngwing.com/pngs/915/345/png-transparent-multicolored-balloons-illustration-balloon-balloon-free-balloons-easter-egg-desktop-wallpaper-party-thumbnail.png) 120 stretch !important; */
     padding: 10px;
-    border-top: 5px solid;
+    /* border-top: 5px solid; */
     padding-bottom: 5px;
     margin-bottom: 0PX;
 }

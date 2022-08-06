@@ -84,7 +84,7 @@ a {
 }
 
 .bottomline {
-    border-top: 16px groove rgb(0, 213, 250);
+    border-top: 16px groove rgb(0, 163, 192);
     max-width: 100% !important;
 }
 
@@ -162,7 +162,7 @@ a {
 }
 
 .bgcolor {
-    background-color: rgb(91, 230, 255) !important;
+    background-color: rgb(0, 198, 233) !important;
 }
 
 .dropdown-toggle::after {

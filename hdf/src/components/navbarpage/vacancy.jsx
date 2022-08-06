@@ -50,7 +50,7 @@ function Vacancy(props) {
               <div className="form-group col-md-4 ">
                 <label>
                   Ad, Soyad, Ata adı
-                  <small>*</small>
+                  <small>*  </small>
                 </label>
                 <input
                   type="text"
@@ -174,7 +174,7 @@ function Vacancy(props) {
           </div>
           <div className="form-group col-md-3 ms-1">
             Kompüter bilikləri
-            <small>*</small>
+           
             <select
               className="form-select"
               name="computerknowladge"
@@ -190,7 +190,7 @@ function Vacancy(props) {
           </div>
           <div className="form-group col-md-2 ">
             Xarici dil bilikləri
-            <small>*</small>
+           
             <select
               className="form-select"
               name="englishknowladge"
@@ -206,7 +206,7 @@ function Vacancy(props) {
           </div>
           <div className="form-group col-md-3 ">
             Tədris edəcəyiniz bölmə
-            <small>*</small>
+           
             <select
               className="form-select"
               name="teach"
@@ -221,7 +221,7 @@ function Vacancy(props) {
           </div>
           <div className="form-group col-md-3 ">
             İşləmək istədiyiniz filial
-            <small>*</small>
+            
             <select
               className="form-select"
               name="branch"
@@ -265,7 +265,7 @@ function Vacancy(props) {
           <div className="col-sm-4">
             <div className="form-group">
               Universitet (bakalavr)
-              <small>*</small>
+              
               <input
                 type="text"
                 name="university"
@@ -278,7 +278,7 @@ function Vacancy(props) {
           <div className="col-sm-4">
             <div className="form-group">
             İxtisasınız
-              <small>*</small>
+              
               <input
                 type="text"
                 name="ixtisas"
@@ -294,7 +294,7 @@ function Vacancy(props) {
           <div className="col-sm-2">
             <div className="form-group">
               Ortalama qiymətiniz
-              <small>*</small>
+              
               <input
                 type="number"
                 name="mediumprice"
@@ -308,7 +308,7 @@ function Vacancy(props) {
             <div className="form-group">
               <label for="form_email">
                 Qəbul ili
-                <small>*</small>
+                
               </label>
               <input
                 type="year"
@@ -365,7 +365,7 @@ function Vacancy(props) {
           <div className="col-sm-5">
             <div className="form-group">
               Müəssisənin adı
-              <small>*</small>
+              
               <input
                 type="text"
                 name="establishment"
@@ -376,7 +376,7 @@ function Vacancy(props) {
           <div className="col-sm-5">
             <div className="form-group">
               Vəzifəniz
-              <small>*</small>
+              
               <input type="text" name="duty" className="form-control" />
             </div>
           </div>

@@ -7,7 +7,9 @@ import "../../CSS/website/contactform.css";
 import swal from "sweetalert";
 import { TabTitle } from "../TitleFunction";
 function ContactForm() {
-  
+  function alertINKO(){
+    alert('hello world')
+  }
   TabTitle('Əlaqə');
   function sendEmail(e) {
     e.preventDefault();
@@ -120,14 +122,14 @@ function ContactForm() {
               <div className="col-md-4">
                 <label for="validationDefault02" className="form-label">
                   Ata adı
-                  <small>*</small>
+                 
                 </label>
                 <input
                   type="text"
                   name="cfathername"
                   className="form-control"
-                  id="validationDefault02"
-                  required
+                  id="validationDefault02"  
+                
                 />
               </div>
               <div className="col-md-4">
@@ -215,7 +217,7 @@ function ContactForm() {
                 </div>
               </div>
               <div className="col-12">
-                <button className="btn btn-primary" type="submit">
+                <button className="btn btn-primary">
                   
                   Göndər
                 </button>

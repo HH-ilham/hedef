@@ -10,7 +10,7 @@ function Partner() {
       <div className="PartnerCard">
         <div className="PartnerCardImage">
           <CardGroup className="PartnerImageCard">
-          <a href="#"> <Card>
+          <a href="https://hedefliseyi.edu.az/"  target={'_blank'} > <Card className="cardds">
               <Card.Img
                 className="PartnerImage"
                 variant="top"
@@ -18,7 +18,7 @@ function Partner() {
               />
             </Card></a>
             <a href="#">
-            <Card>
+            <Card className="cardds">
               <Card.Img
                 className="PartnerImage"
                 variant="top"
@@ -27,7 +27,7 @@ function Partner() {
             </Card>
             </a>
             <a href="http://hedefnesrleri.az/" target={'_blank'}>
-            <Card>
+            <Card className="cardds">
               <Card.Img
                 className="PartnerImage"
                 variant="top"
@@ -36,7 +36,7 @@ function Partner() {
             </Card>
             </a>
             <a href="#">
-            <Card>
+            <Card className="cardds"v>
               <Card.Img
                 className="PartnerImage"
                 variant="top"
@@ -45,7 +45,7 @@ function Partner() {
             </Card>
             </a>
             <a href="https://kitabevim.az/" target={"_blank"}>
-            <Card>
+            <Card className="cardds">
               <Card.Img
                 className="PartnerImage"
                 variant="top"
@@ -53,7 +53,7 @@ function Partner() {
               />
             </Card></a>
             <a href="https://hedefnesrleri.az/" target={"_blank"}>
-            <Card>
+            <Card className="cardds">
               <Card.Img
                 className="PartnerImage"
                 variant="top"
