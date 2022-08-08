@@ -172,10 +172,14 @@
     }
 }
 
-.buoUKI a {
-    color: rgb(0, 0, 0) !important;
+.footertext {
+    color: black !important;
 }
 
-.buoUKI a:hover {
-    color: rgb(134, 134, 2) !important;
+.footertext:hover {
+    color: rgb(167, 176, 4) !important;
+}
+
+.icSdHJ {
+    border-radius: 50px !important;
 }
