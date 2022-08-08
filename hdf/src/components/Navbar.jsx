@@ -17,8 +17,8 @@ import {Link} from "react-router-dom";
                 <Link to="/">   <Navbar.Brand >
                    <img
                       width={"171px"}
-                      height={"53px"}
-                      src={"/images/hedefkurslarilogo.png"}
+                      height={"65px"}
+                      src={"/images/Hedefkurslari.png"}
                       alt={"Logo"}
                     />
                   </Navbar.Brand></Link>
@@ -62,9 +62,9 @@ import {Link} from "react-router-dom";
                 <div className="logo logo-second">
                 <Link to="/">  <Navbar.Brand >
                     <img
-                      width={"171px"}
-                      height={"53px"}
-                      src={"/images/hedefkurslarilogo.png"}
+                      width={"180px"}
+                      height={"70px"}
+                      src={"/images/Hedefkurslari.png"}
                       alt={"Logo"}
                     />
                   </Navbar.Brand></Link>
