@@ -8,10 +8,13 @@ import Collapse from "react-bootstrap/Collapse";
 import { TabTitle } from "../TitleFunction";
 function Activity() {
   TabTitle('Xidmətlərimiz');
-  // const [state,setState]=useState(false);
-  // const toggle =()=>{
-  //   setState(!state);
-  // }
+  const [state,setState]=useState(false);
+  const toggle =()=>{
+    setState(!state);
+  }
+
+
+
   const [open, setOpen] = useState(false);
   const [open1, setOpen1] = useState(false);
   const [open2, setOpen2] = useState(false);
@@ -217,14 +220,15 @@ function Activity() {
               </Collapse>
               <div className="allshowpage">
                 <Button
-                  onClick={() => setOpen(!open)}
+                  onClick={() => {setOpen(!open);toggle();}}
                   aria-controls="example-collapse-text"
                   aria-expanded={open}
                   className="text-center "
                 >
-                  {/* {state ? 'Daha az':'Daha çox'} */}
-                  Daha çox
+                  {state ? 'Daha az':'Daha çox'}
+                  
                 </Button>
+                
               </div>
             </div>
             {/* Abituriyent hazirligi */}
@@ -445,12 +449,14 @@ function Activity() {
                 </div>
               </Collapse>
               <div className="allshowpage">
-                <Button
-                  onClick={() => setOpen1(!open1)}
+              <Button
+                  onClick={() => {setOpen1(!open1);toggle();}}
                   aria-controls="example-collapse-text"
                   aria-expanded={open1}
+                  className="text-center "
                 >
-                  Daha çox
+                  {state ? 'Daha az':'Daha çox'}
+                  
                 </Button>
               </div>
             </div>
@@ -548,12 +554,14 @@ function Activity() {
                 <div id="example-collapse-text"></div>
               </Collapse>
               <div className="allshowpage">
-                <Button
-                  onClick={() => setOpen2(!open2)}
+              <Button
+                  onClick={() => {setOpen2(!open2);toggle();}}
                   aria-controls="example-collapse-text"
                   aria-expanded={open2}
+                  className="text-center "
                 >
-                  Daha çox
+                  {state ? 'Daha az':'Daha çox'}
+                  
                 </Button>
               </div>
             </div>
@@ -685,13 +693,14 @@ function Activity() {
                 </div>
               </Collapse>
               <div className="allshowpage">
-                <Button
-                  onClick={() => setOpen3(!open3)}
+              <Button
+                  onClick={() => {setOpen3(!open3);toggle();}}
                   aria-controls="example-collapse-text"
                   aria-expanded={open3}
                   className="text-center "
                 >
-                  Daha çox
+                  {state ? 'Daha az':'Daha çox'}
+                  
                 </Button>
               </div>
             </div>
@@ -785,13 +794,14 @@ function Activity() {
                 </div>
               </Collapse>
               <div className="allshowpage">
-                <Button
-                  onClick={() => setOpen4(!open4)}
+              <Button
+                  onClick={() => {setOpen4(!open4);toggle();}}
                   aria-controls="example-collapse-text"
                   aria-expanded={open4}
                   className="text-center "
                 >
-                  Daha çox
+                  {state ? 'Daha az':'Daha çox'}
+                  
                 </Button>
               </div>
             </div>

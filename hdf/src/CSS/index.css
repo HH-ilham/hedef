@@ -1,7 +1,3 @@
-.html {
-    height: 100% !important;
-}
-
 .PartnerImage {
     padding: 5px !important;
     padding-top: 20px;
@@ -180,6 +176,6 @@
     color: rgb(167, 176, 4) !important;
 }
 
-.icSdHJ {
+.footericon {
     border-radius: 50px !important;
 }

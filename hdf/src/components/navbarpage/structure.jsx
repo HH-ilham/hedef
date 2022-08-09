@@ -32,7 +32,7 @@ const Structure = () => {
           />
           <p>
             F.ü.f.d Şəmil Sadıqov <br />
-            <i>Hədəf Kursların həmtəsisçisi və baş direktoru.</i>
+            <i>Hədəf Kursların həmtəsisçisi və baş direktoru</i>
           </p>
         </div>
       </div>
@@ -42,7 +42,7 @@ const Structure = () => {
           <img className="imagemobiles" src=".././images/img/emin.jpg" alt="" />
           <p>
             Emin Sadıqov <br />
-            <i>Hədəf Şirkətlər Qrupunun 1-ci müavini</i>
+            <i>Baş direktorun 1-ci müavini</i>
           </p>
         </div>
         <div className="ms-2">
@@ -53,7 +53,7 @@ const Structure = () => {
           />
           <p>
             Elvin Əliyev <br />
-            <i>Hədəf Şirkətlər Qrupunun müavini</i>
+            <i>Baş direktorun müavini</i>
           </p>
         </div>
         <div className="ms-2">
@@ -78,7 +78,7 @@ const Structure = () => {
           />
           <p>
             Səftər Xəlilbəyli <br />
-            <i>Hədəf Kurslarının İcraçı direktoru.</i>
+            <i>Hədəf Kurslarının İcraçı direktoru</i>
           </p>
         </div>
       </div>
@@ -92,7 +92,7 @@ const Structure = () => {
           />
           <p>
             Mehman Muxtarov <br />
-            <i>Yasamal filialı müdiri</i>
+            <i>Yasamal filialının müdiri</i>
           </p>
         </div>
         <div className="ms-2 imagemobile">
@@ -103,7 +103,7 @@ const Structure = () => {
           />
           <p>
             Vəlizadə Vəli <br />
-            <i>Azadlıq filial müdiri</i>
+            <i>Azadlıq filialının müdiri</i>
           </p>
         </div>
         <div className="ms-2 imagemobile">
@@ -114,7 +114,7 @@ const Structure = () => {
           />
           <p>
             Şakir Hüseyn <br />
-            <i>Xırdalan filial müdiri</i>
+            <i>Xırdalan filialının müdiri</i>
           </p>
         </div>
         <div className="ms-2 imagemobile">
@@ -126,7 +126,7 @@ const Structure = () => {
           <p>
             Ağayev Emil
             <br />
-            <i>Əcəmi filial müdiri</i>
+            <i>Əcəmi filialının müdiri</i>
           </p>
         </div>
       </div>
@@ -139,7 +139,7 @@ const Structure = () => {
           />
           <p>
             Mehman Muxtarov <br />
-            <i>Yasamal filialı müdiri</i>
+            <i>Yasamal filialının müdiri</i>
           </p>
         </div>
         <div className="ms-2 imagemobile">
@@ -150,7 +150,7 @@ const Structure = () => {
           />
           <p>
             Abdullayev Nuru <br />
-            <i>Mehdiabad filial müdiri</i>
+            <i>Mehdiabad filialının müdiri</i>
           </p>
         </div>
         <div className="ms-2 imagemobile">
@@ -161,7 +161,7 @@ const Structure = () => {
           />
           <p>
             Kamil Orucov <br />
-            <i>Nizami filial müdiri</i>
+            <i>Nizami filialının müdiri</i>
           </p>
         </div>
         <div className="ms-2 imagemobile">
@@ -172,7 +172,7 @@ const Structure = () => {
           />
           <p>
             Elnur İbrahimov <br />
-            <i>Qara Qarayev filial müdiri</i>
+            <i>Qara Qarayev filialının müdiri</i>
           </p>
         </div>
       </div>
@@ -185,7 +185,7 @@ const Structure = () => {
           />
           <p>
             Vüsal Heybətov <br />
-            <i>Sumqayıt filial müdiri</i>
+            <i>Sumqayıt filialının müdiri</i>
           </p>
         </div>
       </div>
@@ -199,7 +199,7 @@ const Structure = () => {
           />
           <p>
             Mehman Muxtarov <br />
-            <i>Yasamal filialı müdiri</i>
+            <i>Yasamal filialının müdiri</i>
           </p>
         </div>
         <div className="ms-2 imagemobiletab">
@@ -210,7 +210,7 @@ const Structure = () => {
           />
           <p>
             Vəlizadə Vəli <br />
-            <i>Azadlıq filial müdiri</i>
+            <i>Azadlıq filialının müdiri</i>
           </p>
         </div>
         <div className="ms-2 imagemobiletab">
@@ -221,7 +221,7 @@ const Structure = () => {
           />
           <p>
             Şakir Hüseyn <br />
-            <i>Xırdalan filial müdiri</i>
+            <i>Xırdalan filialının müdiri</i>
           </p>
         </div>
       </div>
@@ -234,7 +234,7 @@ const Structure = () => {
           />
           <p>
             Abdullayev Nuru <br />
-            <i>Mehdiabad filial müdiri</i>
+            <i>Mehdiabad filialının müdiri</i>
           </p>
         </div>
         <div className="ms-2 imagemobiletab">
@@ -245,7 +245,7 @@ const Structure = () => {
           />
           <p>
             Kamil Orucov <br />
-            <i>Nizami filial müdiri</i>
+            <i>Nizami filialının müdiri</i>
           </p>
         </div>
         <div className="ms-2 imagemobiletab">
@@ -256,7 +256,7 @@ const Structure = () => {
           />
           <p>
             Elnur İbrahimov <br />
-            <i>Qara Qarayev filial müdiri</i>
+            <i>Qara Qarayev filialının müdiri</i>
           </p>
         </div>
       </div>
@@ -271,7 +271,7 @@ const Structure = () => {
           <p>
             Ağayev Emil
             <br />
-            <i>Əcəmi filial müdiri</i>
+            <i>Əcəmi filialının müdiri</i>
           </p>
         </div>
         <div className="ms-2 imagemobiletab">
@@ -282,7 +282,7 @@ const Structure = () => {
           />
           <p>
             Mehman Muxtarov <br />
-            <i>Yasamal filialı müdiri</i>
+            <i>Yasamal filialının müdiri</i>
           </p>
         </div>
         <div className="ms-2 imagemobiletab">
@@ -293,7 +293,7 @@ const Structure = () => {
           />
           <p>
             Vüsal Heybətov <br />
-            <i>Sumqayıt filial müdiri</i>
+            <i>Sumqayıt filialının müdiri</i>
           </p>
         </div>
       </div>

@@ -6,10 +6,9 @@ import emailjs from '@emailjs/browser';
 import "../../CSS/website/contactform.css";
 import swal from "sweetalert";
 import { TabTitle } from "../TitleFunction";
+
 function ContactForm() {
-  function alertINKO(){
-    alert('hello world')
-  }
+ 
   TabTitle('Əlaqə');
   function sendEmail(e) {
     e.preventDefault();
@@ -217,7 +216,7 @@ function ContactForm() {
                 </div>
               </div>
               <div className="col-12">
-                <button className="btn btn-primary">
+                <button className="btn btn-primary" >
                   
                   Göndər
                 </button>
