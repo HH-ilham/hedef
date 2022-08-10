@@ -120,7 +120,7 @@ const Structure = () => {
         <div className="ms-2 imagemobile">
           <img
             className="imagemobiless"
-            src=".././images/img/emil.jpg"
+            src=".././images/img/emilnew.jpg"
             alt=""
           />
           <p>
@@ -265,7 +265,7 @@ const Structure = () => {
         <div className="ms-2 imagemobiletab">
           <img
             className="imagemobiless"
-            src=".././images/img/emil.jpg"
+            src=".././images/img/emilnew.jpg"
             alt=""
           />
           <p>

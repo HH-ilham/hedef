@@ -35,12 +35,13 @@ function Partner() {
               />
             </Card>
             </a>
-            <a href="#">
+            <a href="http://imtahanim.net/sinav/default.aspx" target={'_blank'}>
             <Card className="cardds"v>
               <Card.Img
-                className="PartnerImage"
+                className="PartnerImage sinaqimtahan"
                 variant="top"
-                src="./partner/h-multimedia.png"
+                src="./partner/sinaqimtahan.jpg"
+                
               />
             </Card>
             </a>

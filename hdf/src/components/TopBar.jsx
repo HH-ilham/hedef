@@ -42,6 +42,7 @@ function TopBar() {
         </a>
 
         <Navbar.Brand>
+       <a href="http://imtahanim.net/sinav/default.aspx" target={'_blank'}> <button type="button" class="btn btn-warning">İmtahan nəticələri</button></a>
           <a className="icon" href="https://www.facebook.com/hedefkurslariofficial" target='_blank'>
             <svg
               xmlns="http://www.w3.org/2000/svg"

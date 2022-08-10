@@ -80,6 +80,18 @@
     box-shadow: 5px 10px 10px 10px;
 }
 
+.sinaqimtahan {
+    width: 220px !important;
+    height: 130px;
+}
+
+@media screen and (max-width: 1272px) {
+    .sinaqimtahan {
+        width: 160px !important;
+        height: 100px;
+    }
+}
+
 
 /* News */
 
