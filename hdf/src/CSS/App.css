@@ -46,7 +46,18 @@ a {
 @media screen and (max-width: 992px) {
     .call {
         display: inline !important;
-        margin-left: 30% !important;
+    }
+}
+
+.testanswer {
+    width: 150px;
+    display: inline-flex;
+}
+
+@media screen and (max-width: 410px) {
+    .testanswer {
+        width: 90px;
+        display: block;
     }
 }
 
