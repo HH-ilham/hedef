@@ -9,10 +9,10 @@ function Activity2() {
     <div>
       <TopBar />
       <Navbar />
-      <p className="text-center fw-bold aplicantheader">
+      <h1 className="text-center fw-bold aplicantheader">
         “Fənlərin Dostluğu Olimpiadası” -8 qalibləri mükafatlandırlıdı!-
         İNTEQRASİYA.AZ
-      </p>
+      </h1>
       <div className="branchbtn">
         <Link to="/Activity">
           <button type="button" className="branchbutton btn btn-danger w-20 ">

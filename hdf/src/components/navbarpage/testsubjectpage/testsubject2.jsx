@@ -13,7 +13,7 @@ const Testsubject2 = () => {
     <div>
       <TopBar />
       <Navbar />
-      <p className="text-center fw-bold branchheader">Buraxılış fənləri üzrə MQT 5 mövzuları  Azərbaycan bölməsi</p>
+      <h1 className="text-center fw-bold branchheader">Buraxılış fənləri üzrə MQT 5 mövzuları  Azərbaycan bölməsi</h1>
       <div className="branchbtn">
       <div className="printbtncom">
           <PrintComponents

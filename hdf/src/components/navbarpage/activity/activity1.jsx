@@ -10,10 +10,10 @@ function Activity1() {
     <div>
       <TopBar />
       <Navbar />
-      <p className="text-center fw-bold aplicantheader">
+      <h1 className="text-center fw-bold aplicantheader">
         Türkiyənin nüfuzlu TV8 İNT telekanalı Hedef Group-dan video-reportaj
         hazırladı
-      </p>
+      </h1>
       <div className="branchbtn">
         <Link to="/Activity">
           <button type="button" className="branchbutton btn btn-danger w-20 ">

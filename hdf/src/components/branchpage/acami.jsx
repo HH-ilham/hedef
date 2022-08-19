@@ -22,7 +22,7 @@ function Acami() {
       <TopBar />
       <Navbar />
            
-      <p className="text-center fw-bold branchheader">Əcəmi</p>
+      <h1 className="text-center fw-bold branchheader">Əcəmi filialı</h1>
       <div className="branchbtn">
       <Link to="/">
           <button type="button" className="branchbutton btn btn-warning w-20 ">

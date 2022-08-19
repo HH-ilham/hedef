@@ -19,7 +19,7 @@ TabTitle('Əhmədli filialı');
     <div>
       <TopBar />
       <Navbar />
-      <p className="text-center fw-bold branchheader">Əhmədli</p>
+      <h1 className="text-center fw-bold branchheader">Əhmədli filialı</h1>
       <div className="branchbtn">
       <Link to="/">
           <button type="button" className="branchbutton btn btn-warning w-20 ">

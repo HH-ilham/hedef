@@ -17,9 +17,9 @@ function Dim3() {
            Çıx
           </button>
         </Link></div>
-      <p className="text-center fw-bold fs-3">
+      <h1 className="text-center fw-bold fs-3">
         Abituriyentlərin ixtisas qruplarını seçim imkanları genişləndirildi
-      </p>
+      </h1>
       <div className="d-flex container">
         <div className="col-md-9">
           <img

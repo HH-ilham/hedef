@@ -18,10 +18,10 @@ function Dim2() {
           </button>
         </Link>
       </div>
-      <p className="text-center fw-bold fs-3">
+      <h1 className="text-center fw-bold fs-3">
         Bölgələr üzrə ümumi orta təhsil bazasında ( 9-cu sinif ) buraxılış
         imtahanlarının I mərhələsinin keçirilmə qrafiki
-      </p>
+      </h1>
       <div className="d-flex container">
         <div className="col-md-9">
           <img

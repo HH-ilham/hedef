@@ -12,7 +12,7 @@ function Sumqayit() {
     <div>
       <TopBar />
       <Navbar />
-      <p className="text-center fw-bold branchheader">Sumqayıt</p>
+      <h1 className="text-center fw-bold branchheader">Sumqayıt filialı</h1>
       <div className="branchbtn">
       <Link to="/">
           <button type="button" className="branchbutton btn btn-warning w-20 ">

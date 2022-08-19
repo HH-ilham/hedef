@@ -13,9 +13,9 @@ const Testsubject1 = () => {
     <div>
       <TopBar />
       <Navbar />
-      <p className="text-center fw-bold branchheader">
+      <h1 className="text-center fw-bold branchheader">
         Buraxılış fənləri üzrə MQT 5 mövzuları Azərbaycan bölməsi
-      </p>
+      </h1>
       <div className="branchbtn">
         <div className="printbtncom">
           <PrintComponents

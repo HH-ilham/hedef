@@ -12,7 +12,7 @@ function Yasamal() {
     <div>
       <TopBar />
       <Navbar />
-      <p className="text-center fw-bold branchheader">Yasamal</p>
+      <h1 className="text-center fw-bold branchheader">Yasamal filialı</h1>
       <div className="branchbtn">
       <Link to="/">
           <button type="button" className="branchbutton btn btn-warning w-20 ">

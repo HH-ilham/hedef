@@ -9,9 +9,9 @@ function Activity9() {
     <div>
       <TopBar />
       <Navbar />
-      <p className="text-center fw-bold aplicantheader">
+      <h1 className="text-center fw-bold aplicantheader">
         Heydər Əliyev Mərkəzinin parkında “Oxu günü” təşkil olunub – AZERTAG.AZ
-      </p>
+      </h1>
       <div className="branchbtn">
         <Link to="/Activity">
           <button type="button" className="branchbutton btn btn-danger w-20 ">

@@ -21,9 +21,9 @@ const Projects3 = () => {
           </button>
         </Link>
       </div>
-      <p className="text-center fw-bold fs-3">
+      <h1 className="text-center fw-bold fs-3">
         11-ci “Fənlərin Dostluğu Olimpiadası” İmtahan Mərkəzləri
-      </p>
+      </h1>
       <div className="d-flex container">
         <div className="col-md-9">
           <p className="container fw-bold text-center">

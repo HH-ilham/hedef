@@ -50,7 +50,7 @@ const Sociallife3 = () => {
           </button>
         </Link>
       </div>
-      <p className="text-center fw-bold fs-3">Təcrübəçilər mükafatlandırıldı</p>
+      <h1 className="text-center fw-bold fs-3">Təcrübəçilər mükafatlandırıldı</h1>
       <div className="d-flex container">
         <div className="col-md-9">
           

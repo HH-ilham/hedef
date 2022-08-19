@@ -13,7 +13,7 @@ function Mehdiabad() {
     <div>
       <TopBar />
       <Navbar />
-      <p className="text-center fw-bold branchheader">Mehdiabad</p>
+      <h1 className="text-center fw-bold branchheader">Mehdiabad filialı</h1>
       <div className="branchbtn">
       <Link to="/">
           <button type="button" className="branchbutton btn btn-warning w-20 ">

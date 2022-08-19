@@ -57,10 +57,10 @@ function News1() {
           </button>
         </Link>
       </div>
-      <p className="text-center fw-bold fs-3">
+      <h1 className="text-center fw-bold fs-3">
         Vətən müharibəsinin müəllim şəhidi Ömərov Qoşqarın xatirəsi
         əbədiləşdirildi
-      </p>
+      </h1>
       <div className="d-flex container">
         <div className="col-md-9">
           <p className="container">

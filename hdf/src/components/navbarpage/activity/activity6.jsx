@@ -9,10 +9,10 @@ function Activity6() {
     <div>
       <TopBar />
       <Navbar />
-      <p className="text-center fw-bold aplicantheader">
+      <h1 className="text-center fw-bold aplicantheader">
         “Azərbaycan Universitetlərinin tanıtımı” adlı layihə həyata keçiriləcək
         -QAZİLER.AZ
-      </p>
+      </h1>
       <div className="branchbtn">
         <Link to="/Activity">
           <button type="button" className="branchbutton btn btn-danger w-20 ">

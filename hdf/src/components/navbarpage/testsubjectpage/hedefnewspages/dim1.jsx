@@ -18,10 +18,10 @@ function Dim1() {
            Çıx
           </button>
         </Link></div>
-      <p className="text-center fw-bold fs-3">
+      <h1 className="text-center fw-bold fs-3">
         Dövlət qulluğuna qəbul olmaq istəyən şəxslər üçün növbəti sınaq imtahanı
         keçiriləcək
-      </p>
+      </h1>
       <div className="d-flex container  ">
         <div className="col-md-9 ">
           <img
