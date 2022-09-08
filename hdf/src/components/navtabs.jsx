@@ -1200,7 +1200,7 @@ function Navtab() {
               <div className="Buttongr">
                 <ButtonGroup vertical>
                   <a
-                    href="http://hedef.edu.az/hedefupdv/2021/09/Azerbaycan-dili-9-cu-sinif.pdf"
+                    href="./images/pdf/azerbaycan.pdf"
                     target="_blank"
                   >
                     <Button className="btncolor" variant="info">
