@@ -668,9 +668,9 @@ function Navtab() {
                 <CardGroup>
                   <Card className="CardImage">
                     <Card.Img
-                      className="depimages"
+        
                       variant="top"
-                      src="./images/6-7-8.jpg"
+                      src="./images/sayt2.png"
                     />
                     <Card.Body>
                       <Card.Title>Azərbaycan bölməsi</Card.Title>
@@ -696,9 +696,9 @@ function Navtab() {
                   </Card>
                   <Card className="CardImage">
                     <Card.Img
-                      className="depimages"
+                 
                       variant="top"
-                      src="./images/6-7-8.jpg"
+                      src="./images/sayt2.png"
                     />
                     <Card.Body>
                       <Card.Title>Rus bölməsi</Card.Title>
@@ -724,9 +724,9 @@ function Navtab() {
 
                   <Card className="CardImage">
                     <Card.Img
-                      className="depimages"
+                   
                       variant="top"
-                      src="./images/6-7-8.jpg"
+                      src="./images/sayt2.png"
                     />
                     <Card.Body>
                       <Card.Title>Azərbaycan bölməsi</Card.Title>
@@ -751,9 +751,9 @@ function Navtab() {
                   </Card>
                   <Card className="CardImage">
                     <Card.Img
-                      className="depimages"
+                      
                       variant="top"
-                      src="./images/6-7-8.jpg"
+                      src="./images/sayt2.png"
                     />
                     <Card.Body>
                       <Card.Title>Rus bölməsi</Card.Title>
