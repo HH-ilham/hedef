@@ -8,13 +8,13 @@ import { TabTitle } from "../../TitleFunction";
 import Table from "react-bootstrap/Table";
 import PrintComponents from "react-print-components";
 const Testsubject1 = () => {
-  TabTitle("Buraxılış fənləri üzrə MQT 5 mövzuları  Azərbaycan bölməsi");
+  TabTitle(" Buraxılış fənləri üzrə imtahan mövzuları MQT 1");
   return (
     <div>
       <TopBar />
       <Navbar />
       <h1 className="text-center fw-bold branchheader">
-        Buraxılış fənləri üzrə MQT 5 mövzuları Azərbaycan bölməsi
+      Buraxılış fənləri üzrə imtahan mövzuları MQT 1
       </h1>
       <div className="branchbtn">
         <div className="printbtncom">
@@ -39,7 +39,7 @@ const Testsubject1 = () => {
               <Table striped="columns">
                 <thead>
                   <th className="text-center fs-4">
-                    Buraxılış mövzuları 1 - 01/05/2022
+                    Buraxılış mövzuları 1 - 25.09.2022
                   </th>
                 </thead>
                 <tbody>
@@ -49,29 +49,22 @@ const Testsubject1 = () => {
                   <tr>
                     <td>
                       <strong>Azərbaycan dili</strong> <br />
-                      Fonetika. Səs və hərf. Sait səslər. Saitlərin deyilişi və
-                      yazılışı. Ahəng qanunu. Samit səslər. Samitlərin deyilişi
-                      və yazılışı. Sözlərin sonunda cingiltili samitlərin
-                      yazılışı və tələffüzü. Sonu q və k ilə bitən sözlərin
-                      yazılışı və tələffüzü. . Qoşa samitlə bitən təkhecalı
-                      sözlər. Vurğu. Sözün sətirdən-sətrə keçirilməsi. Fonetik
-                      təhlil.
+                      Fonetika. Mətn üzərində iş. 
                       <br />
                       <strong>İngilis dili</strong>
                       <br />
-                      Noun. To be. There is / are. It is. Vocabulary (V sinif
-                      unit 1– 8 daxil olmaqla). Listening and Reading
-                      Comprehension
+                      The Noun. Morphological Composition of Nouns. Morphological and Semantic Characteristics of Nouns.
+Cases of Nouns. Quantifiers 
                       <br />
                       <strong>Rus dili</strong>
                       <br />
-                      Фонетика. Буквы ь и ъ. Двойная роль букв е, ё, ю, я.
-                      Лексикология. Лексическое значение слова. Прямое и
-                      переносное значение слова. Синонимы. Антонимы.
+                      Фонетика/ Звуки речи и буквы. Гласные и согласные. Алфавит. Правописание безударных гласных
+о и е. Двойная роль букв я, е, ё, ю. Буквы ъ и ь и их функции. Лексикология. Синонимы. Антонимы.
+Прямое и переносное значение слова. 
                       <br />
                       <strong>Riyaziyyat</strong>
                       <br />
-                      Natural ədədlər. Adi və onluq kəsrlər.
+                      Natural ədədlər. Adi və onluq kəsrlər. Həndəsənin əsas anlayışları. 
                     </td>
                   </tr>
                   <tr>
@@ -80,28 +73,24 @@ const Testsubject1 = () => {
                   <tr>
                     <td>
                       <strong>Azərbaycan dili</strong> <br />
-                      Fonetika. Səs və hərf. Sait səslər. Saitlərin deyilişi və
-                      yazılışı. Ahəng qanunu. Samit səslər. Samitlərin deyilişi
-                      və yazılışı. Sözlərin sonunda cingiltili samitlərin
-                      yazılışı və tələffüzü. Sonu q və k ilə bitən sözlərin
-                      yazılışı və tələffüzü. . Qoşa samitlə bitən təkhecalı
-                      sözlər. Vurğu. Sözün sətirdən-sətrə keçirilməsi. Fonetik
-                      təhlil. <br />
+                      Fonetika. Mətn üzərində iş. <br />
                       <strong>İngilis dili</strong>
                       <br />
-                      Noun. To be. There is / are. It is. Vocabulary (V sinif
-                      unit 1– 8 daxil olmaqla). Listening and Reading
-                      Comprehension
+                      The Noun. Morphological Composition of Nouns. Morphological and Semantic Characteristics of Nouns.
+Cases of Nouns. Quantifiers 
+
                       <br />
                       <strong>Rus dili</strong>
                       <br />
-                      Фонетика. Буквы ь и ъ. Двойная роль букв е, ё, ю, я.
-                      Лексикология. Лексическое значение слова. Прямое и
-                      переносное значение слова. Синонимы. Антонимы.
+                      Фонетика/ Звуки речи и буквы. Гласные и согласные. Алфавит. Правописание безударных гласных
+о и е. Двойная роль букв я, е, ё, ю. Буквы ъ и ь и их функции. Лексикология. Синонимы. Антонимы.
+Прямое и переносное значение слова. 
+
                       <br />
                       <strong>Riyaziyyat</strong>
                       <br />
-                      Natural ədədlər. Adi və onluq kəsrlər.
+                      Natural ədədlər. Adi və onluq kəsrlər. Nisbət. Tənasüb. Faiz. Həndəsənin əsas anlayışları. 
+
                     </td>
                   </tr>
                   <tr>
@@ -110,38 +99,25 @@ const Testsubject1 = () => {
                   <tr>
                     <td>
                       <strong>Azərbaycan dili</strong> <br />
-                      Fonetika. Danışıq səsləri. Ahəng qanunu. Bəzi saitlərin
-                      uzun tələffüz edilməsi. Qoşasaitli və qoşasamitli sözlərin
-                      yazılışı və tələffüzü. Əlifba. Sonu eynicinsli qoşa
-                      samitlə bitən söz köklərinin yazılışı. Sözlərin sonunda
-                      cingiltili samitlərin yazılışı və tələffüzü. Sonu q və k
-                      ilə bitən sözlərin yazılışı və tələffüzü. Heca. Vurğu.
-                      Sözün sətirdən sətrə keçirilməsi. Fonetik təhlil.
-                      <br />
-                      Leksika. Sözün leksik və qrammatik mənası. Sözün həqiqi və
-                      məcazi mənası. Təkmənalı və çoxmənalı sözlər. Omonimlər.
-                      Omonim və çoxmənalı sözlərin fərqi və oxşarlığı.
-                      Sinonimlər. Antonimlər. Ümumişlək və ümumişlək olmayan
-                      sözlər. Dialekt sözlər, terminlər (ixtisas sözlər),
-                      arxaizmlər, neologizmlər ümumişlək olmayan söz qrupları
-                      kimi. Sözlərin mənşəyi. Frazeoloji birləşmələr, onların
-                      omonimliyi, sinonimliyi, antonimliyi. Lüğətlər. Leksik
-                      təhlil. .<br />
+                      Fonetika. Leksika. Üslubiyyat. Mətn üzərində iş. 
+
+               
+                     <br />
                       <strong>İngilis dili</strong>
                       <br />
-                      Noun. To be. There is / are. It is. Vocabulary (V sinif
-                      unit 1– 8 daxil olmaqla). Listening and Reading
-                      Comprehension
+                      The Noun. Morphological Composition of Nouns. Morphological and Semantic Characteristics of Nouns.
+Cases of Nouns. Quantifiers. The Article
                       <br />
                       <strong>Rus dili</strong>
                       <br />
-                      Фонетика. Буквы ь и ъ. Двойная роль букв е, ё, ю, я.
-                      Лексикология. Лексическое значение слова. Прямое и
-                      переносное значение слова. Синонимы. Антонимы.
+                      Фонетика/ Звуки речи и буквы. Гласные и согласные. Алфавит. Правописание безударных гласных
+о и е. Двойная роль букв я, е, ё, ю. Буквы ъ и ь и их функции. Лексикология. Синонимы. Антонимы.
+Прямое и переносное значение слова. 
                       <br />
                       <strong>Riyaziyyat</strong>
                       <br />
-                      Natural ədədlər. Adi və onluq kəsrlər.
+                      Natural ədədlər. Adi və onluq kəsrlər. Nisbət. Tənasüb. Faiz. Həqiqi ədədlər. Tam cəbri ifadələr.
+Çoxhədlinin vuruqlara ayrılması. Həndəsənin əsas anlayışları. Üçbucaqlar.
                     </td>
                   </tr>
                 </tbody>
@@ -170,7 +146,7 @@ const Testsubject1 = () => {
         <Table striped="columns">
           <thead>
             <th className="text-center fs-4">
-              Buraxılış mövzuları 1 - 01/05/2022
+            25.09.2022
             </th>
           </thead>
           <tbody>
@@ -180,27 +156,22 @@ const Testsubject1 = () => {
             <tr>
               <td>
                 <strong>Azərbaycan dili</strong> <br />
-                Fonetika. Səs və hərf. Sait səslər. Saitlərin deyilişi və
-                yazılışı. Ahəng qanunu. Samit səslər. Samitlərin deyilişi və
-                yazılışı. Sözlərin sonunda cingiltili samitlərin yazılışı və
-                tələffüzü. Sonu q və k ilə bitən sözlərin yazılışı və tələffüzü.
-                . Qoşa samitlə bitən təkhecalı sözlər. Vurğu. Sözün
-                sətirdən-sətrə keçirilməsi. Fonetik təhlil.
+                Fonetika. Mətn üzərində iş. 
                 <br />
                 <strong>İngilis dili</strong>
                 <br />
-                Noun. To be. There is / are. It is. Vocabulary (V sinif unit 1–
-                8 daxil olmaqla). Listening and Reading Comprehension
+                The Noun. Morphological Composition of Nouns. Morphological and Semantic Characteristics of Nouns.
+Cases of Nouns. Quantifiers 
                 <br />
                 <strong>Rus dili</strong>
                 <br />
-                Фонетика. Буквы ь и ъ. Двойная роль букв е, ё, ю, я.
-                Лексикология. Лексическое значение слова. Прямое и переносное
-                значение слова. Синонимы. Антонимы.
+                Фонетика/ Звуки речи и буквы. Гласные и согласные. Алфавит. Правописание безударных гласных
+о и е. Двойная роль букв я, е, ё, ю. Буквы ъ и ь и их функции. Лексикология. Синонимы. Антонимы.
+Прямое и переносное значение слова. 
                 <br />
                 <strong>Riyaziyyat</strong>
                 <br />
-                Natural ədədlər. Adi və onluq kəsrlər.
+                Natural ədədlər. Adi və onluq kəsrlər. Həndəsənin əsas anlayışları. 
               </td>
             </tr>
             <tr>
@@ -209,26 +180,23 @@ const Testsubject1 = () => {
             <tr>
               <td>
                 <strong>Azərbaycan dili</strong> <br />
-                Fonetika. Səs və hərf. Sait səslər. Saitlərin deyilişi və
-                yazılışı. Ahəng qanunu. Samit səslər. Samitlərin deyilişi və
-                yazılışı. Sözlərin sonunda cingiltili samitlərin yazılışı və
-                tələffüzü. Sonu q və k ilə bitən sözlərin yazılışı və tələffüzü.
-                . Qoşa samitlə bitən təkhecalı sözlər. Vurğu. Sözün
-                sətirdən-sətrə keçirilməsi. Fonetik təhlil. <br />
+                Fonetika. Mətn üzərində iş. 
+<br />
                 <strong>İngilis dili</strong>
                 <br />
-                Noun. To be. There is / are. It is. Vocabulary (V sinif unit 1–
-                8 daxil olmaqla). Listening and Reading Comprehension
+                The Noun. Morphological Composition of Nouns. Morphological and Semantic Characteristics of Nouns.
+Cases of Nouns. Quantifiers 
+
                 <br />
                 <strong>Rus dili</strong>
                 <br />
-                Фонетика. Буквы ь и ъ. Двойная роль букв е, ё, ю, я.
-                Лексикология. Лексическое значение слова. Прямое и переносное
-                значение слова. Синонимы. Антонимы.
+                Фонетика/ Звуки речи и буквы. Гласные и согласные. Алфавит. Правописание безударных гласных
+о и е. Двойная роль букв я, е, ё, ю. Буквы ъ и ь и их функции. Лексикология. Синонимы. Антонимы.
+Прямое и переносное значение слова. 
                 <br />
                 <strong>Riyaziyyat</strong>
                 <br />
-                Natural ədədlər. Adi və onluq kəsrlər.
+                Natural ədədlər. Adi və onluq kəsrlər. Nisbət. Tənasüb. Faiz. Həndəsənin əsas anlayışları. 
               </td>
             </tr>
             <tr>
@@ -237,36 +205,24 @@ const Testsubject1 = () => {
             <tr>
               <td>
                 <strong>Azərbaycan dili</strong> <br />
-                Fonetika. Danışıq səsləri. Ahəng qanunu. Bəzi saitlərin uzun
-                tələffüz edilməsi. Qoşasaitli və qoşasamitli sözlərin yazılışı
-                və tələffüzü. Əlifba. Sonu eynicinsli qoşa samitlə bitən söz
-                köklərinin yazılışı. Sözlərin sonunda cingiltili samitlərin
-                yazılışı və tələffüzü. Sonu q və k ilə bitən sözlərin yazılışı
-                və tələffüzü. Heca. Vurğu. Sözün sətirdən sətrə keçirilməsi.
-                Fonetik təhlil.
-                <br />
-                Leksika. Sözün leksik və qrammatik mənası. Sözün həqiqi və
-                məcazi mənası. Təkmənalı və çoxmənalı sözlər. Omonimlər. Omonim
-                və çoxmənalı sözlərin fərqi və oxşarlığı. Sinonimlər.
-                Antonimlər. Ümumişlək və ümumişlək olmayan sözlər. Dialekt
-                sözlər, terminlər (ixtisas sözlər), arxaizmlər, neologizmlər
-                ümumişlək olmayan söz qrupları kimi. Sözlərin mənşəyi.
-                Frazeoloji birləşmələr, onların omonimliyi, sinonimliyi,
-                antonimliyi. Lüğətlər. Leksik təhlil. .<br />
+                Fonetika. Leksika. Üslubiyyat. Mətn üzərində iş. 
+
+               <br />
                 <strong>İngilis dili</strong>
                 <br />
-                Noun. To be. There is / are. It is. Vocabulary (V sinif unit 1–
-                8 daxil olmaqla). Listening and Reading Comprehension
+                The Noun. Morphological Composition of Nouns. Morphological and Semantic Characteristics of Nouns.
+Cases of Nouns. Quantifiers. The Article
                 <br />
                 <strong>Rus dili</strong>
                 <br />
-                Фонетика. Буквы ь и ъ. Двойная роль букв е, ё, ю, я.
-                Лексикология. Лексическое значение слова. Прямое и переносное
-                значение слова. Синонимы. Антонимы.
+                Фонетика/ Звуки речи и буквы. Гласные и согласные. Алфавит. Правописание безударных гласных
+о и е. Двойная роль букв я, е, ё, ю. Буквы ъ и ь и их функции. Лексикология. Синонимы. Антонимы.
+Прямое и переносное значение слова. 
                 <br />
                 <strong>Riyaziyyat</strong>
                 <br />
-                Natural ədədlər. Adi və onluq kəsrlər.
+                Natural ədədlər. Adi və onluq kəsrlər. Nisbət. Tənasüb. Faiz. Həqiqi ədədlər. Tam cəbri ifadələr.
+Çoxhədlinin vuruqlara ayrılması. Həndəsənin əsas anlayışları. Üçbucaqlar. 
               </td>
             </tr>
           </tbody>

@@ -675,10 +675,10 @@ function Navtab() {
                     <Card.Body>
                       <Card.Title>Azərbaycan bölməsi</Card.Title>
                       <Card.Text>
-                        Buraxılış fənləri üzrə MQT 5 mövzuları
+                      Buraxılış fənləri üzrə imtahan mövzuları MQT 1
                       </Card.Text>
                     </Card.Body>
-                    <div className="text-center text-muted">Avqust 3,2022</div>
+                    <div className="text-center text-muted">Sentyabr 25,2022</div>
 
                     <Card.Footer>
                       <small className="text-muted">
@@ -703,10 +703,10 @@ function Navtab() {
                     <Card.Body>
                       <Card.Title>Rus bölməsi</Card.Title>
                       <Card.Text>
-                        Buraxılış fənləri üzrə imtahan mövzuları MQT 5
+                      Экзаменационные темы по выпускным предметам ТТО 1
                       </Card.Text>
                     </Card.Body>
-                    <div className="text-center text-muted">Avqust 3,2022</div>
+                    <div className="text-center text-muted">Sentyabr 25,2022</div>
                     <Card.Footer>
                       <small className="text-muted">
                         <Link to="/testsubject2">
@@ -1935,14 +1935,21 @@ function Navtab() {
               <Card.Img
                 variant="top"
                 className="examimages"
-                src="./images/buraxilisimtahani.jpg"
+                src="./images/tarix1.jfif"
               />
             </Card>
             <Card>
               <Card.Img
                 variant="top"
                 className="examimages"
-                src="./images/buraxilisimtahani.jpg"
+                src="./images/tarix2.jfif"
+              />
+            </Card>
+            <Card>
+              <Card.Img
+                variant="top"
+                className="examimages"
+                src="./images/tarix3.jfif"
               />
             </Card>
           </CardGroup>

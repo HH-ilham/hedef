@@ -687,6 +687,10 @@ function Navtabsmobile() {
           </div>
         </div>
 
+
+
+
+
         {/* testsubject */}
         <div
           className="tab-pane fade"
@@ -695,88 +699,98 @@ function Navtabsmobile() {
           aria-labelledby="nav-testsubject1-tab"
         >
           <div
-            id="carouselExampletestControlstest"
+            id="nav-testsubject1"
             className="carousel slide"
             data-bs-ride="carousel"
           >
-            <div className="carousel-inner">
+           <div className="carousel-inner">
               <div className="carousel-item active">
-                <Card className="CardImage">
-                  <Card.Img
-                    className="depimages"
-                    variant="top"
-                    src="./images/6-7-8.jpg"
-                  />
-                  <Card.Body>
-                    <Card.Title>Rus bölməsi</Card.Title>
-                    <Card.Text>
-                      Buraxılış fənləri üzrə MQT 5 mövzuları – 2021/2022 – Rus
-                      bölməsi
-                    </Card.Text>
-                  </Card.Body>
-                  <Card.Footer>
-                    <small className="text-muted">
-                      <button
-                        type="button"
-                        className="CardInfoBtn btn btn-info w-50 "
-                      >
-                        Daha çox
-                      </button>
-                    </small>
-                  </Card.Footer>
-                </Card>
+              <Card className="CardImage">
+                    <Card.Img
+        
+                      variant="top"
+                      src="./images/sayt2.png"
+                    />
+                    <Card.Body>
+                      <Card.Title>Azərbaycan bölməsi</Card.Title>
+                      <Card.Text>
+                      Buraxılış fənləri üzrə imtahan mövzuları MQT 1
+                      </Card.Text>
+                    </Card.Body>
+                    <div className="text-center text-muted">Sentyabr 25,2022</div>
+
+                    <Card.Footer>
+                      <small className="text-muted">
+                        <Link to="/testsubject1">
+                          {" "}
+                          <button
+                            type="button"
+                            class="CardInfoBtn btn btn-info w-50 "
+                          >
+                            Daha çox
+                          </button>
+                        </Link>
+                      </small>
+                    </Card.Footer>
+                  </Card>
               </div>
               <div className="carousel-item">
-                <Card className="CardImage">
-                  <Card.Img
-                    className="depimages"
-                    variant="top"
-                    src="./images/6-7-8.jpg"
-                  />
-                  <Card.Body>
-                    <Card.Title>Azərbaycan bölməsi</Card.Title>
-                    <Card.Text>
-                      Buraxılış fənləri üzrə imtahan mövzuları MQT 5 – 2021/2022
-                      – Azərbaycan bölməsi
-                    </Card.Text>
-                  </Card.Body>
-                  <Card.Footer>
-                    <small className="text-muted">
-                      <button
-                        type="button"
-                        className="CardInfoBtn btn btn-info w-50 "
-                      >
-                        Daha çox
-                      </button>
-                    </small>
-                  </Card.Footer>
-                </Card>
+              <Card className="CardImage">
+                    <Card.Img
+                 
+                      variant="top"
+                      src="./images/sayt2.png"
+                    />
+                    <Card.Body>
+                      <Card.Title>Rus bölməsi</Card.Title>
+                      <Card.Text>
+                      Экзаменационные темы по выпускным предметам ТТО 1
+                      </Card.Text>
+                    </Card.Body>
+                    <div className="text-center text-muted">Sentyabr 25,2022</div>
+                    <Card.Footer>
+                      <small className="text-muted">
+                        <Link to="/testsubject2">
+                          {" "}
+                          <button
+                            type="button"
+                            class="CardInfoBtn btn btn-info w-50 "
+                          >
+                            Daha çox
+                          </button>
+                        </Link>
+                      </small>
+                    </Card.Footer>
+                  </Card>
               </div>
               <div className="carousel-item">
-                <Card className="CardImage">
-                  <Card.Img
-                    className="depimages"
-                    variant="top"
-                    src="./images/6-7-8.jpg"
-                  />
-                  <Card.Body>
-                    <Card.Title>Azərbaycan bölməsi</Card.Title>
-                    <Card.Text>
-                      Buraxılış fənləri üzrə MQT 4 mövzuları – 2021/2022 –
-                      Azərbaycan bölməsi
-                    </Card.Text>
-                  </Card.Body>
-                  <Card.Footer>
-                    <small className="text-muted">
-                      <button
-                        type="button"
-                        className="CardInfoBtn btn btn-info w-50 "
-                      >
-                        Daha çox
-                      </button>
-                    </small>
-                  </Card.Footer>
-                </Card>
+              <Card className="CardImage">
+                    <Card.Img
+                   
+                      variant="top"
+                      src="./images/sayt2.png"
+                    />
+                    <Card.Body>
+                      <Card.Title>Azərbaycan bölməsi</Card.Title>
+                      <Card.Text>
+                        Buraxılış fənləri üzrə MQT 4 mövzuları – Azərbaycan
+                        bölməsi
+                      </Card.Text>
+                    </Card.Body>
+                    <div className="text-center text-muted">Avqust 1,2022</div>
+                    <Card.Footer>
+                      <small className="text-muted">
+                        <Link to="/testsubject3">
+                          <button
+                            type="button"
+                            class="CardInfoBtn btn btn-info w-50 "
+                          >
+                            Daha çox
+                          </button>
+                        </Link>
+                      </small>
+                    </Card.Footer>
+                  </Card>
               </div>
             </div>
             <button
@@ -1167,14 +1181,21 @@ function Navtabsmobile() {
               <Card.Img
                 variant="top"
                 className="examimages"
-                src="./images/buraxilisimtahani.jpg"
+                src="./images/tarix1.jfif"
               />
             </Card>
             <Card>
               <Card.Img
                 variant="top"
                 className="examimages"
-                src="./images/buraxilisimtahani.jpg"
+                src="./images/tarix2.jfif"
+              />
+            </Card>
+            <Card>
+              <Card.Img
+                variant="top"
+                className="examimages"
+                src="./images/tarix3.jfif"
               />
             </Card>
           </CardGroup>
