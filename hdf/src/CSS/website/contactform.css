@@ -25,3 +25,8 @@
 .contacttext {
     display: flex;
 }
+
+.contactmap {
+    width: 100% !important;
+    height: 300px;
+}

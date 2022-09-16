@@ -52,7 +52,7 @@ function ContactForm() {
 </svg>
             <div className="contacttext">
               Ünvan<br />
-            Nəsimi ray., Seyid Cəfər Pişəvəri 36 
+              Gənclik, 80d Həsən Əliyev Küçəsi, Bakı, Azərbaycan
               <br /> 
             </div>
           </div>
@@ -226,6 +226,7 @@ function ContactForm() {
           </div>
         </div>
       </div>
+      <div className="container" ><iframe className="contactmap" src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d759.5848783110122!2d49.84501492919334!3d40.40132891999304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d60d44fb371%3A0x45fcc3bc30f52d7a!2zODBkIEjJmXPJmW4gxo9saXlldiBLw7zDp8mZc2ksIEJha8SxIDEwMzAsIEF6yZlyYmF5Y2Fu!5e0!3m2!1saz!2s!4v1663310226218!5m2!1saz!2s"  ></iframe></div>
       <CFooter />
     </div>
   );

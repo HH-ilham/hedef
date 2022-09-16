@@ -13,15 +13,15 @@ function Baner() {
         />
        
       </Carousel.Item>
-      <Carousel.Item interval={5000}>
+      {/* <Carousel.Item interval={5000}>
         <img 
           className="banner d-block w-100"
-          src="/images/baner3.jpg"
+          src="/images/13245.jpg"
          
           alt="Second slide"
         />
         
-      </Carousel.Item>
+      </Carousel.Item> */}
       <Carousel.Item interval={5000}>
         <img 
          className="banner d-block w-100 "
